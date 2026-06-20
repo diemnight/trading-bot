@@ -2,7 +2,7 @@
 
 ## Overview
 - What: Autonomous trading bot challenge (PAPER account)
-- Starting capital: ~$10,000 (simulated)
+- Starting capital: ~$100,000 (simulated)
 - Platform: Alpaca paper trading
 - Duration: [your challenge window]
 - Strategy: Swing trading stocks, no options

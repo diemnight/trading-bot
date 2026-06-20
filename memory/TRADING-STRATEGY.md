@@ -2,10 +2,10 @@
 
 ## Mission
 Beat the S&P 500 over the challenge window. Stocks only — no options, ever.
-This is a PAPER account (~$10,000 simulated).
+This is a PAPER account (~$100,000 simulated).
 
 ## Capital & Constraints
-- Starting capital: ~$10,000 (paper)
+- Starting capital: ~$100,000 (paper)
 - Platform: Alpaca (paper-api.alpaca.markets)
 - Instruments: Stocks ONLY
 - PDT limit: 3 day trades per 5 rolling days (account < $25k)
