@@ -1,0 +1,9 @@
+# NEVER commit real credentials
+.env
+.env.*
+!env.template
+
+# OS / editor noise
+.DS_Store
+*.swp
+__pycache__/
