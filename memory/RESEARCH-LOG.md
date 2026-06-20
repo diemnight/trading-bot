@@ -62,3 +62,4 @@ TRADE or HOLD (default HOLD if no edge)
 
 ### Decision
 HOLD — market closed; account flat. Re-run pre-market Mon 6/22, confirm live quotes, then consider 1-2 disciplined semi/transport entries within rules (max 20%/position, 75-85% deploy target over the week, not all at once).
+<!-- cloud push test ok -->
