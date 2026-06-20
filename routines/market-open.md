@@ -52,5 +52,5 @@ STEP 7 — Notification: only if a trade was placed.
 STEP 8 — COMMIT AND PUSH (mandatory if any trades executed):
   git add memory/TRADE-LOG.md
   git commit -m "market-open trades $DATE"
-  git push origin main
+  git push origin HEAD:main   # cloud runs on a feature branch; HEAD:main writes memory to the real main
 Skip commit if no trades fired. On push failure: rebase and retry.

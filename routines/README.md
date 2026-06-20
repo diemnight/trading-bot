@@ -28,3 +28,23 @@ env-var check block and the commit-and-push step are load-bearing.
 5. Set the cron + timezone from the table above.
 6. Paste the matching `routines/<name>.md` into the prompt field, verbatim.
 7. Save, then click **Run now** once to smoke-test before relying on the cron.
+
+## Important: cloud runs on a feature branch, not `main`
+
+Claude Code cloud starts each run on an auto-generated branch (e.g.
+`claude/kind-euler-pwcmwx`), **not** `main`. A plain `git push origin main`
+therefore pushes the unchanged local `main` ref ("Everything up-to-date") and
+your memory never reaches the real `main` — silently breaking the git-as-memory
+model on the next run.
+
+The routine prompts handle this by pushing with **`git push origin HEAD:main`**,
+which fast-forwards remote `main` to whatever the agent just committed on its
+feature branch. Keep that form — do not "simplify" it back to `git push origin
+main`. (The "Allow unrestricted branch pushes" permission is still required for
+HEAD:main to be accepted.)
+
+## Cron is UTC
+
+The cron field is interpreted in **UTC**; the UI preview converts to your local
+timezone. The table above is already converted to UTC for US market hours
+(Chicago, CDT/summer). When US clocks fall back in November, add +1 hour to each.

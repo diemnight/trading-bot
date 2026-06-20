@@ -48,5 +48,5 @@ STEP 5 — Send ONE notification (always, even on no-trade days). <= 15 lines:
 STEP 6 — COMMIT AND PUSH (mandatory — tomorrow's Day P&L depends on this):
   git add memory/TRADE-LOG.md
   git commit -m "EOD snapshot $DATE"
-  git push origin main
+  git push origin HEAD:main   # cloud runs on a feature branch; HEAD:main writes memory to the real main
 On push failure: rebase and retry.

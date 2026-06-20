@@ -61,6 +61,6 @@ STEP 5 — Notification: silent unless urgent.
 STEP 6 — COMMIT AND PUSH (mandatory):
   git add memory/RESEARCH-LOG.md
   git commit -m "pre-market research $DATE"
-  git push origin main
-On push failure: git pull --rebase origin main, then push again.
+  git push origin HEAD:main   # cloud runs on a feature branch; HEAD:main writes memory to the real main
+On push failure: git pull --rebase origin main, then git push origin HEAD:main again. Never force-push.
 Never force-push.
