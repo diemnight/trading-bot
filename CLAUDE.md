@@ -37,13 +37,19 @@ runs per trading day plus two ad-hoc helpers.
 - Never within 3% of current price. Never move a stop down.
 - Follow sector momentum. Exit a sector after 2 failed trades.
 - Patience > activity.
+- Technical filters refine timing/stops (catalyst still leads): don't buy below
+  the 50 EMA; confirm with volume; flag overbought RSI; set stops off support.
+  See "Technical Filters" in memory/TRADING-STRATEGY.md.
 
 ## API Wrappers
 
-Use bash scripts/alpaca.sh, scripts/perplexity.sh, scripts/notify.sh.
-Never curl these APIs directly.
+Use bash scripts/alpaca.sh, scripts/perplexity.sh, scripts/notify.sh, and
+python3 scripts/ta.py. Never curl these APIs directly.
 
-- alpaca.sh defaults to the PAPER endpoint.
+- alpaca.sh defaults to the PAPER endpoint. `alpaca.sh bars SYM` fetches daily OHLCV.
+- ta.py SYM prints deterministic EMA20/50, RSI14, relative volume, and
+  support/resistance. ALWAYS use it for indicators — never compute TA by hand.
+  It degrades gracefully ("TA NOTE: ... unavailable") so callers can proceed.
 - perplexity.sh exits 3 when no key is set — fall back to native WebSearch
   and note the fallback in the research log.
 - notify.sh posts to a Discord/Slack webhook, or appends to NOTIFICATIONS.md

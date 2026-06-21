@@ -21,6 +21,7 @@ STEP 1 — Read memory so you know what's open and why:
 STEP 2 — Pull current state:
   bash scripts/alpaca.sh positions
   bash scripts/alpaca.sh orders
+  python3 scripts/ta.py <each open ticker>   # trend/structure for exit signals
 
 STEP 3 — Cut losers immediately. For every position where
 unrealized_plpc <= -0.07:
@@ -34,8 +35,13 @@ cancel old trailing stop, place new one:
 - Up >= +15% -> trail_percent: "7"
 Never tighten within 3% of current price. Never move a stop down.
 
-STEP 5 — Thesis check. If a thesis broke intraday, cut the position even
-if not at -7% yet. Document reasoning in TRADE-LOG.
+STEP 5 — Thesis check + technical breakdown. Cut a position even if not at
+-7% yet when EITHER the thesis broke OR scripts/ta.py shows a clear breakdown:
+- price broke below nearest support, or
+- trend flipped to DOWN (lost the 50 EMA) on elevated volume, or
+- bearish RSI divergence at resistance (price higher, RSI lower).
+Document reasoning in TRADE-LOG. (TA is confirmation, not a hair-trigger — one
+soft signal alone is not a reason to dump a winner inside its trailing stop.)
 
 STEP 6 — Optional intraday research via Perplexity if something is moving
 sharply with no obvious cause. Append afternoon addendum to RESEARCH-LOG.

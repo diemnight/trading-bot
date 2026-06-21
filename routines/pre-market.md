@@ -48,10 +48,19 @@ bash scripts/perplexity.sh "<query>" for each:
 If perplexity.sh exits 3, fall back to native WebSearch and note the
 fallback in the log entry.
 
+STEP 3b — Technical snapshot for each candidate ticker:
+  python3 scripts/ta.py <ticker>
+Records EMA20/50 (trend), RSI14, relative volume, support/resistance. Use this
+to time entries and set stops in STEP 4 (catalyst leads; TA refines). If it
+prints "TA NOTE: indicators unavailable", proceed without TA.
+
 STEP 4 — Write a dated entry to memory/RESEARCH-LOG.md:
 - Account snapshot (equity, cash, buying power, daytrade count)
 - Market context (oil, indices, VIX, today's releases)
-- 2-3 actionable trade ideas WITH catalyst + entry/stop/target
+- 2-3 actionable trade ideas WITH catalyst + entry/stop/target AND a one-line
+  technical read (trend / RSI / volume / nearest support+resistance from ta.py).
+  Prefer ideas in an uptrend (price > 50 EMA); flag any that are overbought
+  (RSI >= 75) or trading right under resistance.
 - Risk factors for the day
 - Decision: trade or HOLD (default HOLD — patience > activity)
 

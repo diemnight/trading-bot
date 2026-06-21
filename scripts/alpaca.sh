@@ -54,6 +54,17 @@ case "$cmd" in
     sym="${1:?usage: quote SYM}"
     curl -fsS -H "$H_KEY" -H "$H_SEC" "$DATA/stocks/$sym/quotes/latest"
     ;;
+  bars)
+    sym="${1:?usage: bars SYM [limit] [timeframe]}"
+    limit="${2:-120}"
+    tf="${3:-1Day}"
+    feed="${ALPACA_DATA_FEED:-iex}"
+    # Alpaca needs an explicit start, else it anchors to "now" and returns null.
+    # Look back ~250 calendar days to guarantee >50 trading bars for EMA50.
+    start="$(date -u -d '250 days ago' +%Y-%m-%d 2>/dev/null || python3 -c 'import datetime;print((datetime.date.today()-datetime.timedelta(days=250)).isoformat())')"
+    curl -fsS -H "$H_KEY" -H "$H_SEC" \
+      "$DATA/stocks/$sym/bars?timeframe=$tf&limit=$limit&adjustment=raw&feed=$feed&start=$start"
+    ;;
   orders)
     status="${1:-open}"
     curl -fsS -H "$H_KEY" -H "$H_SEC" "$API/orders?status=$status"
@@ -78,7 +89,7 @@ case "$cmd" in
     curl -fsS -H "$H_KEY" -H "$H_SEC" -X DELETE "$API/positions"
     ;;
   *)
-    echo "Usage: bash scripts/alpaca.sh <account|positions|position|quote|orders|order|cancel|cancel-all|close|close-all> [args]" >&2
+    echo "Usage: bash scripts/alpaca.sh <account|positions|position|quote|bars|orders|order|cancel|cancel-all|close|close-all> [args]" >&2
     exit 1
     ;;
 esac

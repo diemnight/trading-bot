@@ -28,3 +28,20 @@ This is a PAPER account (~$100,000 simulated).
 - Sector in momentum?
 - Stop level (7-10% below entry)
 - Target (min 2:1 R:R)
+
+## Technical Filters (catalyst leads; TA refines timing + stops)
+Run `python3 scripts/ta.py SYM` for deterministic EMA20/50, RSI14, relative
+volume, and support/resistance. Never eyeball these — the script is the source
+of truth. If it prints "TA NOTE: indicators unavailable", proceed without TA.
+
+- TREND (near-hard gate): do NOT buy when trend is DOWN (price below 50 EMA).
+  Prefer trend UP (price > 50 EMA and 20 > 50). Reinforces sector-momentum rule.
+- VOLUME (soft confirm, logged): prefer the catalyst move on >= 1.2x 20d-avg
+  volume. Light volume = weaker conviction; note it, don't veto.
+- RSI14 (soft flag, never a veto): RSI >= 75 = overbought — prefer a pullback or
+  half size. In strong momentum RSI can stay high; do not skip leaders on RSI alone.
+- SUPPORT/RESISTANCE (stops + targets): place the protective stop just below
+  nearest support when that sits 7-10% below entry (structure-based, tighter R:R);
+  else default to the 10% trailing stop. Use resistance as the near-term target and
+  for the >= 2:1 R:R check. Skip if price is jammed < 2% under resistance.
+- Still obey core stop rules: never within 3% of price, never move a stop down.

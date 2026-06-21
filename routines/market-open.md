@@ -23,6 +23,7 @@ STEP 2 — Re-validate with live data:
   bash scripts/alpaca.sh account
   bash scripts/alpaca.sh positions
   bash scripts/alpaca.sh quote <each planned ticker>
+  python3 scripts/ta.py <each planned ticker>   # EMA/RSI/volume/support-resistance
 
 STEP 3 — Hard-check rules BEFORE every order. Skip any trade that fails
 and log the reason:
@@ -32,13 +33,26 @@ and log the reason:
 - Position cost <= available cash
 - Catalyst documented in today's RESEARCH-LOG
 - daytrade_count leaves room (PDT: 3/5 rolling business days)
+- TECHNICAL (from scripts/ta.py; if unavailable, proceed without TA):
+  - REQUIRED: trend is NOT DOWN (price at/above 50 EMA). Skip pure downtrends.
+  - Confirm + log (don't veto): volume >= 1.2x 20d-avg; RSI14 < 75 (if overbought,
+    prefer a pullback or half size).
+  - R:R: room to resistance gives >= 2:1 vs the stop. Skip if price is jammed
+    < 2% under resistance.
 
 STEP 4 — Execute the buys (market orders, day TIF):
   bash scripts/alpaca.sh order '{"symbol":"SYM","qty":"N","side":"buy","type":"market","time_in_force":"day"}'
 Wait for fill confirmation before placing the stop.
 
-STEP 5 — Immediately place 10% trailing stop GTC for each new position:
+STEP 5 — Immediately place a protective GTC stop for each new position.
+Stop placement (use the support level from scripts/ta.py): if nearest support
+sits 7-10% below your entry, place a FIXED stop just below that support
+(structure-based, better R:R). Otherwise use the default 10% trailing stop.
+Never within 3% of price; never move a stop down.
+  Default 10% trailing stop:
   bash scripts/alpaca.sh order '{"symbol":"SYM","qty":"N","side":"sell","type":"trailing_stop","trail_percent":"10","time_in_force":"gtc"}'
+  Structure-based fixed stop (just below support):
+  bash scripts/alpaca.sh order '{"symbol":"SYM","qty":"N","side":"sell","type":"stop","stop_price":"X.XX","time_in_force":"gtc"}'
 If Alpaca rejects with PDT error, fall back to fixed stop 10% below entry:
   bash scripts/alpaca.sh order '{"symbol":"SYM","qty":"N","side":"sell","type":"stop","stop_price":"X.XX","time_in_force":"gtc"}'
 If also blocked, queue the stop in TRADE-LOG as "PDT-blocked, set tomorrow AM".
