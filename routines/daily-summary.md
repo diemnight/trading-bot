@@ -23,6 +23,7 @@ STEP 2 — Pull final state of the day:
   bash scripts/alpaca.sh account
   bash scripts/alpaca.sh positions
   bash scripts/alpaca.sh orders
+  python3 scripts/ta.py <each open ticker>   # trend/RSI for the recap
 
 STEP 3 — Compute metrics:
 - Day P&L ($ and %) = today_equity - yesterday_equity
@@ -41,9 +42,11 @@ STEP 5 — Send ONE notification (always, even on no-trade days). <= 15 lines:
   Portfolio: \$X (±X% day, ±X% phase)
   Cash: \$X
   Trades today: <list or none>
-  Open positions:
-    SYM ±X.X% (stop \$X.XX)
+  Open positions (with technicals from ta.py):
+    SYM ±X.X% | trend UP/DOWN | RSI NN | stop \$X.XX
   Tomorrow: <one-line plan>"
+Keep the technical tag compact (trend + RSI is enough). If ta.py was unavailable
+for a name, omit its technicals rather than guessing.
 
 STEP 6 — COMMIT AND PUSH (mandatory — tomorrow's Day P&L depends on this):
   git add memory/TRADE-LOG.md
