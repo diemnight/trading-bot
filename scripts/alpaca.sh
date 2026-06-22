@@ -62,8 +62,9 @@ case "$cmd" in
     # Alpaca needs an explicit start, else it anchors to "now" and returns null.
     # Look back ~250 calendar days to guarantee >50 trading bars for EMA50.
     start="$(date -u -d '250 days ago' +%Y-%m-%d 2>/dev/null || python3 -c 'import datetime;print((datetime.date.today()-datetime.timedelta(days=250)).isoformat())')"
+    # sort=desc so 'limit' counts back from today -> the most RECENT bars
     curl -fsS -H "$H_KEY" -H "$H_SEC" \
-      "$DATA/stocks/$sym/bars?timeframe=$tf&limit=$limit&adjustment=raw&feed=$feed&start=$start"
+      "$DATA/stocks/$sym/bars?timeframe=$tf&limit=$limit&adjustment=raw&feed=$feed&start=$start&sort=desc"
     ;;
   orders)
     status="${1:-open}"

@@ -34,6 +34,9 @@ def fetch_bars(sym: str):
     bars = data.get("bars") or []
     if not bars:
         raise RuntimeError("no bars returned (data feed/subscription?)")
+    # API may return desc (newest-first); sort ascending (oldest->newest) so the
+    # EMA/RSI math runs in chronological order and closes[-1] is the latest bar.
+    bars.sort(key=lambda b: b["t"])
     return bars
 
 
