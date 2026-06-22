@@ -48,9 +48,19 @@ Trades today: <SYM action @ \$price + one-line why, or 'none'>
 Open positions (technicals from ta.py):
   SYM ±X.X% | trend UP/DOWN | RSI NN | stop \$X.XX — <healthy / watching>
 Risks/watch: <1-2 items>
-Tomorrow: <one-line plan>"
+Tomorrow: <one-line plan>
+
+📚 Today's thinking
+Thesis: <mentor paragraph — what theme/sector is in favor and WHY: the driver,
+  the money flow / relative strength, the catalyst behind it>.
+Why not <the obvious alternative, e.g. NVDA>: <comparative reasoning — extension,
+  entry/reward-risk, crowding, earnings or event risk>.
+Concept of the day: <one market concept explained plainly in 1-2 sentences>."
 First line = short version; everything under "— details —" = long version.
-Keep the long block <= 15 lines. Omit a name's technicals if ta.py was unavailable.
+The "📚 Today's thinking" block is the ONE exception to ultra-concise: write a
+short mentor-style paragraph that actually teaches (the rest stays tight). Be
+concrete and honest — explain real drivers; if it's genuinely uncertain, say so.
+The user is learning markets, so this block always appears, even on no-trade days.
 
 STEP 6 — COMMIT AND PUSH (mandatory — tomorrow's Day P&L depends on this):
   git add memory/TRADE-LOG.md

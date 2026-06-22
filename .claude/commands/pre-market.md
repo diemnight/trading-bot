@@ -22,6 +22,7 @@ STEP 3b — python3 scripts/ta.py each candidate ticker (EMA/RSI/volume/S-R).
 STEP 4 — Write a dated entry to memory/RESEARCH-LOG.md:
   account snapshot, market context, 2-3 trade ideas (catalyst/entry/stop/target
   + one-line technical read from ta.py; prefer uptrends, flag overbought/at-resistance),
-  risk factors, decision (default HOLD).
+  risk factors, thesis depth (why this theme vs the obvious alternative + one
+  teachable concept, for the educational alerts), decision (default HOLD).
 
 STEP 5 — Optional: bash scripts/notify.sh "<one line>" only if urgent.

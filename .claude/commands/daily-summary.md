@@ -19,7 +19,10 @@ STEP 4 — Append EOD snapshot to memory/TRADE-LOG.md:
   | Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
   **Notes:** one-paragraph plain-english summary.
 
-STEP 5 — Send ONE recap (always, even no-trade days), <= 15 lines. Include each
-  open position with a compact technical tag from ta.py (trend + RSI + stop):
+STEP 5 — Send ONE recap (always, even no-trade days). Include each open position
+  with a compact technical tag from ta.py (trend + RSI + stop), AND a "📚 Today's
+  thinking" mentor block (thesis + why-not the obvious alternative + concept of the
+  day — see CLAUDE.md; this block may be a teaching paragraph):
   bash scripts/notify.sh "EOD MMM DD ...
-    SYM ±X.X% | trend UP/DOWN | RSI NN | stop \$X.XX ..."
+    SYM ±X.X% | trend UP/DOWN | RSI NN | stop \$X.XX ...
+    📚 Today's thinking: <thesis / why-not / concept>"

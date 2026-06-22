@@ -62,6 +62,10 @@ STEP 4 — Write a dated entry to memory/RESEARCH-LOG.md:
   Prefer ideas in an uptrend (price > 50 EMA); flag any that are overbought
   (RSI >= 75) or trading right under resistance.
 - Risk factors for the day
+- Thesis depth (for the educational alerts): WHY the chosen theme/sector has
+  relative strength vs. the obvious alternatives (name the alternative and why
+  not it), and ONE teachable market concept relevant to today. This feeds the
+  mentor-style reasoning the market-open and daily-summary alerts send to the user.
 - Decision: trade or HOLD (default HOLD — patience > activity)
 
 STEP 5 — Notification: silent unless urgent. If urgent, SHORT alert + LONG detail:

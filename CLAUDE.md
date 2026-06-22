@@ -63,7 +63,20 @@ Two parts in ONE message so the phone shows a glance and a tap shows the full re
 2. A blank line, then `— details —`, then the LONG block: what was decided and
    WHY, per-position, technicals, risks, next step. Keep the long block <= 15 lines.
 
+## Educational Reasoning (the user is learning markets)
+
+The user wants to build market understanding, so alerts must teach the *thinking*:
+- The **daily-summary** alert ALWAYS includes a "📚 Today's thinking" block.
+- **market-open** alerts explain every decision (a trade OR a deliberate HOLD).
+- Each must include: (1) the THESIS — what's in favor and WHY (driver, money flow /
+  relative strength, catalyst); (2) comparative "Why not <the obvious alternative>"
+  reasoning; (3) one plainly-explained "concept of the day".
+- This "📚" block is the SINGLE exception to ultra-concise below: write a short
+  mentor-style paragraph that actually teaches. Be concrete and honest — explain
+  real drivers, never invent a confident narrative; if it's uncertain, say so.
+
 ## Communication Style
 
 Ultra concise. No preamble. Short bullets. Match existing memory file formats
-exactly — don't reinvent tables.
+exactly — don't reinvent tables. (Exception: the "📚 Today's thinking" / "📚 Why
+this decision" educational block above, which is allowed a teaching paragraph.)

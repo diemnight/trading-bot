@@ -60,15 +60,24 @@ If also blocked, queue the stop in TRADE-LOG as "PDT-blocked, set tomorrow AM".
 STEP 6 — Append each trade to memory/TRADE-LOG.md (matching existing format):
 Date, ticker, side, shares, entry price, stop level, thesis, target, R:R.
 
-STEP 7 — Notification: only if a trade was placed. SHORT headline + LONG detail:
+STEP 7 — Notification: explain EVERY decision. Notify if a trade was placed OR if
+you considered trades and deliberately HELD for a specific reason (a thesis or a
+risk event). Stay silent only on a genuinely uneventful day. SHORT headline + LONG:
   bash scripts/notify.sh "🟢 Bought SYM (+others) — N new position(s), X% deployed
+  (or:) ⏸️ No trade MMM DD — <one-line reason, e.g. waiting out Micron earnings + PCE>
 
 — details —
-Decision: <why these, why now — catalyst + technical confirmation>
-Per trade: SYM — N sh @ \$entry | stop \$X (support/trail) | target \$X | R:R X:1
+Per trade (if any): SYM — N sh @ \$entry | stop \$X (support/trail) | target \$X | R:R X:1
   catalyst: <...> | trend UP, RSI NN, vol X.Xx
-Skipped: <planned trade(s) skipped + the failed rule/TA reason, or 'none'>"
-First line = short version; under "— details —" = long version.
+
+📚 Why this decision (mentor note)
+Why chosen / why waiting: <short paragraph — the thesis and the trigger>.
+Why not <the obvious alternative, e.g. NVDA>: <comparative reasoning — extension,
+  entry/reward-risk, crowding, earnings/event risk>.
+Entry/technical justification: <from ta.py — why this was a clean entry, or why no
+  clean entry existed (extended into resistance, weak R:R, below 50 EMA, etc.)>."
+First line = short version; under "— details —" = long version. The "📚" block is
+the one exception to ultra-concise — teach it. Be concrete and honest.
 
 STEP 8 — COMMIT AND PUSH (mandatory if any trades executed):
   git add memory/TRADE-LOG.md

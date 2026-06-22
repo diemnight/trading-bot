@@ -30,4 +30,6 @@ STEP 5 — Immediately place a protective GTC stop per new position. If nearest
 STEP 6 — Append each trade to memory/TRADE-LOG.md (date, ticker, side, shares,
   entry, stop, thesis, target, R:R).
 
-STEP 7 — bash scripts/notify.sh only if a trade was placed.
+STEP 7 — bash scripts/notify.sh on any decision (trade OR deliberate HOLD). Include
+  the "📚 Why this decision" mentor block: why chosen/why waiting, why not the
+  obvious alternative, and the entry/technical justification (see CLAUDE.md).
