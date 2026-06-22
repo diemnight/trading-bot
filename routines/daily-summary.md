@@ -37,16 +37,20 @@ STEP 4 — Append EOD snapshot to memory/TRADE-LOG.md:
 | Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
 **Notes:** one-paragraph plain-english summary.
 
-STEP 5 — Send ONE notification (always, even on no-trade days). <= 15 lines:
-  bash scripts/notify.sh "EOD MMM DD
-  Portfolio: \$X (±X% day, ±X% phase)
-  Cash: \$X
-  Trades today: <list or none>
-  Open positions (with technicals from ta.py):
-    SYM ±X.X% | trend UP/DOWN | RSI NN | stop \$X.XX
-  Tomorrow: <one-line plan>"
-Keep the technical tag compact (trend + RSI is enough). If ta.py was unavailable
-for a name, omit its technicals rather than guessing.
+STEP 5 — Send ONE notification (always, even on no-trade days). Format as a
+SHORT headline line (phone glance) + a LONG detail block under "— details —":
+  bash scripts/notify.sh "📊 EOD MMM DD — Port \$X (±X% day, ±X% phase) | N trades | <one-line verdict>
+
+— details —
+Decision: <what you did today and the single key reason>
+Cash: \$X (X% deployed)
+Trades today: <SYM action @ \$price + one-line why, or 'none'>
+Open positions (technicals from ta.py):
+  SYM ±X.X% | trend UP/DOWN | RSI NN | stop \$X.XX — <healthy / watching>
+Risks/watch: <1-2 items>
+Tomorrow: <one-line plan>"
+First line = short version; everything under "— details —" = long version.
+Keep the long block <= 15 lines. Omit a name's technicals if ta.py was unavailable.
 
 STEP 6 — COMMIT AND PUSH (mandatory — tomorrow's Day P&L depends on this):
   git add memory/TRADE-LOG.md

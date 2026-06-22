@@ -49,14 +49,19 @@ STEP 5 — If a rule needs to change (proven out for 2+ weeks, or failed
 badly), also update memory/TRADING-STRATEGY.md and call out the change
 in the review.
 
-STEP 6 — Send ONE notification. <= 15 lines:
-  bash scripts/notify.sh "Week ending MMM DD
-  Portfolio: \$X (±X% week, ±X% phase)
-  vs S&P 500: ±X%
-  Trades: N (W:X / L:Y / open:Z)
-  Best: SYM +X%   Worst: SYM -X%
-  One-line takeaway: <...>
-  Grade: <letter>"
+STEP 6 — Send ONE notification. SHORT headline + LONG detail under "— details —":
+  bash scripts/notify.sh "🗓️ Week ending MMM DD — Port \$X (±X% wk) | vs S&P ±X% | grade <letter>
+
+— details —
+Portfolio: \$X (±X% week, ±X% phase)
+Trades: N (W:X / L:Y / open:Z), win rate X%
+Best: SYM +X%   Worst: SYM -X%
+What worked: <1-2 bullets>
+What didn't: <1-2 bullets>
+Key lesson: <one line>
+Strategy change: <rule changed + why, or 'none'>
+Next week: <one-line adjustment>"
+First line = short version; under "— details —" = long version. Keep <= 15 lines.
 
 STEP 7 — COMMIT AND PUSH (mandatory):
   git add memory/WEEKLY-REVIEW.md memory/TRADING-STRATEGY.md

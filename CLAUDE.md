@@ -55,6 +55,14 @@ python3 scripts/ta.py. Never curl these APIs directly.
 - notify.sh posts to a Discord/Slack webhook, or appends to NOTIFICATIONS.md
   when no webhook is configured.
 
+## Notification Format (every notify.sh message)
+
+Two parts in ONE message so the phone shows a glance and a tap shows the full read:
+1. A SHORT headline first line — the decision/outcome + the key number (this is
+   what shows on the lock screen).
+2. A blank line, then `— details —`, then the LONG block: what was decided and
+   WHY, per-position, technicals, risks, next step. Keep the long block <= 15 lines.
+
 ## Communication Style
 
 Ultra concise. No preamble. Short bullets. Match existing memory file formats

@@ -47,8 +47,15 @@ STEP 6 — Optional intraday research via Perplexity if something is moving
 sharply with no obvious cause. Append afternoon addendum to RESEARCH-LOG.
 (If perplexity.sh exits 3, fall back to WebSearch.)
 
-STEP 7 — Notification: only if action was taken.
-  bash scripts/notify.sh "<action summary>"
+STEP 7 — Notification: only if action was taken. SHORT headline + LONG detail:
+  bash scripts/notify.sh "🔧 Midday MMM DD — <e.g. cut SYM, tightened SYM2 stop>
+
+— details —
+Decision: <what changed and the trigger>
+Actions: SYM closed @ \$X (P&L ±X%, reason); SYM2 stop -> N% (up +X%)
+Held (no change): SYM3 — trend UP/RSI NN, why kept
+Flags: <any thesis/TA breakdown signals noted>"
+First line = short version; under "— details —" = long version.
 
 STEP 8 — COMMIT AND PUSH (if any memory files changed):
   git add memory/TRADE-LOG.md memory/RESEARCH-LOG.md

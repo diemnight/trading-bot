@@ -64,8 +64,13 @@ STEP 4 — Write a dated entry to memory/RESEARCH-LOG.md:
 - Risk factors for the day
 - Decision: trade or HOLD (default HOLD — patience > activity)
 
-STEP 5 — Notification: silent unless urgent.
-  bash scripts/notify.sh "<one line>"
+STEP 5 — Notification: silent unless urgent. If urgent, SHORT alert + LONG detail:
+  bash scripts/notify.sh "⚠️ Pre-market alert — <one-line what + which position>
+
+— details —
+<what happened overnight, why it matters, intended action at the open>"
+First line = short version; under "— details —" = long version. Stay silent on a
+normal day (no urgent overnight risk).
 
 STEP 6 — COMMIT AND PUSH (mandatory):
   git add memory/RESEARCH-LOG.md
