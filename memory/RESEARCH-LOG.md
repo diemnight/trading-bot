@@ -62,3 +62,30 @@ TRADE or HOLD (default HOLD if no edge)
 
 ### Decision
 HOLD — market closed; account flat. Re-run pre-market Mon 6/22, confirm live quotes, then consider 1-2 disciplined semi/transport entries within rules (max 20%/position, 75-85% deploy target over the week, not all at once).
+
+## 2026-06-22 — Market-Open Execution (inline research; no prior-day specific tickers)
+
+> Perplexity key absent — native WebSearch. Ran TA + live quotes at the open (~9:34 ET).
+
+### Account
+- Equity: $100,000 | Cash: $100,000 (100%)
+- Buying power: $400,000 (4x) | Daytrade count: 0 | PDT: false
+- Positions: none | Open orders: none
+
+### Market Context
+- S&P 500 ~flat (−0.05%), Nasdaq 100 −0.13%, Dow +0.05%, Russell −0.10%.
+- Semis risk-on: MU + INTC +5-8% on AI strength. MU earns Wed 6/24 — BARRED (binary).
+- Gap-downs (not buys): ACN −16% (guidance cut), NVCR −16% (Ph3 fail).
+- Data-quality flag: erratic open-auction quotes — UNP/NSC/AVGO showing 6-16% bid/ask
+  spreads; TA daily-close prices diverge from live quotes. Poor market-order fill risk.
+
+### Candidate screen (TA via ta.py)
+- AVGO: +1.0% to resist → SKIP (jammed <2%). AMD: +0.9% → SKIP. MRVL: +1.0%, RSI72 → SKIP.
+- CSX: +0.1% to resist → SKIP. UNP: +1.4% → SKIP. NSC: +1.6% → SKIP.
+- NVDA: only one with room (+3.7% to resist), but near-term R:R to resistance ≈ 0.4:1
+  vs 10% stop → FAILS 2:1. Trend MIXED (20<50). No specific catalyst (thematic only).
+
+### Decision
+HOLD — no entries. Whole semi/transport complex extended into resistance; R:R unfavorable
+everywhere, no clean catalyst-backed setup passing filters, chaotic open quotes. Patience >
+activity. Re-assess midday and on any pullback-to-support or confirmed breakout-with-room.
