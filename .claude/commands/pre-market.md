@@ -25,4 +25,7 @@ STEP 4 — Write a dated entry to memory/RESEARCH-LOG.md:
   risk factors, thesis depth (why this theme vs the obvious alternative + one
   teachable concept, for the educational alerts), decision (default HOLD).
 
-STEP 5 — Optional: bash scripts/notify.sh "<one line>" only if urgent.
+STEP 5 — ALWAYS send a morning-briefing notification (short headline + "— details —"
+  long block): market read, plan (trade/HOLD), the 2-3 ideas with entry/stop/target,
+  what was avoided + why, risks, and a "📚 Why this thinking" teachable concept.
+  bash scripts/notify.sh "🌅 Pre-market MMM DD — <verdict> ...\n\n— details —\n..."

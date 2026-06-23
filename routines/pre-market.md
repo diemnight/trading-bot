@@ -68,13 +68,22 @@ STEP 4 — Write a dated entry to memory/RESEARCH-LOG.md:
   mentor-style reasoning the market-open and daily-summary alerts send to the user.
 - Decision: trade or HOLD (default HOLD — patience > activity)
 
-STEP 5 — Notification: silent unless urgent. If urgent, SHORT alert + LONG detail:
-  bash scripts/notify.sh "⚠️ Pre-market alert — <one-line what + which position>
+STEP 5 — Send ONE notification (ALWAYS, every run — this is the morning briefing).
+SHORT headline + LONG detail under "— details —":
+  bash scripts/notify.sh "🌅 Pre-market MMM DD — <WATCHING / planning N entries / HOLD> | <one-line market read>
 
 — details —
-<what happened overnight, why it matters, intended action at the open>"
-First line = short version; under "— details —" = long version. Stay silent on a
-normal day (no urgent overnight risk).
+Market: S&P futures ±X%, VIX NN, oil \$X | key data today: <...>
+Plan: <TRADE today and what / HOLD and why>
+Ideas:
+  1. SYM — catalyst <...>; entry \$X, stop \$X, target \$X (R:R X:1); trend/RSI <...>
+  2. SYM — <...>
+Avoided: <e.g. why not energy / why not MU into earnings>
+Risks today: <1-2>
+📚 Why this thinking: <one teachable concept behind today's read>"
+First line = short version; under "— details —" = long version. Keep <= 18 lines.
+If an urgent overnight risk exists (held position already < -7%, thesis broke),
+lead the headline with it.
 
 STEP 6 — COMMIT AND PUSH (mandatory):
   git add memory/RESEARCH-LOG.md
