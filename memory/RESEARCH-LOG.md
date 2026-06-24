@@ -102,3 +102,42 @@ Rejected today: AVGO & MSFT — below 50 EMA (trend gate fail). JPM & GS — jam
 
 ### Decision
 HOLD on this run (patience > activity; pre-market is research). QUEUE for market-open: NVDA primary (~15-18% to start, room to add post-MU), WFC secondary (~12-15%) if it confirms. Stagger entries — do NOT deploy full target into MU Wed + Thu macro. 0 trades this week (3/week cap intact).
+
+## 2026-06-24 — Pre-market Research
+
+> Perplexity key absent (exit 3) — used native WebSearch. Live TA via scripts/ta.py.
+
+### Account
+- Equity: $100,000 | Cash: $100,000 (100%) | Buying power: $400,000 (4x)
+- Daytrade count: 0 | PDT: false | Positions: none | Open orders: none
+- Deployment: 0% vs. 75-85% target — fifth trading day flat.
+
+### Market Context
+- **AI/memory trade UNWIND (the day's story).** Mon→Tue: a Korean media report that SK Hynix is slowing HBM expansion (shifting to commodity DRAM as Nvidia "Rubin"/HBM4 forecasts soften) crashed KOSPI -9.99% (circuit breaker hit). Samsung -12%, SK Hynix -12.5%; MU -13% Tue, SanDisk -11%, WDC -10%, NVDA closed lower. The crowded AI-hardware leadership is being questioned.
+- S&P futures ~flat (ESM26 -0.04%); MU bounced +4.1% premarket. VIX ~18.8 (prev close 19.5) — elevated but easing.
+- WTI / Brent: ~$73.4 / ~$76.7. Crude at ~3-mo low — US granted Iran a 60-day license to sell oil; supply fear fading. Energy = watch-only.
+- **Catalyst today: MICRON (MU) Q3 FY26 earnings LATE today** — binary for the whole memory/semi complex. St. expects EPS ~$20.83 on ~$35.75B rev; the read is HBM commentary + Q4 guide vs $38-40B, NOT the headline. A strong HBM guide could re-rate semis; a soft one extends the unwind.
+- Economic calendar: **Thu 6/25 = May PCE + final Q1 GDP** — the week's pivot. Wells Fargo sees PCE HOT (+0.5% m/m on energy → 4.1% y/y; core +0.3% m/m, 3.4% y/y). Inflation upside risk into Thu. Also quarter-end/H1 rebalancing flows this week.
+- Sector momentum: Tech/semis = lagging/unwinding. Financials fundamentally supported (steeper curve) but momentum also lagging short-term. Healthcare = defensive bid.
+
+### Trade Ideas (confirm live at open)
+1. **LLY** — catalyst: healthcare defensive relative strength as the AI trade unwinds (rotation OUT of crowded semis). Entry ~$1108; stop ~$1045 (below $1053 support, ~-5.7%, then 10% GTC trail); target $1182 (resistance, +6.7%). R:R ~1.2:1 near-term but secular uptrend. TA: trend UP (>20/50 EMA), RSI 56 (room), vol 1.0x (normal). Best non-tech setup today.
+2. **WFC** — catalyst: financials = YTD leadership, fundamental tailwind from curve. Entry ~$84.2; stop ~$77 (~-8.5%, near $75 support); target $87 (resistance only +3.5%). TA: trend UP, RSI 61, vol LIGHT 0.5x. Breakout char but capped near-term + thin volume = lower conviction than last week.
+3. (Watch) Semis — NO entry. See rejects.
+
+**Rejected today:**
+- **NVDA — DROPPED from yesterday's primary.** TA flipped: price $200 now BELOW both EMA20 ($209) and EMA50 ($207), trend MIXED→broken, RSI 42. The memory unwind pushed it through the 50 EMA → **trend gate now vetoes it.** Glad pre-market is research-only; we never fired. Re-evaluate only if MU print + price reclaim the 50 EMA.
+- **JPM** — trend UP but RSI 68 and jammed +1.2% under resistance ($334 vs $338) — no room.
+
+### Thesis Depth (for educational alerts)
+- WHY this read: the leadership that carried the tape (AI hardware) is the exact thing cracking, so the disciplined move is to AVOID adding the broken leader, not to "buy the dip" reflexively. When a crowded trade unwinds, relative strength rotates to what was NOT crowded — defensives (LLY) and rate-levered financials (WFC). Why NOT NVDA (the obvious "buy the dip")? Because our own trend gate vetoes it — it's below the 50 EMA on a thesis-level question (HBM demand), not just noise; dip-buying a broken leader the night of a sector-defining earnings print (MU) is gambling, not edge. Why NOT load WFC over LLY? WFC is jammed +3.5% under resistance on 0.5x volume — little room, thin conviction — while LLY has clean trend, normal volume, and isn't tied to the semi unwind.
+- Concept of the day — **"Crowded-trade unwind."** When one theme leads for a long time, positioning gets one-sided; a single negative data point (here, an HBM capex report) forces fast, mechanical de-risking far bigger than the news itself (KOSPI -10%, circuit breaker). The lesson: leadership is fragile precisely because it's crowded. You protect yourself by (a) refusing to chase the broken leader and (b) not initiating size into the very catalyst (MU tonight) + macro (PCE Thu) that decides whether the unwind continues.
+
+### Risk Factors
+- MU tonight: binary for the entire semi/memory complex — sets Thu's tone. No semi exposure into it.
+- Thu PCE possibly HOT (energy-driven) → inflation/rate scare risk; avoid initiating full size before it.
+- Quarter-end / H1 rebalancing can amplify moves both ways this week.
+- AI-unwind could broaden into megacap tech and drag the index; or MU could stabilize it. Two-way.
+
+### Decision
+**HOLD / WATCH today** — and this is a *reasoned* hold, not procrastination: it is undisciplined to initiate into (a) a live AI-trade unwind, (b) the MU print tonight, and (c) a possibly-hot PCE Thu, all at once. Plan: if the tape stabilizes post-MU and we get a clean open, initiate ONE modest non-semi starter — LLY (defensive) primary, WFC (financials) secondary — at market-open. NVDA is OFF the list until it reclaims the 50 EMA. 0 trades this week (3/week cap intact). Deployment gap acknowledged; we add on the first disciplined non-crowded setup, not by force into event risk.
