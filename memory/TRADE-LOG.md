@@ -35,3 +35,11 @@ No open positions. No open orders.
 - **TA at entry:** trend UP (px 1107.83 > EMA20 1099 > EMA50 1051), RSI14 56 (room), vol 1.0x (normal, <1.2x — noted). Not jammed at resistance (6.7% room on the daily close).
 - Trades this week: 1/3. Positions: 1/6. Deployment: ~15.8%.
 - **WFC skipped:** capped only +3.3% to resistance + thin/0.0x volume → poor R:R, lower conviction.
+
+## Jun 24 — EOD Snapshot (Day 5, Wednesday)
+**Portfolio:** $99,834.03 | **Cash:** $84,192.39 (84.3%) | **Day P&L:** -$165.97 (-0.17%) | **Phase P&L:** -$165.97 (-0.17%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| LLY | 14 | $1129.12 | $1117.26 | +0.92% | -$165.97 (-1.05%) | $1016.90 (10% trail, HWM $1129.89) |
+
+**Notes:** Deployment begins — bought LLY at the open after 4 straight flat days, a deliberate defensive-leader starter as the AI/memory trade unwound (KOSPI/MU rout). Position printed +0.92% on the day but my fill ($1129.12) was near the intraday high, so it sits -1.05% vs entry — normal noise, thesis intact. 10% GTC trailing stop confirmed live (trigger $1016.90, HWM $1129.89). Equity $99,834 (-0.17% day/phase), now 15.7% deployed vs the 75-85% target — still far under-invested. Trends healthy: LLY > EMA20 > EMA50, RSI 58 (room), but volume light (0.8x). 1 trade today, 1/3 this week, 1/6 positions. Plan Thu 6/25: watch PCE+GDP macro reaction before adding; if LLY holds and tape steadies, add a 2nd uncrowded leader (healthcare/quality non-semi) to keep building toward target.
