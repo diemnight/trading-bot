@@ -25,3 +25,13 @@ No open positions. No open orders.
 No open positions. No open orders.
 
 **Notes:** Second full trading weekday — ended flat again. No entries executed for the second straight session; account remains 100% cash, 0% deployed vs. the 75-85% target. This is now a meaningful deviation: four days post-launch with zero exposure means we're not in the game and can't beat the S&P from the sidelines. 0 trades today, 0 this week (3/week cap fully intact). The pre-market plan keeps deferring to event risk — MU earnings Wed 6/24 and Thu's PCE+GDP macro — but waiting for a perfectly clean window risks indefinite inaction. Plan for Wed: initiate 1-2 disciplined starter entries (semis/AI-infra leader + quality transport) at the open if quotes confirm above the 50 EMA on volume, sized modestly ahead of MU/macro rather than waiting for an all-clear that may never come. Patience is a rule, but so is deployment.
+
+## Jun 24 — Market-Open Trade (Day 5, Wednesday)
+**BUY LLY** — 14 sh @ $1129.12 (cost $15,808 ≈ 15.8% of equity) | side: long
+- **Stop:** 10% GTC trailing, trigger $1014.71 (HWM 1127.46). Support 1052.54 sat ~6.8% below entry — just under the 7-10% structure-stop band, so used the strategy-default trailing stop (auto-tightens per rules 4/6; gives the trend room above support).
+- **Thesis:** Defensive relative strength as the AI/memory trade unwinds (KOSPI -10% Mon, MU -13% Tue). Rotation OUT of crowded semis → healthcare leader. Cleanest non-crowded trend setup on the board.
+- **Target:** $1181.62 (resistance, +4.6% from entry; secular uptrend leader, target extends on breakout).
+- **R:R:** light near-term (~0.7:1 to nearest resistance vs the 10% trail; ~1.3:1 off the structure level). Accepted deliberately as a MODEST starter to begin deployment after 5 days flat — not full size.
+- **TA at entry:** trend UP (px 1107.83 > EMA20 1099 > EMA50 1051), RSI14 56 (room), vol 1.0x (normal, <1.2x — noted). Not jammed at resistance (6.7% room on the daily close).
+- Trades this week: 1/3. Positions: 1/6. Deployment: ~15.8%.
+- **WFC skipped:** capped only +3.3% to resistance + thin/0.0x volume → poor R:R, lower conviction.
