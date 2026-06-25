@@ -43,3 +43,11 @@ No open positions. No open orders.
 | LLY | 14 | $1129.12 | $1117.26 | +0.92% | -$165.97 (-1.05%) | $1016.90 (10% trail, HWM $1129.89) |
 
 **Notes:** Deployment begins — bought LLY at the open after 4 straight flat days, a deliberate defensive-leader starter as the AI/memory trade unwound (KOSPI/MU rout). Position printed +0.92% on the day but my fill ($1129.12) was near the intraday high, so it sits -1.05% vs entry — normal noise, thesis intact. 10% GTC trailing stop confirmed live (trigger $1016.90, HWM $1129.89). Equity $99,834 (-0.17% day/phase), now 15.7% deployed vs the 75-85% target — still far under-invested. Trends healthy: LLY > EMA20 > EMA50, RSI 58 (room), but volume light (0.8x). 1 trade today, 1/3 this week, 1/6 positions. Plan Thu 6/25: watch PCE+GDP macro reaction before adding; if LLY holds and tape steadies, add a 2nd uncrowded leader (healthcare/quality non-semi) to keep building toward target.
+
+## Jun 25 — EOD Snapshot (Day 6, Thursday)
+**Portfolio:** $99,943.22 | **Cash:** $84,192.38 (84.3%) | **Day P&L:** +$109.20 (+0.11%) | **Phase P&L:** -$56.78 (-0.06%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| LLY | 14 | $1129.12 | $1125.06 | +0.70% | -$56.77 (-0.36%) | $1030.51 (10% trail, HWM $1145.01) |
+
+**Notes:** Quiet, constructive day — held LLY through the Thu macro (PCE/GDP) with no new entries. LLY recovered +0.70% on the day, trimming the unrealized loss to -$56.77 (-0.36% vs entry); thesis (defensive healthcare leader, uncrowded vs the unwinding AI/memory trade) intact. Trailing stop ratcheted up with the HWM to $1145.01, lifting the trigger to $1030.51 — locking in more downside protection as the position works. Equity $99,943 (+0.11% day, -0.06% phase), still ~15.8% deployed vs the 75-85% target — meaningfully under-invested entering the back half of the week. Trends healthy: LLY > EMA20 (1103.66) > EMA50 (1056.60), RSI 60 (neutral, room to 70), volume 0.9x (normal). 0 trades today, 1/3 this week, 1/6 positions. Plan Fri 6/26: weekly-review day — assess LLY follow-through and add a 2nd uncrowded leader (healthcare/quality non-semi) to keep building toward target if the tape confirms above the 50 EMA on volume; 2 trades left this week.
