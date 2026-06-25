@@ -141,3 +141,45 @@ HOLD on this run (patience > activity; pre-market is research). QUEUE for market
 
 ### Decision
 **HOLD / WATCH today** — and this is a *reasoned* hold, not procrastination: it is undisciplined to initiate into (a) a live AI-trade unwind, (b) the MU print tonight, and (c) a possibly-hot PCE Thu, all at once. Plan: if the tape stabilizes post-MU and we get a clean open, initiate ONE modest non-semi starter — LLY (defensive) primary, WFC (financials) secondary — at market-open. NVDA is OFF the list until it reclaims the 50 EMA. 0 trades this week (3/week cap intact). Deployment gap acknowledged; we add on the first disciplined non-crowded setup, not by force into event risk.
+
+## 2026-06-25 — Pre-market Research
+
+> Perplexity key absent (exit 3) — used native WebSearch. Live TA via scripts/ta.py (bars as-of prior close — pre-PCE, pre-MU after-hours gap).
+
+### Account
+- Equity: $99,830.38 | Cash: $84,192.38 (84.3%) | Buying power: $380,556 (4x)
+- Daytrade count: 0 | PDT: false
+- Positions: LLY 14 sh @ $1129.12, now $1117.00, **-1.07%** unrealized (-$169.61). 10% GTC trailing stop LIVE, trigger $1016.90, HWM $1129.89.
+- Deployment: ~15.7% vs. 75-85% target — still far under-invested.
+
+### Market Context — THE UNWIND REVERSED
+- **MICRON BLEW OUT (the day's story).** MU Q3 FY26: record **$41.5B revenue, 84.9% gross margin**, adj EPS $25.11 (beat by ~$4.62), rev beat by ~$5.8B on the AI/memory demand surge. Stock +13-16% premarket (~$1,190+), up ~700% YoY, ~$1.2T cap. This DIRECTLY refutes the SK-Hynix "HBM slowdown" scare that crashed KOSPI -10% Mon — the crowded-AI-trade doubt is resolved bullishly.
+- S&P futures **+0.79%**, Nasdaq-100 **+2.2%** premarket (Polymarket ~97% odds of higher open). QCOM +11.7% (raised non-handset guide); SanDisk/WDC/LRCX/KLA up in sympathy.
+- **BUT the rally is bifurcated:** memory ripped, logic/GPU mixed — yesterday SOX still closed -1%, NVDA -1%, QCOM -4% on renewed AI-trade jitters before MU. Not a uniform melt-up.
+- VIX **~18.2** (-6%, easing). WTI ~$72 / Brent ~$75 — 4-mo lows on US-Iran de-escalation + Hormuz traffic normalizing. Energy = watch-only.
+- **GATE TODAY: May PCE @ 8:30 ET** (prints BEFORE the open). Forecast HOT: headline +0.5% m/m → **4.1% y/y** (from 3.8%); core +0.37% m/m → 3.3% y/y. Energy-driven; widely expected to be the year's inflation peak. Fed turned hawkish last week → upside inflation surprise = rate-scare risk.
+- Sector momentum: Semis/Tech back in the lead (SOX best quarter ever pre-jitters). Financials YTD ~+11%, fundamentally supported but lagging short-term. Healthcare = defensive bid (LLY at ATH).
+
+### Trade Ideas (confirm live at open; PCE-gated)
+1. **GS** — catalyst: financials YTD leadership + cleanest non-extended breakout on the board. Entry ~$1076; stop ~$998 (~-7.2%, just above $975 support); target $1124 (resistance, +4.5%, breakout char beyond). TA: trend UP (px $1076 > EMA20 $1054 > EMA50 $1001), RSI 59 (room), vol 1.1x (normal/confirm). Near-term R:R light to resistance but clean trend + room + not crowded. Best NEW idea.
+2. **LLY add** (already own) — catalyst: secular defensive leader at ATH; all 3 major PBMs now cover its obesity portfolio (CVS Caremark Foundayo from 6/1, Zepbound by 10/1). Add to ~18-20%. Entry ~$1117; trail stays 10% GTC; target $1182 (resistance, +5.8%). TA: trend UP, RSI 58, vol 0.8x (light). Defensive ballast on a risk-on day.
+3. (Watch) Semis — NO chase. See rejects.
+
+**Rejected today:**
+- **MU — do NOT chase.** Gapping +14% the morning after a blowout = buying MAX extension on a name +700% YoY. Easy money is made; lousy risk-adjusted entry. Watch for a base/pullback only.
+- **NVDA** — still BELOW 50 EMA ($199 vs EMA50 $206), trend gate VETOES; and it diverged *lower* premarket (-1%) while memory ripped. Re-eval only on a 50-EMA reclaim.
+- **AVGO** — below 50 EMA (trend MIXED), gate veto. **MSFT** — below 50 EMA, trend DOWN (RSI 32), veto.
+- **JPM** — trend UP but RSI 67 + jammed +1.4% under resistance ($333.50 vs $338) — no room. **WFC** — jammed +3.3% under resistance on 0.6x light volume — capped, low conviction.
+
+### Thesis Depth (for educational alerts)
+- WHY this read: the crowded-AI-trade unwind that defined Mon-Tue has REVERSED on MU's blowout — the very demand doubt (HBM slowdown) that crushed KOSPI is now refuted. But the disciplined move is NOT to pile into the most-extended name. Lean into leaders with a real catalyst that AREN'T extended: GS (financials breakout, clean trend, room to resistance, normal volume) and our LLY (defensive secular leader at ATH on PBM coverage). Why NOT MU (the obvious chase)? It's gapping +14% — you'd be buying max extension the morning after the news, exactly the "don't chase extension" error. Why NOT NVDA (the dip-buy)? Still below its 50 EMA — trend gate vetoes — and it fell premarket while memory ripped; the rally is bifurcated, not a clean GPU bid. Why NOT JPM/WFC over GS? Both jammed <3.5% under resistance (no room); GS has clean room and normal-volume confirmation.
+- Concept of the day — **"Buy the base, not the gap."** An earnings gap (MU +14%) prices in the good news instantly; entering at the open means buying the single most-extended point, with the stop a long way below. Better risk-adjusted entries come from (a) non-extended leaders with room to resistance (GS), or (b) proven holds you already trust (LLY) — and you let the macro gate (PCE 8:30) clear before committing fresh size, because a hot print could whip the whole tape regardless of how good MU was.
+
+### Risk Factors
+- **PCE @ 8:30 (HOT-skewed)** — energy-driven upside surprise → rate-scare/risk-off whipsaw despite the MU bid. This is the real gate; sizes stay modest until it clears.
+- MU gap could fade intraday (sell-the-news / extension) and drag semi sentiment two-way.
+- Quarter-end / H1 rebalancing flows amplify moves both directions this week.
+- AI rally is bifurcated (memory vs GPU) — don't assume uniform follow-through.
+
+### Decision
+**HOLD / WATCH on this run** (pre-market is research-only; PCE prints at 8:30 before the open). Plan for market-open, **PCE-gated**: if PCE is in-line/cool and tape holds risk-on, initiate ONE disciplined non-crowded add — **GS** primary (~12-15%, financials breakout) and/or **LLY add** to ~18-20% (defensive ballast) — to start closing the deployment gap. If PCE prints HOT and the tape turns, HOLD and add nothing (rate-scare risk). Do NOT chase MU's +14% gap; NVDA stays OFF until it reclaims the 50 EMA. LLY held (-1.07%, thesis intact, stop live). 0 trades this week (3/week cap fully intact).
