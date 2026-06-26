@@ -183,3 +183,45 @@ HOLD on this run (patience > activity; pre-market is research). QUEUE for market
 
 ### Decision
 **HOLD / WATCH on this run** (pre-market is research-only; PCE prints at 8:30 before the open). Plan for market-open, **PCE-gated**: if PCE is in-line/cool and tape holds risk-on, initiate ONE disciplined non-crowded add — **GS** primary (~12-15%, financials breakout) and/or **LLY add** to ~18-20% (defensive ballast) — to start closing the deployment gap. If PCE prints HOT and the tape turns, HOLD and add nothing (rate-scare risk). Do NOT chase MU's +14% gap; NVDA stays OFF until it reclaims the 50 EMA. LLY held (-1.07%, thesis intact, stop live). 0 trades this week (3/week cap fully intact).
+
+## 2026-06-26 — Pre-market Research
+
+> Perplexity key absent (exit 3) — used native WebSearch. Live TA via scripts/ta.py (bars as-of prior close). Friday = weekly-review day (separate run).
+
+### Account
+- Equity: $99,903.46 | Cash: $84,192.38 (84.3%) | Buying power: $380,760 (4x)
+- Daytrade count: 0 | PDT: false
+- Positions: LLY 14 sh @ $1129.12, now $1122.22, **-0.61%** unrealized (-$96.53). 10% GTC trailing stop LIVE, trigger $1030.51, HWM $1145.01.
+- Deployment: ~15.7% vs. 75-85% target — still far under-invested (week 1 done, gap persists).
+
+### Market Context — MILD RISK-OFF, PCE BEHIND US
+- **Macro gate cleared.** Thu's May PCE + final Q1 GDP are now in the rear-view — the week's pivot has passed. Today (Fri) is light on US data (final UMich sentiment at most); the big binary risks of the week (MU earnings, PCE) are resolved.
+- S&P futures ~flat-to-soft (ES roughly -0.0% to -0.4%), **Nasdaq-100 -0.9%**, Dow +0.2%, Russell flat. Tape is bifurcated/soft, not a melt-up — **mild risk-off into quarter-end**.
+- VIX **~18.9 (+1.4%)** — still elevated, ticking up, not easing today.
+- WTI **$69.4 (-3.5%)** / Brent **$74.4 (-1.1%)** — crude breaking to fresh ~4-mo lows on US-Iran de-escalation + Hormuz normalizing. Energy = watch-only (falling-knife, no momentum).
+- **Sector momentum:** Materials YTD leader (+22%); **Healthcare a top YTD performer / flight-to-safety bid** (supports LLY); Energy + Staples cyclically firm; **Tech cooling** after the AI run (investors questioning AI-capex payoff timing). Financials fundamentally supported, momentum lagging short-term.
+- Held-ticker news (LLY): Buy consensus (20+ analysts), avg PT **$1,218** (above spot); completed Centessa acquisition 6/24, bought 4E Therapeutics (non-opioid pain) 6/16, Q3 dividend $1.73 declared. Thesis (defensive secular leader) intact; one bear note flags rich multiple / inventory-receivables.
+
+### Trade Ideas (confirm live at open; tape-gated)
+1. **GS** — catalyst: financials' fundamental support + cleanest non-extended breakout on the board (uncrowded vs. cooling tech). Entry ~$1065; stop ~$985 (just below $985 support, ~-7.5%, then 10% GTC trail); target $1124 (resistance, +5.6%, breakout char beyond). R:R light near-term (~0.75:1 to resistance) but clean trend + room. TA: trend UP (px $1065 > EMA20 $1055 > EMA50 $1003), RSI 56 (room), vol **0.8x (light — soft flag, conviction tempered)**. Best NEW idea.
+2. **LLY add** (already own) — catalyst: defensive healthcare leader, sector has the YTD flight-to-safety bid; add toward ~18-20%. Trail stays 10% GTC. TA: trend UP, RSI 60 (room), vol 0.9x (normal); resistance $1182 (+4.8%). Defensive ballast on a soft tape.
+3. (Watch) Semis/NVDA — NO entry. See rejects.
+
+**Rejected today:**
+- **NVDA** — still BELOW both EMAs (px $196 < EMA20 $207 < EMA50 $206), trend MIXED, RSI 40 — **trend gate VETOES.** Jammed +1.9% above support, far (+18.6%) from resistance. Re-eval only on a 50-EMA reclaim.
+- **JPM** — trend UP but RSI 68 and jammed **+2.4% under resistance** ($335 vs $343) — no room.
+- **WFC** — jammed **+2.7% under resistance** ($84.75 vs $87.08) on **0.7x light** volume — capped + thin, low conviction (3rd straight reject for the same reason).
+- **Energy** — crude making new lows; no momentum, falling-knife. Watch-only.
+
+### Thesis Depth (for educational alerts)
+- WHY this read: the week's binary risks (MU print, PCE) are now BEHIND us and resolved without a crash, yet the tape is soft and bifurcated — tech is *cooling*, not leading. The disciplined posture is to lean into what has *relative strength that isn't crowded*: healthcare (LLY — YTD flight-to-safety leader we already own) and rate/curve-levered financials (GS — clean breakout, room to resistance). Why NOT chase tech/NVDA (the reflex "AI is back" trade)? NVDA is still below its 50 EMA — our trend gate vetoes it — and tech is the sector cooling, not the one leading. Why NOT WFC/JPM over GS? Both are jammed <3% under resistance (no room) and WFC is on thin 0.7x volume; GS has clean room (+5.6%) and a structure-stop level 7.5% below. Why NOT force full deployment today? Futures are red and VIX is ticking up into quarter-end — adding size into a soft open is buying weakness without a catalyst; better to add ONE leader that holds its trend than to chase the gap.
+- Concept of the day — **"Event risk is asymmetric — wait for it to clear, then act on the survivors."** A week stacked with binary events (earnings, PCE) keeps you sidelined for a reason: you can't size into a coin-flip. But once those events pass *without breaking the regime*, the names that held their trend through the noise (LLY held; GS kept its breakout) are the proven survivors — and that, not the pre-event guess, is when you add. The cost of this discipline is the deployment gap we're carrying; the benefit is we never sized into MU/PCE blind.
+
+### Risk Factors
+- **Quarter-end / H1 rebalancing** (today + Mon) can amplify moves both directions on low conviction — don't read a rebalance-driven move as a trend.
+- Tape is bifurcated/soft (Nasdaq -0.9%, VIX up) — a risk-off Friday open argues for restraint on fresh size.
+- Crude in free-fall ($69 WTI) — disinflationary tailwind but also a growth-scare tell if it accelerates; watch energy/credit.
+- Persistent under-deployment (15.7% vs 75-85%) is itself a risk — we can't beat the S&P from the sidelines; the gap must close on the next disciplined setup, not by force.
+
+### Decision
+**HOLD / WATCH on this run** (pre-market is research-only). Plan for market-open, **tape-gated**: if the open steadies (not a sharp risk-off) and GS holds above its 50 EMA, initiate **GS** (~12-15%) as the first non-crowded leader to begin closing the deployment gap; optionally add **LLY toward ~18-20%** as defensive ballast. If the open is sharply risk-off (Nasdaq weakness broadens, VIX spikes), HOLD and add nothing into quarter-end noise. NVDA stays OFF until it reclaims the 50 EMA; WFC/JPM rejected (no room). LLY held (-0.61%, thesis intact, stop live $1030.51). 1 trade this week (LLY), 2/3 remaining; 1/6 positions.
