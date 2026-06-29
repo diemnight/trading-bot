@@ -59,3 +59,21 @@ No open positions. No open orders.
 | LLY | 14 | $1129.12 | $1209.06 | +7.22% | +$1,119.23 (+7.08%) | $1094.18 (10% trail, HWM $1215.76) |
 
 **Notes:** Breakout day — LLY ripped +7.22% on 2.2x average volume, the kind of high-conviction follow-through the defensive-leader thesis was built on, and it carried the book from flat to a phase high. Equity $101,119 (+1.18% day, +1.12% phase) — first time in the green for the challenge. The single position now sits +7.08% vs entry ($1,119 unrealized), and the 10% GTC trailing stop ratcheted up with the HWM to a $1094.18 trigger (locking in protection well above breakeven). Trends strongly up (px > EMA20 1113 > EMA50 1063) but the move is now extended: RSI14 72 (overbought) and price is just +0.7% from resistance ($1214.59), so near-term chop/pullback risk is elevated even with the thesis intact. Per rules the trail stays at 10% until +15% unrealized (currently +7.08%); it auto-tightens to 7% there, 5% at +20%. 0 trades today, 1/3 this week, 1/6 positions. Still only 16.7% deployed vs the 75-85% target — the standout issue: we're winning on one name but badly under-invested. Plan Mon 6/29: do NOT chase LLY into overbought/resistance; add a 2nd uncrowded leader (quality non-semi) on a confirmed setup above the 50 EMA on volume to start closing the deployment gap. 2 trades left this week.
+
+## Jun 29 — Market-Open Trade (Day 10, Monday) [reconstructed at EOD]
+**BUY GS** — 14 sh @ $1034.55 (cost $14,483.70 ≈ 14.3% of equity) | side: long
+- **Stop:** 10% GTC trailing, trigger $932.34 (HWM $1035.93). Support ~$1000 sat <3% below entry — inside the no-stop band, so used the strategy-default 10% trail per rules.
+- **Thesis:** First non-crowded leader to start closing the deployment gap. Financials YTD leadership + a pullback-to-support reset: GS came back to ~$1000 support with RSI cooling from 72→46 on confirmed 1.6x volume while still above its 50 EMA — buying a dip in an uptrend, not chasing a gap.
+- **Target:** $1124.55 (resistance, +8.7% from entry; blue-sky beyond). R:R ~1:1 to resistance, breakout char beyond.
+- **Why not add LLY / JPM / tech:** LLY extended (RSI 72, jammed at resistance) — let the trail bank it. JPM cleaner trend but only +4.8% to resistance (light R:R). NVDA below 50 EMA (trend gate veto).
+- Trades this week: 1/3 (new week reset). Positions: 2/6. Deployment after fill: ~31%.
+- **Note:** the market-open run executed the buy + stop on Alpaca but did not commit a log entry; reconstructed here from broker state + the Jun 29 research plan.
+
+## Jun 29 — EOD Snapshot (Day 10, Monday)
+**Portfolio:** $101,183.48 | **Cash:** $69,708.68 (68.9%) | **Day P&L:** +$64.26 (+0.06%) | **Phase P&L:** +$1,183.48 (+1.18%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+| GS  | 14 | $1034.55 | $1020.21 | +0.06% | -$200.76 (-1.39%) | $932.34 (10% trail, HWM $1035.93) |
+| LLY | 14 | $1129.12 | $1227.99 | +1.65% | +$1,384.25 (+8.76%) | $1114.20 (10% trail, HWM $1238.00) |
+
+**Notes:** Deployment finally widened — bought GS (financials, pullback-to-support reset) at the open as the planned 2nd non-crowded leader, lifting the book from 1 to 2 positions and from ~17% to ~31% deployed. Quiet tape otherwise: equity $101,183 (+0.06% day, +1.18% phase), a fresh phase high. LLY kept leading (+1.65% on the day, now +8.76% vs entry, $1,384 unrealized) but is extended — RSI14 75, price $1229 within +0.7% of resistance ($1237.55) on 1.5x volume; trail stays 10% until +15% unrealized (auto-tightens to 7% there), trigger ratcheted to $1114.20 (HWM $1238). GS opened slightly red (-1.39% vs entry) — normal post-entry noise; trend still UP on the 50 EMA ($1004.71) though price sits below its EMA20 ($1048.62), RSI 46 (room), so the dip-buy thesis is intact with the $932.34 trail as protection. 1 trade today (GS), 1/3 this week, 2/6 positions. Still under the 75-85% target at ~31% deployed. Plan Tue 6/30 (quarter-end): let LLY's trail work — do NOT chase it into overbought/resistance; give GS room to hold its $1000 support; consider ONE more uncrowded leader on a confirmed setup above the 50 EMA on volume to keep closing the deployment gap. 2 trades left this week. (Process note: market-open did not log the GS entry — reconstructed above; verify the market-open routine commits going forward.)
