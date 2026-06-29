@@ -225,3 +225,45 @@ HOLD on this run (patience > activity; pre-market is research). QUEUE for market
 
 ### Decision
 **HOLD / WATCH on this run** (pre-market is research-only). Plan for market-open, **tape-gated**: if the open steadies (not a sharp risk-off) and GS holds above its 50 EMA, initiate **GS** (~12-15%) as the first non-crowded leader to begin closing the deployment gap; optionally add **LLY toward ~18-20%** as defensive ballast. If the open is sharply risk-off (Nasdaq weakness broadens, VIX spikes), HOLD and add nothing into quarter-end noise. NVDA stays OFF until it reclaims the 50 EMA; WFC/JPM rejected (no room). LLY held (-0.61%, thesis intact, stop live $1030.51). 1 trade this week (LLY), 2/3 remaining; 1/6 positions.
+
+## 2026-06-29 — Pre-market Research
+
+> Perplexity key absent (exit 3) — used native WebSearch. Live TA via scripts/ta.py (bars as-of prior close, Fri 6/26). Monday, holiday-shortened week (US closed Fri 7/3).
+
+### Account
+- Equity: $101,482.38 | Cash: $84,192.38 (83.0%) | Buying power: $385,181 (4x)
+- Daytrade count: 0 | PDT: false
+- Positions: LLY 14 sh @ $1129.12, last $1235 (premarket print; Fri close $1206.57), **+9.38%** unrealized (+$1,482.39). 10% GTC trailing stop LIVE, trigger $1094.18, HWM $1215.76.
+- Deployment: ~17.0% vs. 75-85% target — still badly under-invested (week 2 begins, gap persists).
+
+### Market Context — RISK-ON MONDAY, IRAN DE-ESCALATION
+- **Tape green.** S&P futures **+0.8%**, Nasdaq-100 **+1.2%**, Dow +0.4%. US-Iran "stand down for now," talks on track after fire near the Strait of Hormuz — geopolitical de-risking driving the bid. Comcast (CMCSA) +25% premarket on NBCUniversal/Sky spin-off (idiosyncratic).
+- VIX **~18.4 (-2.5%, easing)** — 1-mo range 15.2-23.3, settling mid.
+- WTI **~$70** / Brent **~$72** — lowest since late Feb on Hormuz traffic normalizing + de-escalation. Disinflationary tailwind; energy = watch-only (no momentum, falling-knife).
+- **Data: Monday is EMPTY (no releases).** Week's gate = **Jun jobs report Thu 7/2** (released a day early ahead of the holiday; consensus +172k). Tue: Consumer Confidence, JOLTS, NKE/STZ earnings. Wed: ADP, ISM Mfg. Fri 7/3 CLOSED.
+- **Sector momentum (key divergence):** Materials (YTD +22%), Industrials, Staples, Energy = LEADING on momentum. **Healthcare & Financials = WEAKENING on momentum** despite solid YTD (HC flight-to-safety, Fins ~+11% YTD). Tech lagging momentum but bid today on risk-on. → our two book themes (HC via LLY, Fins via GS/JPM) have YTD strength but fading short-term momentum — a reason for discipline, not force.
+
+### Trade Ideas (confirm live at open; no Monday macro gate)
+1. **GS** — catalyst: financials' YTD support + a clean **pullback-to-support** reset (uncrowded vs. extended tech/HC). Px $1018.74 has pulled back to $1000.08 support (+1.9%); 10% GTC trail (stop ~$917 — support sits <3% below px so can't structure-stop it). Target $1124.55 resistance (+10.4%, blue-sky beyond). R:R ~1:1 to resistance, breakout char beyond. TA: trend UP by 50 EMA ($1004) but px now **below EMA20** ($1052) = short-term cooled; RSI **46 (reset, room)**, vol **1.6x (confirmed)**. Best R:R fresh idea — buying the dip in an uptrend on a reset RSI sitting on support.
+2. **JPM** — catalyst: financials leader, trend cleanly UP (px $327.50 > EMA20 $321 > EMA50 $313), RSI **59 (room, reset from 67)**, vol 1.4x (confirmed); no longer jammed (+4.8% to resistance $343.31, vs <2.5% prior). Stop 10% trail ~$295 (right at support). R:R light (~0.5:1 to resistance) — breakout beyond. Secondary; cleaner trend than GS but lighter R:R.
+3. **LLY add — REJECTED today.** Px +9.4%, RSI 72 (overbought), vol 2.2x, jammed **+0.7% under resistance** $1214.59 — strategy says skip when <2% under resistance. Don't chase our own winner into extension; let the trail work. Approaching +15% where trail auto-tightens to 7%.
+
+**Rejected:**
+- **LLY add** — extended/jammed at resistance (see #3).
+- **MU/NVDA semis** — no fresh catalyst this run; NVDA prior runs vetoed below 50 EMA. No chase.
+- **Energy** — crude at 4-mo lows, falling-knife, no momentum. Watch-only.
+- **CMCSA** — +25% spin-off pop is idiosyncratic/extended; not a momentum entry.
+
+### Thesis Depth (for educational alerts)
+- WHY this read: today is a clean risk-ON open driven by geopolitical de-risking (Iran stand-down) + falling oil (disinflationary) + easing VIX, and Monday carries NO macro gate — a rare green light to finally start closing the deployment gap. The disciplined add is NOT our own extended winner (LLY, RSI 72, jammed at resistance) but a non-crowded leader that has *reset*: GS pulled back to its $1000 support with RSI cooling to 46 on confirmed volume — you're buying a dip in an uptrend, not chasing a gap. Why NOT add LLY (the obvious "ride the winner")? It's +9.4% into overbought, +0.7% from resistance — adding there is buying max extension with the stop far below; let the trailing stop bank the gain instead. Why NOT JPM over GS? JPM's trend is cleaner but it's only +4.8% from resistance (light R:R ~0.5:1); GS has +10.4% of room to its prior high and a fresher RSI reset, so the risk-adjusted payoff is better even though its 20 EMA just rolled over. Why NOT chase tech/CMCSA? Today's tech bid is risk-on beta, not a catalyst we own; CMCSA's +25% is a one-off spin-off pop, already extended.
+- Concept of the day — **"Buy the pullback, not the breakout — RSI as a reset gauge."** Momentum names give better entries when they pull back to support and their RSI cools from overbought (70+) back toward the middle (40-55) WITHOUT breaking the larger uptrend (price stays above the 50 EMA). That reset (GS: RSI 72→46, sitting on $1000 support, still > 50 EMA) means the easy-money crowd has been shaken out and your stop can sit closer to a real structure level — the opposite of buying a vertical breakout (LLY today) where RSI is 72 and the nearest support is 14% below.
+
+### Risk Factors
+- **Thu 7/2 jobs report** is the week's binary — a hot/cold print can whip the tape; today's add must be sized so a Thu reversal is survivable (modest starter, real trail).
+- Holiday-shortened, thin liquidity into the long weekend can exaggerate both directions; quarter-end/H1 rebalancing flows still in play.
+- Iran truce is described as "fragile" — a re-escalation reprices oil and risk fast (two-way).
+- Sector momentum is rotating AWAY from financials/healthcare (our book) toward materials/industrials — our themes carry YTD strength but fading relative momentum; don't oversize into a fading leader.
+- Persistent under-deployment (17% vs 75-85%) remains the standout risk — must close on disciplined setups, not by force.
+
+### Decision
+**HOLD / WATCH on this research run** (pre-market is research-only). Plan for market-open (no Monday macro gate): if the open holds risk-on and GS holds its $1000 support, initiate **GS (~12-15%)** as the first non-crowded leader to begin closing the deployment gap; **JPM** is the backup if GS gaps away from support. Do NOT add LLY (extended, RSI 72, jammed at resistance) — let the 10% trail work (auto-tightens to 7% at +15%). NVDA/MU off; energy watch-only. LLY held (+9.4%, thesis intact, stop live $1094.18). 1 trade this week so far is week-1's LLY — **new week resets the 3/week counter to 0**; 1/6 positions.
