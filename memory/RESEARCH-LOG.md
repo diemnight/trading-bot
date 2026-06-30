@@ -267,3 +267,53 @@ HOLD on this run (patience > activity; pre-market is research). QUEUE for market
 
 ### Decision
 **HOLD / WATCH on this research run** (pre-market is research-only). Plan for market-open (no Monday macro gate): if the open holds risk-on and GS holds its $1000 support, initiate **GS (~12-15%)** as the first non-crowded leader to begin closing the deployment gap; **JPM** is the backup if GS gaps away from support. Do NOT add LLY (extended, RSI 72, jammed at resistance) — let the 10% trail work (auto-tightens to 7% at +15%). NVDA/MU off; energy watch-only. LLY held (+9.4%, thesis intact, stop live $1094.18). 1 trade this week so far is week-1's LLY — **new week resets the 3/week counter to 0**; 1/6 positions.
+
+## 2026-06-30 — Pre-market Research
+
+> Perplexity key absent (exit 3) — used native WebSearch. Live TA via scripts/ta.py (bars as-of prior close, Mon 6/29). Tuesday = quarter-end / H1 close; holiday-shortened week (US closed Fri 7/3).
+
+### Account
+- Equity: $101,041.79 | Cash: $69,708.67 (69.0%) | Buying power: $366,567 (4x) | Daytrade count: 0 | PDT: false
+- Positions (2/6):
+  - **LLY** 14 sh @ $1129.12, last $1224.00, **+8.40%** (+$1,328.39). 10% GTC trail LIVE, trigger $1114.20, HWM $1238.00.
+  - **GS** 14 sh @ $1034.55, last $1014.08, **-1.98%** (-$286.58). 10% GTC trail LIVE, trigger $932.34, HWM $1035.93.
+- Deployment: ~31.0% ($31,333 mkt val) vs. 75-85% target — still badly under-invested; the standout issue.
+
+### Market Context — QUARTER-END, MILDLY GREEN, TECH REBOUND
+- **Tape slightly green.** S&P futures **+0.2%**, tech rebounding modestly from its pullback; S&P 500 ~3% off all-time highs (Mon close 7,440.43, +1.18%; Dow record 52,182.74). Final two days of Q2 — watch quarter-end / H1 rebalancing flows (pensions/SWFs) which can amplify low-conviction moves both ways.
+- VIX **~18.4** (prior close 18.41; June avg ~16.4) — settled mid-range, not stressed.
+- WTI **~$70** / Brent **~$73** — easing again as US-Iran peace talks resume in Doha (Hormuz supply normalizing). Disinflationary tailwind; energy = watch-only (no clean momentum entry).
+- **Data today (Tue):** JOLTS (May) 10:00 ET, Consumer Confidence, Chicago PMI, Case-Shiller/FHFA housing. **Week's binary = Jun jobs report Thu 7/2** (released a day early, consensus +172k). Wed: ADP, ISM Mfg, Fed Chair Warsh speaks 9:30. **Fri 7/3 CLOSED.**
+- **Earnings:** NKE & STZ report **after the close** today (not pre-open) — no held-name exposure; NKE EPS est $0.11 (-21% y/y).
+- **Sector momentum:** Materials (YTD +22%, cup-and-handle breakout), Industrials (AI-infra/defense/electrification capex), Energy & Staples (new highs), and small caps (Russell 2000 +5.4% MTD) = LEADING / broadening. Healthcare & Financials = solid YTD but **fading short-term momentum** — our two book themes (LLY/GS) carry YTD strength but lagging relative momentum (discipline, not force).
+
+### Held-name news
+- **LLY:** GLP-1 franchise ripping (Mounjaro+Zepbound ~$13B Q1 rev), manufacturing constraint resolved, orforglipron (oral) FDA-approved, pipeline/M&A active. Secular thesis fully intact — but the stock is extended (see TA). Let the trail bank it.
+- **GS:** +69% TTM, IB fees +48% y/y, lead advisor on SpaceX/Anthropic/OpenAI IPO pipeline (forward catalyst). Idiosyncratic headline: CLO Ruemmler resigned 6/30 (Epstein-docs) — governance noise, not a fundamental break; monitor but thesis intact.
+
+### Trade Ideas (catalyst leads; TA refines) — NO clean fresh entry today
+1. **LLY add — REJECTED.** Px $1229, RSI **75 (overbought)**, jammed **+0.7% under resistance** ($1237.55) on 1.5x vol. Strategy vetoes adds <2% under resistance. Don't chase our own winner into max extension; +8.4% now, trail auto-tightens to 7% at +15%. Let it work.
+2. **GS add — REJECTED.** Position is red (-1.98%), below EMA20 ($1048.62) though above EMA50 ($1004.71 = trend UP), RSI 46 (reset), sitting +2.1% over $1000 support. Don't average into a fresh loser pre-catalyst; let it hold support with the $932.34 trail. Re-eval on an EMA20 reclaim.
+3. **CAT (industrials, leading sector) — marginal WATCH.** Trend UP (px $1033 > EMA20 $961 > EMA50 $901), RSI 62 (room), but jammed **+2.3% under resistance** ($1056.87) on 1.0x vol → thin R:R to the prior high. Only on a clean breakout >$1057 on >=1.2x volume; not at market.
+
+**Rejected:**
+- **GE** — trend UP but RSI **74 (overbought)** and jammed **+1.5% under resistance** ($379.34) — no room.
+- **FCX (materials)** — px $61.62 BELOW both EMAs (EMA20 $65.11 / EMA50 $64.39) = **trend MIXED, gate VETO**; light 0.8x vol. Re-eval on a 50-EMA reclaim.
+- **JPM** — trend UP, RSI 60, but only **+4.2% to resistance** ($343.31) = light R:R (~0.5:1); 1.0x vol. Backup, not a buy today.
+- **Energy** — crude easing on Iran talks; falling-knife, no momentum. Watch-only.
+- **NKE / STZ** — report after the close; earnings event, no edge pre-print.
+
+### Thesis Depth (for educational alerts)
+- WHY this read: the disciplined posture today is **HOLD and protect optionality.** Two things line up: (1) the leading sectors (materials/industrials) are themselves *extended* — GE (RSI 74) and CAT are both jammed within ~1.5-2.3% of resistance, so even the "right" rotation theme offers poor risk-adjusted entries right now; and (2) the week's binary — Thursday's jobs report (pulled a day early) — sits between us and any add, so sizing in front of it is buying a coin-flip. Our own book is split: LLY is a proven winner but maxed-out (RSI 75, 0.7% from resistance — let the trail bank it, don't chase), and GS is a working dip-buy that's modestly red and best left to hold its $1000 support, not averaged into pre-catalyst. Why NOT chase the materials/industrials rotation (the obvious "go where the momentum is")? Because momentum tells you the *direction*, not the *entry* — buying a leader pinned at resistance hands you the worst R:R in the whole move. Why NOT add LLY (ride the winner)? Same logic, sharper: +0.7% to resistance with support 16.8% below = adding max extension with the stop a mile away. The honest answer is the best trade today is no trade — keep the 2 weekly slots and the dry powder for a *reset* setup after the jobs print.
+- Concept of the day — **"Right sector, wrong price — momentum names you to a trend, the chart times your entry."** Sector rotation analysis (materials/industrials leading) is a *what to own* signal, not a *when to buy* signal. The two are different jobs: relative strength points you at the leaders, but a leader that's RSI 74 and jammed 1.5% under its prior high (GE today) gives you almost no upside before resistance and a long way to fall to support — a terrible payoff even though the thesis is "right." The disciplined version of "follow momentum" is *follow it to a pullback*: wait for the leader to reset (RSI cooling toward the middle, price holding above the 50 EMA on support) the way GS did last week — then the same thesis comes with a real stop and real room. Being early to a theme but late to a price is how good ideas turn into bad trades.
+
+### Risk Factors
+- **Thu 7/2 jobs report** = the week's binary; a hot/cold print can whip a thin, holiday-shortened tape. Any add must survive a Thursday reversal — argues for restraint today.
+- **Quarter-end / H1 rebalancing** (today) can drive low-conviction moves both ways — don't read a rebalance flow as a trend.
+- Holiday-shortened week (closed Fri 7/3); thin liquidity into the long weekend exaggerates moves.
+- Iran truce described as fragile — re-escalation reprices oil and risk fast (two-way).
+- Sector momentum rotating AWAY from our book (HC/Fins) toward materials/industrials/small caps — our themes have YTD strength but fading relative momentum; don't oversize a fading leader.
+- Persistent under-deployment (~31% vs 75-85%) remains the standout risk — must close on a disciplined *reset* setup, not by force into extended leaders or ahead of the jobs print.
+
+### Decision
+**HOLD / WATCH** (pre-market is research-only; and today the substantive call is also HOLD). No clean fresh entry: leading-sector leaders (GE/CAT) are jammed at resistance, FCX is trend-vetoed, JPM R:R is light, and both our holds are no-adds (LLY extended/jammed; GS red, let it hold support). Market-open plan, tape-gated: **default HOLD/add nothing**; the only conditional buy is **CAT on a clean breakout >$1057 on >=1.2x volume** (else pass). Do NOT add LLY (RSI 75, 0.7% from resistance — trail auto-tightens to 7% at +15%). Let GS hold its $1000 support with the $932.34 trail; re-eval on an EMA20 reclaim. Keep the 2 remaining weekly slots and dry powder for a reset setup after Thu's jobs report. Stops live on both (LLY $1114.20, GS $932.34). Trades this week: 1/3 (GS, Mon). Positions 2/6.
