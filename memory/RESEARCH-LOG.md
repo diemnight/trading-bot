@@ -364,3 +364,51 @@ HOLD on this run (patience > activity; pre-market is research). QUEUE for market
 
 ### Decision
 **HOLD / WATCH** (pre-market is research-only; today's substantive call is also HOLD). No clean fresh entry: CAT jammed +0.8% under resistance on light volume, GE overbought/jammed, JPM light R:R + light volume, and both holds are no-adds (LLY extended near resistance; GS red, let it hold $1000 support). Market-open plan, tape-gated: **default HOLD/add nothing**; the only conditional buy is **CAT on a clean breakout >$1074 on ≥1.2x volume** (else pass). Do NOT add LLY (RSI 67, +3.2% to resistance — trail auto-tightens to 7% at +15%). Let GS hold its $1000 support with the $932.34 trail; re-eval on an EMA20 reclaim; cut on a decisive break of $1000. Keep the 2 remaining weekly slots + dry powder for a reset setup after Thu's jobs report. Stops live on both (LLY $1114.20, GS $932.34). Trades this week: 1/3 (GS, Mon). Positions 2/6.
+
+## 2026-07-02 — Pre-market Research
+
+> Perplexity key absent — used native WebSearch. Live TA via scripts/ta.py (bars as-of prior close, Wed 7/1). Thursday, JOBS DAY (8:30 ET) — the week's binary, pulled a day early. Holiday-shortened week: US CLOSED Fri 7/3.
+
+### Account
+- Equity: $100,788.67 | Cash: $69,708.67 (69.2%) | Buying power: $365,858 (4x) | Daytrade count: 0 | PDT: false
+- Positions (2/6):
+  - **LLY** 14 sh @ $1129.12, last $1195.00, **+5.84%** (+$922.39). 10% GTC trail LIVE, trigger $1114.20, HWM $1238.00.
+  - **GS** 14 sh @ $1034.55, last $1025.00, **-0.92%** (-$133.70). 10% GTC trail LIVE, trigger $932.34, HWM $1035.93.
+- Deployment: ~30.8% ($31,080 mkt val) vs. 75-85% target — still the standout issue: badly under-invested, only 2 of 6 slots filled.
+
+### Market Context — JOBS DAY, CALM TAPE, SOFT ADP AHEAD OF THE PRINT
+- **Futures firm/steady** after Wed's +0.79% S&P close (IT did the heavy lifting +2.6%; only 4 of 11 sectors green). VIX **~16.6** — calm, not stressed, into a binary.
+- **The binary: June jobs report, TODAY 8:30 ET.** Consensus **+100-115k** NFP (range 70-130k), unemployment **4.3%**. Prior May was hot (+172k vs 85k est). **ADP (Wed) came in soft at +98k** private — a dovish tell, but ADP is a poor NFP predictor. A hot print revives "higher-for-longer"; a cold one fuels rate-cut hopes — two-way risk into a thin, pre-holiday tape.
+- WTI **~$68** / Brent **~$73** — crude at ~4-month lows on US-Iran Doha peace talks + Hormuz shipping recovery. Disinflationary tailwind; energy = watch-only (falling knife, no momentum).
+- **Sector momentum:** Materials LEADING (gold/copper/lithium miners — BHP/RIO cited), Industrials + Staples firm; **chips/semis weak** (dragged Wall St). Tech bounced Wed but leadership is rotating to cyclicals/materials. Our book themes (HC/Fins) carry YTD strength but lag relative momentum.
+
+### Held-name news
+- **LLY — fresh bullish catalyst.** Medicare launched its **GLP-1 Bridge program 7/1** ($50/mo copay for Zepbound/weight-mgmt drugs through 2027) — a demand unlock for the obesity franchise. PT raises followed (Leerink →$1,232). Secular GLP-1 thesis not just intact but strengthened. Stock digesting its late-June breakout; let the trail bank it, don't chase.
+- **GS — mixed.** Oppenheimer cut to **Underperform 6/30** (valuation "not compelling"); Citi RAISED PT to **$1,100** (Neutral). Business strong: fastest bank ever to $1T of M&A advisory YTD; OpenAI/Anthropic IPO mandates forming. **Q2 earnings 7/14** = a forward binary ~2 weeks out. No thesis break; holding its $1,000 support line.
+
+### Trade Ideas (catalyst leads; TA refines) — NO add today (jobs binary); best RESET candidate flagged for post-print
+1. **CAT (industrials, leading sector) — RESET setup, post-jobs WATCH.** Last week it was jammed +0.8% under resistance; it has since pulled back ~7% to $992 and **reset**: still **trend UP** (px $992 > EMA20 $972 > EMA50 $911), RSI cooled **65→55** (room), on **confirmed 1.4x volume**, now **+8.2% under resistance** ($1073.46) with real room. This is the "follow momentum to a pullback" setup. Caveat: support 16% below → default 10% trail; R:R ~0.8:1 to resistance (breakout char beyond), modest. **Buy ONLY after the jobs reaction if CAT holds above its 20/50 EMA (~$972+) on ≥1.2x volume** — not ahead of the print. Entry ~$992, stop 10% trail (~$893), target $1073 then blue-sky.
+2. **GS add — REJECTED (not yet).** Reset (RSI 46) and +10.3% room to resistance ($1124.55 = good R:R now) BUT still **below EMA20 ($1043)** — trend intact via EMA50 but no reclaim yet, and **earnings 7/14** caps the runway. Re-eval on a clean EMA20 reclaim; don't average into a flat name pre-catalyst.
+3. **LLY add — REJECTED.** Px $1192, RSI 65, **+3.8% under resistance** ($1237.55), support 13% below. Adding max-extension with a far stop = poor R:R even with the fresh Medicare catalyst. Let the 10% trail work (auto-tightens to 7% at +15% unrealized; now +5.84%).
+
+**Rejected:**
+- **GE** — trend UP but RSI **75 (overbought)** and **+1.2% under resistance** ($379.34) — no room.
+- **FCX (materials)** — px $60.59 **below both EMAs** (EMA20 $64.49 / EMA50 $64.22) = **trend MIXED, gate VETO**; sitting on support. Re-eval on a 50-EMA reclaim.
+- **NEM (gold miner)** — px $93.28 below both EMAs = **trend DOWN, gate VETO** despite materials leadership. The sector leads; this name doesn't. Skip.
+- **Energy** — crude at 4-month lows, falling knife, no momentum. Watch-only.
+
+### Thesis Depth (for educational alerts)
+- WHY this read: the disciplined posture is **HOLD into the 8:30 jobs print, then buy the reaction — not the anticipation.** Three things align: (1) a known binary sits between us and any add — sizing before an 8:30 print I can't handicap is buying a coin-flip, and a hot/cold number can gap a leader through its stop in a thin pre-holiday tape; (2) the one genuinely attractive setup on the board — **CAT** — only became attractive *because it reset* (jammed at resistance last week → pulled back into its uptrend on confirmed volume this week), which is exactly the "wait for the pullback" playbook, so the reward for patience is a *better* version of the same trade after the print; (3) our own book needs nothing — LLY's thesis just got *stronger* (Medicare GLP-1 Bridge) but the stock is extended (let the trail bank it), and GS is a working dip-buy best left to hold $1,000, not averaged into below its EMA20 pre-earnings. Why NOT chase materials (the clear sector leader)? Because the *sector* leads but the *names* don't — NEM and FCX are both below their 50 EMAs (trend-vetoed); a leading sector full of trend-broken charts is a screen that says "wait," not "buy." Why NOT add LLY on the fresh catalyst? Good news at +3.8%-from-resistance with a stop 13% away is the worst R:R in the move — the catalyst is a reason to *hold*, not to *chase*. Best trade today is no trade: keep 2 weekly slots + dry powder for CAT's post-jobs confirmation.
+- Concept of the day — **"Buy the reaction, not the anticipation."** A scheduled catalyst (today's jobs print) doesn't just add volatility — it changes the *odds* of any entry made right before it, because your thesis now has to survive a number you can't forecast and can't control. The amateur move is to guess the print and size into it; the disciplined move is to let the event clear the air and then buy the *market's response* — a leader that resets and holds above its 50 EMA on volume *after* the number lands. You give up the first few percent of the move in exchange for entering with a real stop, real room, and a thesis that has already survived its biggest known test. Patience here isn't passivity — it's refusing to pay for a lottery ticket when the same trade goes on sale, de-risked, a few hours later.
+
+### Risk Factors
+- **Jobs report TODAY 8:30 ET** = the week's binary; hot revives higher-for-longer, cold fuels cut hopes. Soft ADP (98k) skews dovish-expected but ADP is a weak NFP guide — surprise risk both ways in a thin tape.
+- Holiday-shortened week (CLOSED Fri 7/3); thin liquidity into the long weekend exaggerates moves.
+- Semis/chips leading the tape LOWER — a tech-led wobble can drag the index even on a good jobs number.
+- Iran truce described as fragile — re-escalation reprices oil and risk fast (two-way).
+- **GS earnings 7/14** — a forward binary on our second-largest position; frames any GS add as pre-event risk.
+- Sector momentum rotating toward materials/industrials, but the leading names (NEM/FCX) are trend-broken — chasing the sector via a broken chart is the trap to avoid.
+- Persistent under-deployment (~31% vs 75-85%) remains the standout risk — close it on a disciplined *reset* setup (CAT post-jobs), not by force ahead of the print.
+
+### Decision
+**HOLD / WATCH** (pre-market is research-only; today's substantive call is also HOLD ahead of the 8:30 jobs print). No add ahead of the binary. Market-open plan, tape-gated: **default HOLD/add nothing before 8:30**; the only conditional buy is **CAT AFTER the jobs reaction, IF it holds above its 20/50 EMA (~$972+) on ≥1.2x volume** — entry ~$992, 10% trail (~$893), target $1073 then blue-sky (modest R:R, breakout char). Do NOT add LLY (RSI 65, +3.8% to resistance — let the trail work; fresh Medicare catalyst is a hold reason, not a chase). GS add only on a clean EMA20 reclaim (~$1043), mindful of 7/14 earnings; let it hold $1,000 with the $932.34 trail, cut on a decisive break. Keep the 2 remaining weekly slots + dry powder. Stops live on both (LLY $1114.20, GS $932.34). Trades this week: 1/3 (GS, Mon). Positions 2/6.
