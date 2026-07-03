@@ -412,3 +412,47 @@ HOLD on this run (patience > activity; pre-market is research). QUEUE for market
 
 ### Decision
 **HOLD / WATCH** (pre-market is research-only; today's substantive call is also HOLD ahead of the 8:30 jobs print). No add ahead of the binary. Market-open plan, tape-gated: **default HOLD/add nothing before 8:30**; the only conditional buy is **CAT AFTER the jobs reaction, IF it holds above its 20/50 EMA (~$972+) on ≥1.2x volume** — entry ~$992, 10% trail (~$893), target $1073 then blue-sky (modest R:R, breakout char). Do NOT add LLY (RSI 65, +3.8% to resistance — let the trail work; fresh Medicare catalyst is a hold reason, not a chase). GS add only on a clean EMA20 reclaim (~$1043), mindful of 7/14 earnings; let it hold $1,000 with the $932.34 trail, cut on a decisive break. Keep the 2 remaining weekly slots + dry powder. Stops live on both (LLY $1114.20, GS $932.34). Trades this week: 1/3 (GS, Mon). Positions 2/6.
+
+
+## 2026-07-03 — Pre-market Research (MARKET CLOSED — Independence Day observed)
+
+> Perplexity key absent — used native WebSearch. **US market CLOSED Fri 7/3** (July 4th observed). No live tape today; TA below is frozen as-of Thu 7/2 close. This run is a research/planning pass for **Mon 7/6**; no trades possible today. Both trailing stops remain LIVE and GTC.
+
+### Account (as-of 7/2 close)
+- Equity: $100,997.41 | Cash: $69,708.67 (69.0%) | Buying power: $366,443 (4x) | Daytrade count: 0 | PDT: false
+- Positions (2/6):
+  - **LLY** 14 sh @ $1129.12, last $1213.91, **+7.51%** (+$1,187.13). 10% GTC trail LIVE, trigger $1114.20, HWM $1238.00.
+  - **GS** 14 sh @ $1034.55, last $1021.00, **-1.31%** (-$189.70). 10% GTC trail LIVE, trigger $935.35, HWM $1039.28.
+- Deployment: ~31.0% ($31,289 mkt val) vs. 75-85% target — persistent under-investment, only 2 of 6 slots filled.
+
+### Market Context — JOBS BINARY CLEARED SOFT / DOVISH, RISK-ON INTO THE HOLIDAY
+- **Market CLOSED today.** Reflects tape through Thu 7/2.
+- **June jobs = soft: +57k NFP vs +110-115k est** — roughly half expected, breaking a 3-month hot streak. Read as **dovish** (supports Fed hold, keeps H2 cut hopes alive). Reaction was **risk-on**: S&P +0.49%, Dow +0.46% to a **fresh record close**, Nasdaq +0.40%; small-caps (Russell -0.39%) lagged.
+- **Weekly sector leadership: communication services, financials, consumer discretionary strong**; real estate, utilities, energy finished lower. **Financials strength = direct tailwind for our GS hold.**
+- **Chips/semis got hit mid-week** (Micron/Sandisk/AMAT/LRCX ~-10%, Intel/Marvell ~-9% on profit-taking) — leadership rotated out of semis toward cyclicals/financials. Reinforces staying out of trend-broken semis.
+- Oil soft (WTI ~$68 area) — disinflationary, energy watch-only (no momentum, sector lagged the week).
+
+### Held-name news
+- **LLY** — no fresh catalyst since the 7/1 Medicare GLP-1 Bridge unlock; secular thesis intact. Stock digesting its late-June breakout (+7.5% vs entry). Let the 10% trail bank it — do NOT chase into resistance.
+- **GS** — **financials led the week** (money-flow tailwind); GS dropped its Dec-2026 rate-cut forecast (7/1). No thesis break. **Q2 earnings 7/14** = a forward binary ~1.5 weeks out that caps any add. Holding its $1,000 support line with the $935.35 trail.
+
+### Trade Ideas (catalyst leads; TA refines) — NO trade possible today (closed); Mon 7/6 watch-list
+1. **CAT (industrials) — RESET candidate, NOT yet triggered.** As-of 7/2: px **$963.60**, now **below EMA20 ($971.66)** but **above EMA50 ($912.71)** = trend UP, no EMA20 reclaim yet; RSI 51 (room), vol **1.4x (confirmed)**, +11.4% under resistance ($1073.46). The pullback-into-uptrend setup is still intact but it has NOT reclaimed the ~$972 line. **Buy ONLY if Mon it reclaims and holds above the 20/50 EMA (~$972+) on ≥1.2x volume** — entry ~$965-975, 10% trail (~$870-878), target $1073 then blue-sky (modest R:R, breakout char). Below $972 = keep waiting.
+2. **GS add — still REJECTED (not yet).** Financials-leadership tailwind is encouraging and R:R to resistance is now good (+10.2%), BUT px $1021 is **still below EMA20 ($1040.57)** — no reclaim, and **7/14 earnings** caps the runway. Re-eval on a clean EMA20 reclaim (~$1040); don't average into a flat name pre-catalyst.
+3. **LLY add — REJECTED.** Px $1211, RSI 67, **+2.2% under resistance** ($1237.55), support ~11% below. Adding at max-extension with a far stop = poor R:R even on a strong thesis. Let the trail work (auto-tightens to 7% at +15% unrealized; now +7.5% — close to the tighten line).
+
+**Rejected sectors/names:** Semis (leadership broke, ~-10% week — trend/momentum veto). Energy (lagged the week, no momentum — watch-only). Materials names (NEM/FCX) still to be re-screened Mon for a 50-EMA reclaim; the sector's relative lead faded to financials/comm-svcs this week.
+
+### Thesis Depth (for educational alerts)
+- WHY this read: the week's biggest known unknown — the jobs print — **resolved in our favor's direction** (soft number → dovish → risk-on, Dow record), which *removes* the reason we sat on our hands and turns the question to "what actually confirms an add?" The honest answer as of Thursday's close: **nothing has triggered yet.** CAT, the one setup I've been stalking, pulled back into its uptrend on real volume (good) but slipped *below* its 20-day EMA (not-yet) — so the disciplined line I drew last week ("buy only on a reclaim of ~$972 on volume") is doing its job by keeping me *out* until the chart agrees with the story. GS got a genuine tailwind (financials led the week on the dovish reaction) but it too is still under its 20 EMA with earnings 7/14 in the way — a reason to *hold and watch*, not to average in pre-event. And LLY is simply extended. Why NOT force the deployment gap closed after a risk-on session? Because "the market went up" is not an entry signal — a specific name reclaiming a specific level on specific volume is. Chasing green candles into a thin post-holiday tape is exactly how you buy the top of a relief pop. The gap closes on a *reset that confirms*, not on FOMO.
+- Concept of the day — **"A resolved catalyst changes the odds, not necessarily the action."** Last week the jobs print was a reason to wait. It cleared dovishly — good for risk — but notice what *didn't* change: my two candidates (CAT, GS) are both still below the moving average I said they had to reclaim. A common mistake is to treat a favorable macro outcome as a green light to buy *anything*, when all it really did was improve the backdrop. The signal that actually authorizes capital is still the same micro trigger (reclaim + volume) it was before the print. Good macro raises the base rate; it doesn't waive your entry checklist.
+
+### Risk Factors
+- **Post-holiday thin tape Mon 7/6** — the first session back can gap on light liquidity; don't chase the open. Wait for the reclaim + volume, not the first print.
+- **Relief-rally fade risk** — a soft-jobs pop into a record-high Dow can mean-revert; a hot number is off the table but "good news already priced" is a real pullback vector.
+- **Semis leadership broke** (~-10% week) — a further tech unwind can drag the index even with financials firm; keep clear of trend-broken chips.
+- **GS earnings 7/14** — forward binary on our 2nd-largest position; frames any GS add as pre-event risk.
+- **Persistent under-deployment (~31% vs 75-85%)** — still the standout risk; close it on a confirmed reset (CAT reclaim), not by forcing size into a relief pop.
+
+### Decision
+**HOLD (market CLOSED today — no action possible).** Research/planning pass only. Mon 7/6 plan, tape-gated: **default HOLD**; the one conditional buy is **CAT IF it reclaims and holds above the 20/50 EMA (~$972+) on ≥1.2x volume** — entry ~$965-975, 10% trail, target $1073 then blue-sky (modest R:R). Do NOT add LLY (extended, +2.2% to resistance — let the trail work; auto-tightens to 7% at +15%, now +7.5%). GS add only on a clean EMA20 reclaim (~$1040), mindful of 7/14 earnings; financials led the week = tailwind but not yet a trigger; let it hold $1,000 with the $935.35 trail. Keep the 2 remaining weekly slots + dry powder. Stops live on both (LLY $1114.20, GS $935.35). Trades this week: 1/3 (GS, Mon 6/29). Positions 2/6.
