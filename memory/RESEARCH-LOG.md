@@ -456,3 +456,48 @@ HOLD on this run (patience > activity; pre-market is research). QUEUE for market
 
 ### Decision
 **HOLD (market CLOSED today — no action possible).** Research/planning pass only. Mon 7/6 plan, tape-gated: **default HOLD**; the one conditional buy is **CAT IF it reclaims and holds above the 20/50 EMA (~$972+) on ≥1.2x volume** — entry ~$965-975, 10% trail, target $1073 then blue-sky (modest R:R). Do NOT add LLY (extended, +2.2% to resistance — let the trail work; auto-tightens to 7% at +15%, now +7.5%). GS add only on a clean EMA20 reclaim (~$1040), mindful of 7/14 earnings; financials led the week = tailwind but not yet a trigger; let it hold $1,000 with the $935.35 trail. Keep the 2 remaining weekly slots + dry powder. Stops live on both (LLY $1114.20, GS $935.35). Trades this week: 1/3 (GS, Mon 6/29). Positions 2/6.
+
+
+## 2026-07-06 — Pre-market Research (Day 14, Monday — first session back after July 4th)
+
+> Perplexity key absent — used native WebSearch (noted). Live tape not yet open; TA below is as-of Thu 7/2 close (Fri 7/3 was the observed holiday). Both trailing stops remain LIVE and GTC. Research/planning pass — substantive call is HOLD/WATCH; the one conditional add (CAT) is tape-gated at market-open.
+
+### Account (live, pre-open)
+- Equity: $101,008.22 | Cash: $69,708.67 (69.0%) | Buying power: $366,473 (4x) | Daytrade count: 0 | PDT: false
+- Positions (2/6):
+  - **LLY** 14 sh @ $1129.12, last $1212.68, **+7.40%** (+$1,169.94). 10% GTC trail LIVE, trigger $1114.20, HWM $1238.00.
+  - **GS** 14 sh @ $1034.55, last $1023.00, **-1.12%** (-$161.70). 10% GTC trail LIVE, trigger $935.35, HWM $1039.28.
+- Deployment: ~31.0% ($31,300 mkt val) vs. 75-85% target — persistent under-investment, only 2 of 6 slots filled. Standout risk.
+
+### Market Context — RISK-ON HOLDS INTO THE RETURN; QUIET DATA WEEK BEFORE EARNINGS
+- **Futures:** S&P implied ~62% to open above the 7/3 record close; constructive but a thin post-holiday first session — don't chase the open.
+- **VIX ~17.7** — calm, no fear bid.
+- **Fed:** held 4.25-4.50% (June), signaled two cuts later in 2026; fed-funds futures ~60-65% for a **September cut**. Supportive backdrop.
+- **Oil soft:** WTI ~$68.6, Brent ~$71.9 — **OPEC+ approved an August output hike** and Strait-of-Hormuz exports recovering → disinflationary, energy stays watch-only (no momentum).
+- **Rotation intact:** money keeps flowing **out of tech/semis into industrials + financials** after the soft June jobs print (Dow led +1.14% Thu 7/2). Direct tailwind for both a CAT industrials add and our GS financials hold.
+- **Data week is light:** no CPI/PPI/FOMC. Wed 7/8 consumer credit + EIA crude; Thu 7/9 jobless claims. The real catalyst is **Q2 earnings season kicking off** — PepsiCo 7/9, banks (incl. GS) week of **7/14-15**.
+
+### Held-name news
+- **LLY** — no fresh catalyst since the 7/1 Medicare GLP-1 unlock; secular thesis intact, digesting the late-June breakout (+7.4% vs entry). RSI 67, **+2.2% under resistance ($1237.55)** — extended. Let the 10% trail bank it (auto-tightens to 7% at +15% unrealized; now +7.4%, close to the line). Do NOT chase.
+- **GS** — financials leadership + a dovish-Fed tailwind intact; px $1021 still **below EMA20 ($1040.57)**, no reclaim, above EMA50 (trend UP). **Q2 earnings 7/14** = forward binary ~1 week out that caps any add. Holding its $1,000 support with the $935.35 trail.
+
+### Trade Ideas (catalyst leads; TA refines) — NO substantive add pre-open; market-open is tape-gated
+1. **CAT (industrials) — RESET candidate, PRIMARY deployment path, tape-gated.** As-of 7/2: px **$963.60**, **below EMA20 ($971.66)** but **above EMA50 ($912.71)** = trend UP, no reclaim yet; RSI 51 (room), vol **1.4x (confirmed)**, +11.4% under resistance ($1073.46), support $855 (−11%). **NEW & material: CAT earnings are 8/4, NOT mid-July** — so an add here is *not* pre-event risk (unlike GS 7/14). Catalyst = the industrials-rotation money flow + a pullback-into-uptrend reset. **Buy ONLY if it reclaims and holds above the 20/50 EMA (~$972+) on ≥1.2x volume** — entry ~$965-978, 10% trail (~$870-880), target $1073 then blue-sky (modest R:R to resistance, breakout char beyond). Below $972 = keep waiting.
+2. **GS add — still REJECTED.** Financials tailwind + good R:R to resistance (+10.2%), BUT px still **below EMA20 ($1040.57)** (no reclaim) and **7/14 earnings** cap the runway. Re-eval on a clean EMA20 reclaim (~$1040); don't average pre-event.
+3. **JPM (financials) — WATCH, not yet.** Trend clean (px $334.26 > EMA20 $324.69 > EMA50 $315.83), RSI 63, but **jammed +2.7% under resistance ($343.31)** (<3% = poor R:R) and **banks report 7/14-15** = same pre-event cap as GS. Keep on the ranked bench as a 2nd leader if it clears $343 post-earnings.
+
+**Rejected sectors/names:** Semis (leadership broke ~−10% last week — trend/momentum veto). Energy (OPEC+ output hike, soft oil, no momentum — watch-only). LLY add (max-extension, far stop, poor R:R).
+
+### Thesis Depth (for educational alerts)
+- WHY this read: the two things that mattered last week both broke our way and, crucially, **didn't change the micro triggers**. The jobs print cleared soft (dovish → risk-on), and the sector tape kept rotating into exactly the two themes we're positioned/hunting in — industrials (CAT) and financials (GS). The one genuinely NEW fact today is a *timing* detail that tilts the deployment decision: **CAT reports Aug 4, not mid-July.** That matters because the single biggest reason to prefer CAT over a GS add is now even stronger — GS carries a 7/14 earnings binary that caps adding into it, while CAT gives me a clean ~4-week runway to let a reset play out *without* an event in the way. So the ranking is deliberate: CAT is the primary deployment path, GS/JPM are earnings-capped holds/watches. Why NOT just force the deployment gap closed on a 62%-green-open? Because "futures are up" is a backdrop, not a trigger — and a thin first-session-back tape is precisely where relief gaps fade. The gap closes when CAT *reclaims $972 on volume*, not when the S&P prints green.
+- Concept of the day — **"Know your event calendar before you size."** Two names, same sector-rotation tailwind, but one (GS) reports in ~8 days and the other (CAT) not for ~4 weeks. That single fact should change how willing you are to add: buying right before an earnings report means paying for a coin-flip you can't handicap — the stock can gap 8-10% either way on the print regardless of the chart. Good process checks the earnings date *before* deciding position size or whether to add at all. A clean chart with a binary 8 days out is a *hold*, not an *add*; the same chart with a month of clear runway is where you put fresh capital.
+
+### Risk Factors
+- **Thin post-holiday first session (Mon 7/6)** — can gap on light liquidity then fade; wait for the reclaim + volume, don't chase the open.
+- **Relief-fade risk** — a soft-jobs pop into record highs can mean-revert; "good news already priced" is a live pullback vector into a quiet data week.
+- **GS earnings 7/14** — forward binary on our 2nd-largest position; caps any GS add and is a week-out event to respect.
+- **Persistent under-deployment (~31% vs 75-85%)** — the standout risk; the deployment-pace guardrail says don't sit <50% for >2 sessions without a logged tape reason. Logged reason: no name has *triggered* yet (CAT below its reclaim line, GS/JPM earnings-capped). Close it on the CAT reclaim, not by forcing size.
+- **Higher-volatility regime flagged** (new Fed chair curbing forward guidance) — data reactions may be sharper; keep stops honest.
+
+### Decision
+**HOLD / WATCH** (pre-market is research-only). Market-open plan, tape-gated: **default HOLD**; the one conditional buy is **CAT IF it reclaims and holds above the 20/50 EMA (~$972+) on ≥1.2x volume** — entry ~$965-978, 10% trail (~$870-880), target $1073 (CAT earnings 8/4 = clean runway, NOT pre-event risk). Do NOT add LLY (extended, +2.2% to resistance — let the trail work). GS add only on a clean EMA20 reclaim (~$1040), mindful of 7/14 earnings; let it hold $1,000 with the $935.35 trail, cut on a decisive break. JPM on the bench (earnings-capped, jammed under resistance). Keep 2 remaining weekly slots + dry powder. Stops live on both (LLY $1114.20, GS $935.35). Trades this week: 0/3 (new week reset). Positions 2/6.
