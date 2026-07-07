@@ -501,3 +501,45 @@ HOLD on this run (patience > activity; pre-market is research). QUEUE for market
 
 ### Decision
 **HOLD / WATCH** (pre-market is research-only). Market-open plan, tape-gated: **default HOLD**; the one conditional buy is **CAT IF it reclaims and holds above the 20/50 EMA (~$972+) on ≥1.2x volume** — entry ~$965-978, 10% trail (~$870-880), target $1073 (CAT earnings 8/4 = clean runway, NOT pre-event risk). Do NOT add LLY (extended, +2.2% to resistance — let the trail work). GS add only on a clean EMA20 reclaim (~$1040), mindful of 7/14 earnings; let it hold $1,000 with the $935.35 trail, cut on a decisive break. JPM on the bench (earnings-capped, jammed under resistance). Keep 2 remaining weekly slots + dry powder. Stops live on both (LLY $1114.20, GS $935.35). Trades this week: 0/3 (new week reset). Positions 2/6.
+
+## 2026-07-07 — Pre-market Research (Day 15, Tuesday)
+
+> Perplexity key absent — used native WebSearch (noted). Live account pulled pre-open; TA is deterministic from scripts/ta.py. Both trailing stops remain LIVE and GTC. Research/planning pass — substantive call is HOLD/WATCH; the one conditional add (CAT) stays tape-gated at market-open and has NOT yet triggered.
+
+### Account (live, pre-open)
+- Equity: **$101,614.67** (fresh phase high) | Cash: $69,708.67 (68.6%) | Buying power: $368,171 (4x) | Daytrade count: 0 | PDT: false
+- Positions (2/6):
+  - **LLY** 14 sh @ $1129.12, last $1219, **+7.96%** (+$1,258.39). 10% GTC trail LIVE, trigger $1114.20, HWM $1238.00.
+  - **GS** 14 sh @ $1034.55, last $1060, **+2.46%** (+$356.30). 10% GTC trail LIVE, trigger $949.66, HWM $1055.18.
+- Deployment: ~31.4% ($31,906 mkt val) vs. 75-85% target — persistent under-investment, only 2 of 6 slots filled. **Standout risk, now stale (~2+ weeks).**
+
+### Market Context — CALM RISK-ON, LIGHT WEEK; TECHNICALS/OIL LEAD
+- **S&P futures ~7,498.70, +0.21%** — modest green, near record; constructive but no fresh driver. Don't chase.
+- **VIX ~17.7** — calm, no fear bid.
+- **Oil soft:** WTI ~$69.1 (+0.6%), Brent ~$72 — OPEC+ August output hike + recovering exports = disinflationary; energy stays watch-only (no momentum).
+- **Rotation:** money still rotating OUT of tech/semis (semis −3% last week) into other areas; **small caps had best H1 since 1991**. Industrials + financials leadership intact = tailwind for a CAT add and the GS hold.
+- **Light data/earnings week:** no CPI/PPI/FOMC. Near-term driven by technicals, oil, yields, Mideast headlines. Consumer-demand reads Thu 7/9 **PepsiCo**, Fri 7/10 **Delta**; the real catalyst is bank earnings week of **7/14-15** (incl. **GS 7/14**).
+
+### Held-name reads (TA from ta.py)
+- **LLY** — px $1201, trend strongly UP (px > EMA20 $1149.77 > EMA50 $1088.97), RSI 65 (room), vol 0.7x light, **+3.0% under resistance ($1237.55)** — extended, digesting the late-June breakout. Let the 10% trail bank it (auto-tightens to 7% at +15% unrealized; now +7.96%, near the line). Do NOT chase.
+- **GS** — px $1055, trend UP, **holding its EMA20 reclaim** (px > EMA20 $1041.93 > EMA50 $1008.19), RSI 55 (room), vol 0.8x, +6.6% under resistance ($1124.55). Reclaim thesis working (+2.46% vs entry). **Q2 earnings 7/14** = forward binary ~1 week out that CAPS any add. $949.66 trail is protection.
+
+### Trade Ideas (catalyst leads; TA refines) — NO substantive add pre-open; market-open tape-gated
+1. **CAT (industrials) — PRIMARY deployment path, STILL tape-gated, NOT triggered.** px **$969.52**, **still below EMA20 ($971.45)** but above EMA50 ($915.02) = trend UP, **no reclaim**; RSI 52 (room), **vol 0.8x (light — no confirmation)**, +10.7% under resistance ($1073.46), support $855 (−13%). Earnings **8/4** = clean ~4-week runway, NOT pre-event risk. **Buy ONLY on a confirmed hold above the 20/50 EMA (~$972+) on ≥1.2x volume** — entry ~$972-980, 10% trail (~$875-882), target $1073 (R:R ~1:1 to resistance, breakout char beyond). Below $972 on light volume = keep waiting (5th straight session below its reclaim line).
+2. **GS add — REJECTED (earnings-capped).** Reclaim now confirmed + financials tailwind + +6.6% R:R to resistance, BUT **7/14 earnings** cap adding into a binary. Re-eval post-print; don't average pre-event.
+3. **JPM (financials) — WATCH, jammed.** Trend clean (px $337.81 > EMA20 $325.94 > EMA50 $316.67), RSI 65, but **jammed +1.6% under resistance ($343.31)** (<3% = poor R:R) and **banks report 7/14-15** = same pre-event cap. Bench as a 2nd leader if it clears $343 post-earnings.
+
+**Rejected sectors/names:** Semis (leadership broke, rotation out continues — trend/momentum veto). Energy (OPEC+ hike, soft oil, no momentum — watch-only). LLY add (max-extension, far stop, poor R:R).
+
+### Thesis Depth (for educational alerts)
+- WHY this read: nothing in the macro tape changed the micro triggers — futures flat-green, VIX calm, a light week where technicals lead. The rotation that matters (out of semis, into industrials/financials/small-caps) still favors exactly the two themes I'm positioned/hunting in. But the deployment gap is now the honest problem: I've been ~31% invested for 2+ weeks waiting on ONE name (CAT) to reclaim its 20 EMA, and it's failed to for 5 straight sessions on light volume. The guardrail lets me sit <50% only with a *logged tape reason* — the reason (CAT below its line, GS/JPM earnings-capped) still holds, but a single stalled chart shouldn't freeze the book. So the correction isn't to force CAT — it's to **widen the bench**: if CAT doesn't clear $972 on volume this week, I need a 3rd-4th confirmed leader (industrials/financials/small-cap-adjacent) rather than keep waiting on one name. Why NOT add today on a green open? Because +0.21% futures is a backdrop, not a trigger, and CAT is *still below its reclaim line on light volume* — buying it here is buying a chart that hasn't confirmed.
+- Concept of the day — **"Don't let one chart hold your whole book hostage."** Discipline (wait for the trigger) and stagnation (wait forever on one name) look identical for a while, then diverge. The fix isn't to lower the bar for CAT — it's to widen the search so a single stalled setup can't be the *only* path to getting invested. A ranked watchlist of 3-4 confirmed leaders is what turns "patient" from an excuse into a plan.
+
+### Risk Factors
+- **Under-deployment is now the top risk (~31% for 2+ weeks)** — an implicit market-direction bet against a rising tape. Logged reason holds (no name triggered), but if CAT doesn't clear $972 on volume this week, widen the bench rather than keep sitting.
+- **GS earnings 7/14** — forward binary on the 2nd-largest position; caps any GS add, week-out event to respect.
+- **Relief-fade / narrow-leadership risk** — record highs on a light week with narrow (AI/energy) breadth; a soft session can mean-revert. Keep stops honest.
+- **Higher-volatility regime flagged** (new Fed chair curbing forward guidance) — data reactions may be sharper.
+
+### Decision
+**HOLD / WATCH** (pre-market is research-only). Market-open plan, tape-gated: **default HOLD**; the one conditional buy is **CAT IF it reclaims and holds above the 20/50 EMA (~$972+) on ≥1.2x volume** — entry ~$972-980, 10% trail (~$875-882), target $1073 (CAT earnings 8/4 = clean runway). Do NOT add LLY (extended, +3% to resistance — let the trail work). GS add REJECTED (earnings 7/14). JPM benched (jammed under resistance, earnings-capped). **If CAT fails to trigger again this week, widen the bench to a 3rd-4th confirmed leader** rather than keep sitting <50% deployed. Stops live on both (LLY $1114.20, GS $949.66). Trades this week: 0/3. Positions 2/6.
