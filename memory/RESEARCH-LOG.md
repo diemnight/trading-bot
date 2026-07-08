@@ -543,3 +543,47 @@ HOLD on this run (patience > activity; pre-market is research). QUEUE for market
 
 ### Decision
 **HOLD / WATCH** (pre-market is research-only). Market-open plan, tape-gated: **default HOLD**; the one conditional buy is **CAT IF it reclaims and holds above the 20/50 EMA (~$972+) on ≥1.2x volume** — entry ~$972-980, 10% trail (~$875-882), target $1073 (CAT earnings 8/4 = clean runway). Do NOT add LLY (extended, +3% to resistance — let the trail work). GS add REJECTED (earnings 7/14). JPM benched (jammed under resistance, earnings-capped). **If CAT fails to trigger again this week, widen the bench to a 3rd-4th confirmed leader** rather than keep sitting <50% deployed. Stops live on both (LLY $1114.20, GS $949.66). Trades this week: 0/3. Positions 2/6.
+
+## 2026-07-08 — Pre-market Research (Day 16, Wednesday)
+
+> Perplexity key absent — used native WebSearch (noted). Live account pulled pre-open; TA is deterministic from scripts/ta.py. Both trailing stops remain LIVE and GTC. Research/planning pass — substantive call is **HOLD**: an active Mideast escalation + FOMC minutes today = a live binary tape; no clean confirmed entry (CAT broke DOWN below its reclaim line — primary path invalidated).
+
+### Account (live, pre-open)
+- Equity: **$101,268.73** | Cash: $69,708.67 (68.8%) | Buying power: $367,203 (4x) | Daytrade count: 0 | PDT: false
+- Positions (2/6):
+  - **LLY** 14 sh @ $1129.12, last $1229.76, **+8.91%** (+$1,409.03). 10% GTC trail LIVE, trigger $1124.51, HWM $1249.45.
+  - **GS** 14 sh @ $1034.55, last $1024.53, **-0.97%** (-$140.28). 10% GTC trail LIVE, trigger $949.66, HWM $1055.18.
+- Deployment: ~31.2% ($31,560 mkt val) vs. 75-85% target — persistent under-investment, only 2 of 6 slots filled. Stale ~2.5 weeks, but today carries a fresh logged tape reason (see Risks).
+
+### Market Context — GEOPOLITICAL RISK-OFF TILT, OIL SPIKING; FOMC MINUTES TODAY
+- **Iran ceasefire declared OVER** — US ran a "series of powerful strikes" on Iran after attacks on 3 vessels in the Strait of Hormuz; Treasury revoked Iran's oil-export license; IRGC says it hit US targets in Bahrain/Kuwait. Hormuz supply risk is back. This is the day's dominant driver.
+- **Oil surging:** WTI ~$72-74.5 (+~4-6%), Brent ~$77-78.5 (+~5-6%) on the Hormuz/supply-license news. Reverses the OPEC+/soft-oil disinflation read that held all last week.
+- **Equity futures only modestly red:** S&P -0.1%, Dow -0.3%, Nasdaq -0.2% — a cautious risk-off tilt, NOT a rout. Market is weighing geopolitics vs. the Fed.
+- **VIX ~17.5** — still calm despite the headlines; no fear bid yet (watch for a spike if escalation continues).
+- **FOMC MINUTES today (Wed 7/8)** — the week's macro event; Fed held 3.50-3.75% in June; minutes parsed for the next-move lean. A second binary layered on the geopolitics.
+- **Earnings ahead:** PEP Thu 7/9 (consumer demand read), DAL Fri 7/10 (travel). Real catalyst is bank earnings wk of 7/14-15 (incl. **GS 7/14**).
+
+### Held-name reads (TA from ta.py)
+- **LLY** — px $1235.26, trend strongly UP (px > EMA20 $1157.91 > EMA50 $1094.74), RSI 69 (neutral), vol 1.1x (normal), **+1.1% under resistance ($1248.53)** — MAX extended, jammed right under resistance. Defensive/quality — a relative-strength beneficiary if risk-off deepens. Let the 10% trail bank it (auto-tightens to 7% at +15%; now +8.91%). Do NOT chase into resistance.
+- **GS** — px $1041.77, trend UP but **slipped back onto/just below its EMA20** (EMA20 $1041.92) while holding the 50 EMA ($1009.50), RSI 51 (room), vol 0.6x (light), +7.9% under resistance ($1124.55). Reclaim is wobbling (now -0.97% vs entry, normal noise). **Q2 earnings 7/14** = forward binary ~1 wk out that CAPS any add. $949.66 trail is protection; give it room around its EMA20 / $1000 support.
+
+### Trade Ideas (catalyst leads; TA refines) — NO add pre-open; HOLD into the binary tape
+1. **CAT (industrials) — OFF THE TABLE (reclaim thesis INVALIDATED).** px **$940.08**, now **~3% BELOW its EMA20 ($968.46)** — moved AWAY from the reclaim line, not toward it, on 1.2x volume (that's DOWNSIDE confirmation). RSI 48, above EMA50 ($916.07) so longer trend still up, but the tape-gated entry (hold above ~$972 on volume) is further out of reach and cyclicals face oil/geopolitics pressure. Re-arm only if it rebuilds and holds above $968-972 on ≥1.2x volume. No trade.
+2. **JPM (financials) — WATCH, jammed + earnings-capped.** Trend clean (px $338.93 > EMA20 $327.18 > EMA50 $317.53), RSI 66, but **jammed +1.3% under resistance ($343.31)** (<3% = poor R:R, skip per rules) and **banks report 7/14-15** = pre-event cap. Bench; revisit if it clears $343 post-earnings.
+3. **Energy (XOM/CVX) — the tempting oil-spike play, deliberately AVOIDED.** The Hormuz spike is real but headline-driven: it reverses on any de-escalation and there's no durable, pre-existing energy momentum (oil was soft/disinflationary all last week on OPEC+). Chasing a geopolitical gap is exactly the entry the rulebook says to avoid. Watch-only.
+
+**Rejected/avoided:** Semis (rotation-out, trend broke). LLY add (max-extension, jammed at resistance, poor R:R). GS add (7/14 earnings). Chasing the oil spike (headline-driven, reversal-prone).
+
+### Thesis Depth (for educational alerts)
+- WHY HOLD today: the tape flipped from last week's calm risk-on to a two-binary day — a live Mideast escalation (oil +~5%, Hormuz risk) layered on FOMC minutes this afternoon. Nothing in that makes a NEW buy safer; it makes waiting cheaper. My primary deployment path (CAT reclaim) didn't just stall — it broke DOWN ~3% below its line on real volume, so forcing it now would be buying weakness into geopolitical risk. The one theme with fresh momentum (energy) is a headline spike I'm structurally told not to chase. So the honest move is HOLD: let LLY (defensive quality) do its job as the anchor that actually benefits if risk-off deepens, give GS room around its EMA20 ahead of its 7/14 print, and keep dry powder for a confirmed leader once the geopolitical/Fed picture clears. Why NOT deploy just to close the gap? Because the deployment guardrail explicitly exempts "a known binary event ahead" — and today there are two.
+- Concept of the day — **Flight to quality (why defensives out-hold cyclicals in risk-off).** When geopolitical risk spikes, money rotates from economically-sensitive names (industrials like CAT, cyclicals) toward defensive/quality (healthcare like LLY, staples, cash, Treasuries) whose earnings don't depend on the business cycle. That's exactly why our extended LLY is holding near its highs while CAT slips — same tape, opposite reactions. It's also why chasing the oil spike is a different bet entirely: you'd be buying the *cause* of the risk-off, betting the conflict escalates further, not the durable trend. Anchor > chase.
+
+### Risk Factors
+- **Mideast escalation (Hormuz) — the day's live binary.** Oil +~5%, Treasury revoked Iran's export license, tit-for-tat strikes. De-escalation reverses oil/energy fast; further escalation spikes VIX and pressures cyclicals. Keep stops honest; do NOT add into it.
+- **FOMC minutes today** — a second binary; a hawkish parse could hit rate-sensitive/growth names into an already-jittery tape.
+- **Under-deployment (~31% for 2.5 wks)** — still the standing structural risk, BUT today's logged tape reason (two binary events ahead) legitimately justifies sitting <50% per the guardrail's own exemption. Once the geo/Fed picture clears, widen the bench (CAT is out) rather than keep waiting on one name.
+- **GS earnings 7/14** — forward binary on the 2nd position; caps any GS add.
+- **LLY jammed at resistance** — +1.1% under $1248.53; near-term chop/pullback risk if it can't clear. Trail protects.
+
+### Decision
+**HOLD** (pre-market is research-only; today the market-open call is also default HOLD). No new entry into a two-binary tape (Mideast escalation + FOMC minutes). CAT reclaim path is INVALIDATED (broke ~3% below its EMA20 on volume) — off the table until it rebuilds above $968-972 on ≥1.2x volume. Do NOT add LLY (max-extended, jammed at resistance) or GS (7/14 earnings). JPM benched (jammed, earnings-capped). Do NOT chase the oil/energy spike (headline-driven). Let LLY's trail bank its run; give GS room around its EMA20 / $1000 support with the $949.66 trail as the line. Stops live on both (LLY $1124.51, GS $949.66). Trades this week: 0/3. Positions 2/6. Deployment ~31.2%. Next: reassess post-FOMC-minutes and as the Mideast picture clears; widen the bench beyond CAT.
