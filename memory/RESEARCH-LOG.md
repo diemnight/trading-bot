@@ -587,3 +587,47 @@ HOLD on this run (patience > activity; pre-market is research). QUEUE for market
 
 ### Decision
 **HOLD** (pre-market is research-only; today the market-open call is also default HOLD). No new entry into a two-binary tape (Mideast escalation + FOMC minutes). CAT reclaim path is INVALIDATED (broke ~3% below its EMA20 on volume) — off the table until it rebuilds above $968-972 on ≥1.2x volume. Do NOT add LLY (max-extended, jammed at resistance) or GS (7/14 earnings). JPM benched (jammed, earnings-capped). Do NOT chase the oil/energy spike (headline-driven). Let LLY's trail bank its run; give GS room around its EMA20 / $1000 support with the $949.66 trail as the line. Stops live on both (LLY $1124.51, GS $949.66). Trades this week: 0/3. Positions 2/6. Deployment ~31.2%. Next: reassess post-FOMC-minutes and as the Mideast picture clears; widen the bench beyond CAT.
+
+## 2026-07-09 — Pre-market Research (Day 17, Thursday)
+
+> Perplexity key absent — used native WebSearch (noted). Live account pulled pre-open; TA deterministic from scripts/ta.py. Both trailing stops LIVE + GTC. Research/planning pass — substantive call is **HOLD**: FOMC minutes today + still-live (though stabilizing) Mideast tape; no clean confirmed fresh entry (CAT still below its reclaim line, JPM earnings-capped).
+
+### Account (live, pre-open)
+- Equity: **$101,145.67** | Cash: $69,708.67 (68.9%) | Buying power: $366,858 (4x) | Daytrade count: 0 | PDT: false
+- Positions (2/6):
+  - **LLY** 14 sh @ $1129.12, last $1211.50, **+7.30%** (+$1,153.39). 10% GTC trail LIVE, trigger $1124.51, HWM $1249.45.
+  - **GS** 14 sh @ $1034.55, last $1028.74, **-0.05%** (-$7.70). 10% GTC trail LIVE, trigger $949.66, HWM $1055.18.
+- Deployment: ~31.1% ($31,437 mkt val) vs. 75-85% target — persistent under-investment, only 2/6 slots filled. Stale ~2.5 weeks; today carries a fresh logged tape reason (FOMC minutes + geopolitics).
+
+### Market Context — GEOPOLITICS STABILIZING, EQUITIES RESILIENT; FOMC MINUTES + YIELDS LEAD
+- **Mideast escalation ongoing but equities RESISTING.** 2nd day of US strikes on Iran; Hormuz shipping near standstill — but markets are NOT yet pricing prolonged supply disruption. Futures flipped from red (7/8) to **modestly GREEN: S&P +0.3%, Nasdaq +0.6%**. "Wall Street resists oil pressure" (XTB). Risk-off is stabilizing, not deepening.
+- **Oil up but decelerating:** Brent ~$79 (+~1%, 3rd daily gain but slowing from +5% Wed), WTI ~$72-74. Supply-fear premium, headline-driven — reverses on de-escalation.
+- **VIX ~17** — calm; no fear bid despite headlines.
+- **FOMC MINUTES today (Thu 7/9)** = the week's macro catalyst. Markets repricing inflation risk after the Iran oil-waiver revocation — modestly higher odds of Sep/Oct Fed hikes. **10yr yield ~4.58% (4-week high)**, 1yr inflation expectations 3.7% = the real pressure on rate-sensitive/growth names.
+- **Earnings:** **PEP reported BMO today** (Q2 est $2.21 EPS / $23.96B rev; sentiment weak, targets cut into print) — consumer-demand read. DAL Fri 7/10 (travel). Real catalyst = bank earnings wk of **7/14-15 (incl. GS 7/14)**.
+- **Sector momentum (as of 6/30):** **Industrials = #1 relative strength** among large caps (AI-infra/electricity/defense/construction capex), Staples/Materials/Energy also leading. **Financials LAGGING quadrant** YTD. Tech led Q2 gains but rotation is toward cyclicals/defensives.
+
+### Held-name reads (TA from ta.py)
+- **LLY** — px $1216.24, trend strongly UP (px > EMA20 $1163.47 > EMA50 $1099.57), RSI 64 (room), vol 0.8x light, **+2.7% under resistance ($1248.53)** — max-extended, digesting the late-June breakout. Defensive/quality = relative-strength beneficiary if risk-off re-deepens. Let the 10% trail bank it (auto-tightens to 7% at +15%; now +7.30%). Do NOT chase into resistance.
+- **GS** — px $1028.74, **below its EMA20 ($1040.66)** but holding above EMA50 ($1010.28, trend UP), RSI 48 (room), vol 0.7x light, +2.9% above $1000.08 support, +9.3% to resistance. Reclaim wobbling (~flat vs entry). **Q2 earnings 7/14** = forward binary ~3 sessions out that CAPS any add. $949.66 trail is the line; give room around EMA20 / $1000.
+
+### Trade Ideas (catalyst leads; TA refines) — NO add pre-open; HOLD into FOMC/geo tape
+1. **CAT (industrials) — OFF THE TABLE (no reclaim).** px **$947.62**, still **~2% below EMA20 ($966.48)**; above EMA50 ($917.39) so longer trend UP, RSI 49, vol 0.9x normal. Rebuilding slightly toward its line (was $940 Wed) but NO confirmed reclaim. Industrials is the momentum sector — CAT is the natural expression, but the tape-gate holds. **Buy ONLY on a confirmed hold above the 20 EMA (~$967-972) on ≥1.2x volume** — entry ~$970-980, 10% trail (~$873-882), target $1073. Earnings 8/4 = clean runway. Below its line = keep waiting (8th straight session).
+2. **JPM (financials) — WATCH, cleaner but earnings-capped.** Now trades ABOVE both EMAs (px $330.52 > EMA20 $327.50 > EMA50 $318.03), RSI 56 (healthy), vol 0.9x, and has backed out of the jam zone (**+3.9% under resistance $343.31**, R:R usable). BUT **banks report 7/14-15** = pre-event cap, and financials are the LAGGING momentum sector. Bench; revisit post-earnings if it clears $343 with momentum confirmation.
+3. **Widen-the-bench mandate stands.** Industrials leads relative strength — hunt a confirmed industrials leader (above 50 EMA on ≥1.2x volume, not earnings-capped, not jammed <3% under resistance) to break the one-name (CAT) dependency. None triggered clean today into the FOMC/geo tape.
+
+**Rejected/avoided:** Energy/oil-spike (headline-driven, reversal-prone, no durable momentum — chasing the cause of the risk-off). Semis (rotation-out). LLY add (max-extended, jammed at resistance, poor R:R). GS add (7/14 earnings). CAT (below reclaim line). JPM (earnings-capped + lagging sector).
+
+### Thesis Depth (for educational alerts)
+- WHY HOLD today: the tape is actually IMPROVING at the margin — futures flipped green and Wall Street is "resisting" the oil/geopolitics pressure, which is constructive. But two things still argue for patience over a fresh buy: (1) FOMC minutes drop this afternoon into a market that's actively repricing inflation/rate-hike odds (10yr at a 4-week high) — that's a live binary that can whip rate-sensitive names; (2) my only real deployment candidates are still blocked — CAT hasn't reclaimed its line (8 sessions now), and the cleaner chart (JPM) reports earnings in 3 sessions AND sits in the lagging sector. The honest tension: I've been ~31% deployed for 2.5 weeks and the guardrail says don't sit <50% without a logged reason. Today the reason (FOMC binary this afternoon) holds — but it's the LAST easy pass. Once FOMC clears and bank earnings (7/14-15) are behind us, the mandate is to WIDEN THE BENCH into the industrials momentum leader rather than keep waiting on CAT. Why NOT buy the green open? +0.3% futures is a backdrop, not a trigger, and every specific name I'd buy is either unconfirmed (CAT) or pre-event (JPM/GS).
+- Concept of the day — **A green tape is a backdrop, not a signal; the trigger lives in the individual chart.** It's tempting to read "futures up, Wall Street shrugging off Iran" as a buy cue. But index-level calm doesn't tell you WHICH name to buy or WHERE your stop goes — that comes from the specific setup (catalyst + reclaim on volume + a stop level with 2:1 R:R). CAT can stay below its 20 EMA on a day the S&P is green; the index being up doesn't reclaim CAT's line for it. Trade the chart in front of you, not the mood of the tape.
+
+### Risk Factors
+- **FOMC minutes today** — the live binary; a hawkish parse into a 4-week-high 10yr yield + 3.7% inflation expectations could hit rate-sensitive/growth names. Keep stops honest; no adds before the print.
+- **Mideast (Hormuz) — stabilizing but not resolved.** Equities resisting for now, but a supply-disruption escalation reverses the calm fast (oil, VIX). De-escalation also reverses the oil trade — either way, don't chase energy.
+- **Under-deployment (~31%, 2.5 wks)** — the standing structural risk; today's FOMC binary is a legit logged reason to sit <50%, but it's the last easy one. Widen the bench into industrials once FOMC/bank-earnings clear.
+- **GS earnings 7/14** — forward binary on the 2nd position; caps any GS add.
+- **LLY jammed at resistance** — +2.7% under $1248.53; near-term chop risk if it can't clear. Trail protects.
+
+### Decision
+**HOLD** (pre-market is research-only; market-open call is also default HOLD). No new entry into a FOMC-minutes + live-geopolitics tape. CAT stays OFF the table until it reclaims + holds above ~$967-972 on ≥1.2x volume (8th session below its line). Do NOT add LLY (max-extended, jammed at resistance) or GS (7/14 earnings). JPM benched (cleaner chart but earnings-capped + lagging sector). Do NOT chase the oil/energy spike. Let LLY's trail bank its run; give GS room around its EMA20 / $1000 support with the $949.66 trail as the line. Stops live on both (LLY $1124.51, GS $949.66). Trades this week: 0/3. Positions 2/6. Deployment ~31.1%. Next: reassess post-FOMC-minutes; widen the bench into the industrials momentum leader once FOMC + bank earnings (7/14-15) clear.
