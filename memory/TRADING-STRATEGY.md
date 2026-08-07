@@ -37,6 +37,28 @@ Guardrails to force the fix WITHOUT abandoning patience:
   confirm (catalyst + above 50 EMA on volume). Pace the deployment; never force a
   bad entry to hit a number.
 
+## Deployment Escalation Ladder (added 2026-08-07, after the 7/3 floor failed badly)
+The 7/3 soft floor did NOT hold: wk ending 8/7 sat 0% deployed for all 5 sessions and
+finished FLAT while the S&P set record highs (+3.6%) — the worst relative week yet and
+the 3rd straight repeat of the same under-deployment flaw. Root cause: a too-narrow
+watchlist (same 3 names coiling under one resistance) plus a qualitative "logged tape
+reason" escape hatch that was re-used as a fresh excuse every single day. Fix — the
+excuse now has to escalate, and the search has to widen, on a hard clock:
+- A "no-deploy" reason is only valid for ONE session if it names a DATED, resolving
+  binary (a scheduled print/earnings you have no edge on). It expires when that event
+  resolves — it cannot be re-quoted the next day. "Leaders haven't confirmed" is NOT a
+  dated binary and does not license a second consecutive sub-50% session by itself.
+- After 2 consecutive sessions below 50% deployed with no dated binary pending, the
+  pre-market MUST screen a BROAD universe (sector leaders / top relative-strength names
+  market-wide), not re-quote the same stalled tickers. Log the widened screen.
+- By the 3rd such session, EITHER take a starter (half-size ok) into the single best
+  confirmed leader found market-wide (catalyst + >50 EMA on ≥1.2x volume), OR log a
+  concrete, market-wide reason no confirmed leader exists. If the index is at/near
+  record highs, the default assumption is the watchlist is too narrow, not that the
+  market has no leaders — widen before concluding "nothing qualifies."
+- Still inviolable: every entry must clear the checklist + trend/volume gate. This ladder
+  forces a WIDER search and a faster clock, never a worse fill. Pace, don't force.
+
 ## Entry Checklist
 - Specific catalyst?
 - Sector in momentum?

@@ -39,6 +39,56 @@ Template for each entry:
 
 ### Overall Grade: X
 
+## Week ending 2026-08-07
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $99,971.26 (Mon 8/3 AM equity) |
+| Ending portfolio | $99,971.26 |
+| Week return | $0.00 (0.00%) |
+| S&P 500 week | ~+3.6% (record close 7,757.64; soft-jobs risk-on) |
+| Bot vs S&P | -3.6% |
+| Trades | 0 (W:0 / L:0 / open:0); 0 positions held (0/6) |
+| Win rate | n/a (0 closed) |
+| Best trade | n/a (0 trades) |
+| Worst trade | n/a (0 trades) |
+| Profit factor | n/a (0 closed) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| — | — | — | — | No trades this week — 100% cash all 5 sessions |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+| — | — | — | — | None — 0/6 positions, ~0% deployed |
+
+### What Worked
+- Nominal rule-compliance held: never chased a light-volume tag into resistance, never pre-positioned blind into the NFP binary, never bought a name into its own print. No capital lost, no bad entry forced.
+- Correctly refused to gap-bet into Friday's 8:30 NFP — the print was a genuine 2-way coin-flip we had no edge on; sitting out the blind gap was legitimate for that ONE session.
+- Process discipline on the entry gates themselves was clean — each candidate (V, MSFT, JPM) genuinely failed its ≥1.2x-volume / breakout gate every day; no gate was fudged.
+
+### What Didn't Work
+- THE story, worse than ever: 0% deployed for ALL 5 sessions while the S&P rose ~+3.6% to RECORD highs — the largest relative miss of the challenge (-3.6% vs index). Being 100% cash into a broad, record-setting risk-on rally was a full-size implicit short on the tape, and it cost accordingly.
+- Third straight week of the SAME under-deployment flaw (wk1 shield / wk2 -2% / now wk3 -3.6%) — the trajectory is worsening, not fixing. The 7/3 deployment-floor guardrail failed completely: we blew through "don't sit below 50% for >2 consecutive sessions" by 5 sessions to zero.
+- The watchlist was too narrow (V / MSFT / JPM only), all coiling under the same resistance — so no gate cleared and the default was always "wait one more day." When the index is making records, SOMETHING is confirming; the failure was a too-small bench, not a genuine absence of leaders.
+- The qualitative escape hatch ("logged tape reason") was abused: "NFP-eve" and "leaders failed gates" were re-used as a fresh excuse every single day, converting a one-day binary-avoidance license into a full week of paralysis.
+- Continuity gap persists: the prior LLY/GS book was exited sometime in the unlogged Jul 8–Aug 3 stretch (daily-summary routine evidently didn't run/commit) — flag to verify the cloud schedule.
+
+### Key Lessons
+- "Patience" and "chronic under-deployment" produce identical P&L until the tape rips — and this week it ripped. A correct HOLD requires a specific, dated, resolving reason (a scheduled binary); an open-ended "leaders haven't confirmed" that repeats for 5 sessions is paralysis wearing a patience costume.
+- If the S&P prints record highs on the week and you found zero confirmed leaders, the watchlist is broken, not the market. The fix for a stalled book is a WIDER screen, never a forced entry — but "wider screen" has to be a mandatory action, not advice, or it gets skipped.
+- The NFP license is a one-day pass, not a week-long one. It resolved at 8:30 Friday; sitting through it was defensible, sitting the four days before it on the same excuse was not.
+
+### Adjustments for Next Week
+- STRATEGY CHANGE (see TRADING-STRATEGY.md, added 2026-08-07): converted the soft deployment-floor into a hard escalation ladder — the qualitative "logged tape reason" escape hatch that got abused is now capped. After 2 consecutive sub-50% sessions with no dated binary pending, the pre-market MUST screen a broad universe (not re-quote the same stalled names); by the 3rd such session, take a starter into the single best confirmed leader market-wide or log a concrete market-wide reason none exists.
+- Mon 8/11: NFP binary is CLEARED — the license to sit is fully spent. Widen the screen beyond V/MSFT/JPM to the actual post-print leaders (tech/AI led premarket: SMH, semis). Buy the FIRST clean confirmed name (>50 EMA, ≥1.2x volume) — do not re-quote the same three coils a 6th time.
+- Keep every entry gate intact (catalyst + >50 EMA on volume) — pace the deployment, never force a bad fill to hit a number. The change forces a wider search, not a worse entry.
+- Target ~50%+ deployed by mid-week, ~75% by Friday, using 2-3 of the 3 weekly slots.
+
+### Overall Grade: D
+*Nominal gate-discipline held and no capital was lost, but the outcome was the worst relative week of the challenge — flat while the index set records (-3.6%) — and the cause was a KNOWN, now-THREE-times-repeated, self-inflicted flaw that a prior rule change failed to fix. When the same mistake compounds across weeks and a guardrail proves toothless, the grade has to reflect the result, not the intentions. Rule strengthened this week to force the fix.*
+
 ## Week ending 2026-07-03
 
 ### Stats
