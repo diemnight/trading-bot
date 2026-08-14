@@ -39,6 +39,57 @@ Template for each entry:
 
 ### Overall Grade: X
 
+## Week ending 2026-08-14
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $99,971.26 (Mon 8/10 AM ≈ prior-wk end) |
+| Ending portfolio | $99,632.13 |
+| Week return | -$339.13 (-0.34%) |
+| S&P 500 week | ~+0.4% (3rd straight up week; record 7,798.99 close Thu, soft sentiment faded Fri) |
+| Bot vs S&P | -0.74% |
+| Trades | 2 (W:0 / L:0 / open:2); 2 positions held (2/6) |
+| Win rate | n/a (0 closed) |
+| Best trade | NVDA -0.89% (open, unrealized) |
+| Worst trade | MSFT -2.61% (open, unrealized) |
+| Profit factor | n/a (0 closed) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| — | — | — | — | No closed trades this week |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+| MSFT | $508.53 | $495.24 | -$252.48 (-2.61%) | $462.36 (10% GTC trail, HWM $513.73) |
+| NVDA | $226.97 | $224.96 | -$88.44 (-0.89%) | $204.74 (10% GTC trail, HWM $227.49) |
+
+### What Worked
+- BROKE THE PARALYSIS. After 6 straight all-cash sessions (the flaw that cost us the record-setting prior week), the escalation ladder did its job: MSFT bought Mon 8/10 on a clean ATH break, NVDA bought Thu 8/13 on its $225.10 breakout post-PPI. First real deployment of the phase — the single thing every prior review demanded finally happened.
+- Both entries were gate-compliant, not forced: each was the ONLY documented catalyst name to clear its trigger into open air on its day (MSFT vs a 12-name market-wide screen; NVDA vs JPM/V still coiled). Widened the bench beyond the stale V/MSFT/JPM trio — the exact fix the ladder mandated.
+- Correct discipline around the two binaries: half-sized MSFT into CPI-Wed, did NOT pre-position into the 8:30 CPI print, and forced no entry into the red CPI-reaction tape when nothing cleared. Risk paced, not dumped.
+- Every trail is live and correct — MSFT $462.36, NVDA $204.74, both GTC, both well outside the 3% floor, HWMs ratcheting. No stop moved down, no rule bent.
+
+### What Didn't Work
+- Still lagged the index: -0.34% vs S&P +0.4% (-0.74%). 4th consecutive week of relative underperformance, all traceable to the same root — too little capital deployed to catch a rising tape.
+- Deployment only reached ~19.4% by Friday (2 half-size slots) vs the 75-85% target. The ladder broke the paralysis but the PACE is too slow: two ~$10k starters over a full week doesn't close a ~60-point gap. We're deploying, but at a trickle.
+- Both open positions are underwater from entry (MSFT -2.6%, NVDA -0.9%) — clean entries, but both bought just under prior highs on light volume and immediately drifted; neither has confirmed with a fresh break yet. The volume soft-miss (0.1-0.6x on both entries) flagged this — leaders were coiling, not ripping.
+- Left the 3rd weekly slot and ~80% cash unused. Two of the three binaries (CPI, PPI) resolved mid-week and the tape stayed near records, yet we added only one name after each — the widen-the-bench mandate produced candidates but few second adds.
+
+### Key Lessons
+- Breaking paralysis is necessary but not sufficient. Going from 0% to 19% deployed is real progress on the KNOWN flaw, but 19% is still an implicit ~80% short on a rising tape. The next failure mode isn't "won't deploy at all," it's "deploys too slowly" — pace has to accelerate now that the trigger works.
+- Buying leaders as they coil just under a prior high on drying volume gives clean gates but weak follow-through — both entries stalled. The higher-conviction version is the same name on the day it breaks the prior high on ≥1.2x volume (the logged add-signal), not the day it presses it on 0.5x.
+- The escalation ladder (added 8/7) is proving out in its first week: it converted a would-be 7th all-cash session into two disciplined deploys. Keep it; it needs its 2nd week before any judgment — but pace is the metric to watch.
+
+### Adjustments for Next Week
+- No new rule this week — the 8/7 escalation ladder is only 1 week old and is WORKING (it broke the streak); it needs a 2nd week to prove out before any change. Watch the deployment PACE, not the trigger.
+- Accelerate toward target on a clock: with the 3-trade cap resetting Mon 8/17, aim ~40-50% deployed mid-week, ~65-75% by Friday using the fresh allotment — staged, gate-compliant, never forced.
+- Prefer the ADD-ON-BREAK: if MSFT reclaims $513.72 or NVDA clears $227.49 on ≥1.2x volume, add to the winner (that's the confirmed continuation signal) rather than only hunting new names on weak volume.
+- Widen the bench beyond MSFT/NVDA — screen a 3rd confirmed leader (financials/tech holding >50 EMA on ≥1.2x vol with a real catalyst) for the open slot. Manage risk: MSFT -7% manual-cut line ≈ $473 close (currently -2.6%) — trim if it loses EMA20 ~$462.
+
+### Overall Grade: C
+*The one thing every prior review demanded finally happened: we deployed. Two clean, gate-compliant, ladder-driven entries ended a 6-session all-cash paralysis with zero rule violations — genuine process repair. But the outcome still lagged the S&P (-0.74%) for a 4th straight week because the pace is a trickle (19% vs 75-85%) and both new slots are red on weak-volume entries. Real progress on the root flaw, not yet enough of it — the trigger is fixed, the throttle isn't. Grade reflects a meaningful step up from last week's D while the tape still ran ahead of us.*
+
 ## Week ending 2026-08-07
 
 ### Stats
