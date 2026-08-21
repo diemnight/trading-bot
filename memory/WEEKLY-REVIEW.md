@@ -39,6 +39,57 @@ Template for each entry:
 
 ### Overall Grade: X
 
+## Week ending 2026-08-21
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $99,630.32 (Mon 8/17 AM ≈ Fri 8/14 EOD) |
+| Ending portfolio | $98,953.17 |
+| Week return | -$677.15 (-0.68%) |
+| S&P 500 week | ~-0.9% (tech-led selloff, info-tech -3%+; Fri +0.5% bounce; back-to-back weekly losses) |
+| Bot vs S&P | +0.2% |
+| Trades | 0 (W:0 / L:0 / open:2); 2 positions held (2/6); 0/3 weekly slots used |
+| Win rate | n/a (0 closed) |
+| Best trade | MSFT -5.08% (open, unrealized) |
+| Worst trade | NVDA -5.40% (open, unrealized) |
+| Profit factor | n/a (0 closed) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| — | — | — | — | No closed trades this week |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+| MSFT | $508.53 | $482.70 | -$490.74 (-5.08%) | $462.36 (10% GTC trail, HWM $513.73) |
+| NVDA | $226.97 | $214.72 | -$539.00 (-5.40%) | $205.13 (10% GTC trail, HWM $227.92) |
+
+### What Worked
+- FIRST week of the challenge where cash was a shield, not a cost: the S&P fell ~-0.9% (info-tech -3%+) and we finished -0.68%, a hair AHEAD of the index (+0.2%) — the mirror image of the four prior weeks where 80% cash bled us on rising tapes. Same low deployment, opposite regime, opposite sign on the relative result.
+- No capital destroyed and no rule bent: both positions held above their -7% manual-cut lines all week (MSFT ~$473, NVDA ~$211), both 10% GTC trails stayed live and were never threatened, no stop moved down, and no fresh risk was forced into a soft, breakout-less tape.
+- Correct restraint into a genuinely offer-less market: in a risk-off week with the index falling, no name cleared the ≥1.2x-volume breakout gate — declining to manufacture an entry there was the right call (unlike an up-tape, a falling tape really can produce no confirmed leaders).
+- Risk-managed the weak name without panic: NVDA slid to and closed a whisker below EMA20 Friday ($214.72 vs $215.46, -0.3%) but held EMA50 and stayed +1.7% above the cut line — treated as a warning to watch Monday, not a forced exit on a hair.
+
+### What Didn't Work
+- Zero adds for a full week with a fresh 3-trade allotment (0/3 used) — deployment DRIFTED DOWN from ~19.4% to ~18.8% as both holdings bled. Fifth straight week under the 75-85% target; the chronic structural flaw is fully intact, this week merely camouflaged by a down tape.
+- The +0.2% "outperformance" is regime luck, not skill: it came from what we DIDN'T own, not what we did. Both names we actually hold are now ~-5% underwater and drifting; the book generated no positive alpha, it just had little exposure to a falling market.
+- The escalation ladder (added 8/7) produced 0 adds in its 2nd week — the same all-cash-adds pattern it was written to break. It's outcome-defensible this week (falling tape, no breakouts to chase), but the process cannot be verified: the daily notes re-quote "no leader cleared its gate" for a 5th straight day, and there's no logged evidence the mandated BROAD market-wide screen actually ran vs. defaulting to the same two names.
+- Both entries from the prior week are now validated as weak: bought just under prior highs on light (0.4-0.6x) volume, both stalled and rolled over ~-5%. The volume soft-miss at entry flagged exactly this — coiling, not confirming.
+
+### Key Lessons
+- Cash is a two-sided regime bet, and this week proved the symmetry the hard way: the identical ~19% deployment that cost -3.6% relative in the 8/7 record-rally SAVED +0.2% relative in this -0.9% selloff. That is not a strategy — it's a coin that landed our way. A disciplined book should generate alpha from selection, not from accidentally being flat in the right week.
+- "No confirmed leader" is a credible reason in a FALLING tape and a red flag in a RISING one. The 8/7 ladder rule already encodes this (records → assume watchlist too narrow); the honest read of this week is that the ladder wasn't truly tested, because a down tape lets passivity and discipline look identical again.
+- Weak-volume entries under prior highs are low-conviction and tend to give back on the first market wobble — both MSFT and NVDA did. The higher-quality trade is the same name on a clean break of the prior high on ≥1.2x volume, not the press into it on 0.5x.
+
+### Adjustments for Next Week
+- No rule change this week. The escalation ladder is 2 weeks old but has NOT had a clean up-tape test: wk1 it forced 2 buys (worked), wk2 it produced 0 in a falling market (defensible, not proof). It needs a genuine rising-tape week to prove it forces action when action is warranted — hold it one more week before judging. (STEP 5 threshold "proven out 2+ wks OR failed badly" is not met either way.)
+- Verify the pre-market is actually running the ladder-mandated BROAD screen, not re-quoting MSFT/NVDA — if Monday's tape firms, the "nothing confirmed" reason must survive a documented market-wide relative-strength screen, not a two-name glance.
+- Manage the book first: NVDA is the priority watch — a DECISIVE close below EMA20 ~$215 or a close under the ~$211 -7% line flips it to manage/exit; hold MSFT while it stays above ~$473. Don't let a hold turn into a hope.
+- If the tape turns back up, prefer the ADD-ON-BREAK on ≥1.2x volume over re-buying names pressing resistance on light volume — and widen the bench to a 3rd confirmed leader so deployment isn't hostage to the same two charts.
+
+### Overall Grade: C
+*A "cash saved us this time" week. For the first time in five weeks the relative result went our way (+0.2% vs a -0.9% index), we destroyed no capital, and every stop and cut-line held — and in a genuinely breakout-less risk-off tape, declining to force an entry was the correct call, which keeps this off a D. But there is no positive skill to bank: the outperformance came entirely from low exposure to a falling market — the exact under-deployment that cost us in four prior up-weeks — and both names we actually own are ~-5% underwater with NVDA now slipping under EMA20. Regime did the work, not the process. C reflects a clean, disciplined, but purely passive week where the chronic deployment flaw simply happened to point the right way.*
+
 ## Week ending 2026-08-14
 
 ### Stats
