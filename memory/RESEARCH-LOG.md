@@ -1357,3 +1357,9 @@ HOLD on this run (patience > activity; pre-market is research). QUEUE for market
 
 ### Decision
 **HOLD — no fresh entry; priority is NVDA cut-line risk management into its 8/26 print.** No name clears a clean ≥1.2x-vol break; two mid-week binaries (NVDA, Jackson Hole) justify arm-and-wait over a forced fill. **Manage:** **NVDA is the priority watch** — a close below ~$211 (-7%) triggers the manual cut per rules; do NOT add (own print). **MSFT** healthy (+2.0% above its ~$473 cut) — hold. **Arm for the FIRST clean ≥1.2x-vol break:** **V** >$373.97 (primary, only +0.8% — the cleanest deployment path this week), **PLTR** >$182.42 (secondary, +1.4%); **JPM demoted** (below EMA20). Trades this week: **0/3**. Positions **2/6**. Deployment ~18.8% — the chronic drag; the market-open routine defends NVDA's cut line and executes the FIRST clean volume-confirmed break, else HOLD. The deployment clock runs, but not by buying early into a two-binary week.
+
+### Afternoon Addendum (Midday Scan, ~13:08 ET)
+- **NVDA cut executed.** The flagged line-in-the-sand broke: NVDA hit -7.46% (px ~$210.10) — through the ~$211 -7% cut line AND decisively below EMA20 $214.95 / EMA50 $210.17 (trend flipped MIXED). Closed 44 sh @ $210.03, realized -$745.36. No discretion: the hard -7% rule + a clean TA breakdown both fired.
+- **Cause:** No single shock — consistent with the pre-market read (tech under a rising-yield cloud, last week's laggard) plus pre-print de-risking into NVDA's 8/26 earnings. Owning the print through a broken chart = risk we don't take; rule removes it. Vol light (0.5x), so a distribution drift, not a capitulation gap. No Perplexity call needed — cause is the flagged setup resolving down.
+- **MSFT** unaffected — trend UP, held, no change.
+- **Book now:** 1 position (MSFT), ~90% cash, ~9.4% deployed. 0/3 weekly trades still open. Re-deploy target: FIRST clean confirmed leader (V >$373.97 primary per AM plan) on a ≥1.2x-vol break — no chase.
