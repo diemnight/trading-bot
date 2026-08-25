@@ -1363,3 +1363,48 @@ HOLD on this run (patience > activity; pre-market is research). QUEUE for market
 - **Cause:** No single shock — consistent with the pre-market read (tech under a rising-yield cloud, last week's laggard) plus pre-print de-risking into NVDA's 8/26 earnings. Owning the print through a broken chart = risk we don't take; rule removes it. Vol light (0.5x), so a distribution drift, not a capitulation gap. No Perplexity call needed — cause is the flagged setup resolving down.
 - **MSFT** unaffected — trend UP, held, no change.
 - **Book now:** 1 position (MSFT), ~90% cash, ~9.4% deployed. 0/3 weekly trades still open. Re-deploy target: FIRST clean confirmed leader (V >$373.97 primary per AM plan) on a ≥1.2x-vol break — no chase.
+
+## 2026-08-25 — Pre-market Research (Day 50, Tuesday — post-NVDA-cut; 1 position, ~9% deployed; V at its 52-wk-high breakout)
+> Perplexity key absent — used native WebSearch (noted). Live account pulled pre-open; TA deterministic from scripts/ta.py (reflects 8/22 close). Book now **1/6 (MSFT only, ~9.4% deployed)** after Mon's -7% NVDA cut; new-week cap **0/3**. No position at its cut line today — MSFT healthy (+2.9% above its ~$473 line). The story is **deployment + a live V breakout**, not risk management.
+
+### Account (live, pre-open)
+- Equity: **$98,808.07** | Cash: $89,563.62 (90.6%) | Buying power: $384,138.94 (4x) | Daytrade count: 0 | PDT: false
+- Positions: **MSFT 19 @ $508.53**, px $486.55, unrealized **-$417.59 (-4.32%)** — trend UP, comfortably above the -7% cut (~$473, +2.9%) and ~5.2% above the $462.357 trail; healthy.
+- Open orders: **1 live GTC 10% trailing stop** — MSFT trigger **$462.357** (HWM $513.73). Live/correct; never move down.
+- Deployment: **~9.4%** ($9,244.45 mkt val / $98,808.07) vs. 75-85% target — the chronic structural drag, now WORSE post-cut. Escalation ladder is live: broad screen run below; V is the confirmed leader the ladder demands.
+
+### Market Context — modest green; VIX ~16; NVDA print Wed the week's binary
+- **S&P 500 futures ~+0.12%** — modestly positive; futures edge higher as investors weigh tech earnings, new Iran sanctions, and today's housing/consumer data ([Yahoo Finance](https://finance.yahoo.com/markets/stocks/articles/stock-market-p-500-open-061055478.html)).
+- **VIX ~15.85** (+4.8% on the day) — still low/calm; VIX futures ~17.50 ([Investing.com](https://www.investing.com/indices/us-spx-vix-futures)).
+- **Oil easing:** WTI ~$84.89 (-2.5%), Brent ~$92.34 — softening as the US rolls out a global Iran sanctions plan (China not exempt) ([CNBC](https://www.cnbc.com/2026/08/24/oil-price-today-wti-brent-us-sanctions-iran.html)).
+- **Today's data:** **CB Consumer Confidence 10am ET** and **July New Home Sales** — consumer/housing reads into a soft-housing backdrop (builder confidence 35, 16th month <40) ([Investing.com](https://www.investing.com/economic-calendar/cb-consumer-confidence-48), [Conference Board](https://www.conference-board.org/topics/consumer-confidence/)).
+- **Week's binary: NVDA earnings Wed after the close** (Street +99% EPS / +97% rev) — the market-wide event; we NO LONGER hold NVDA, so it's a tape risk, not a position risk ([Kiplinger](https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks)). MRVL Thu.
+- **Sector momentum (broad screen):** Narrow leadership. **21 S&P names at 52-wk highs Mon**, incl. **Visa (V)**; Health Care dominates the new-high list; **Energy (XLE) led the week (+2%)** on the oil/sanctions bid ([Trefis 8/25](https://www.trefis.com/stock/spy/articles-v3/612778/21-sp-500-stocks-just-made-new-52-week-highs/2026-08-25), [Trefis 8/24](https://www.trefis.com/stock/spy/articles-v3/612525/the-52-week-high-list-20-sp-500-names-on-friday/2026-08-24)). Tech under the NVDA-print cloud.
+
+### Candidate TA (from ta.py, 8/22 close)
+- **MSFT (held)** — px **$487.32**, trend UP (>EMA20 $471.69 >EMA50 $441.79), RSI 64, vol 0.4x light, resistance $513.72 (+5.4%). Healthy above the ~$473 cut. Do NOT add.
+- **V — px $382.33, at its 52-wk high.** Trend UP (>EMA20 $365.06 >EMA50 $354.66), RSI 70 (warm, not hot), vol **1.1x (normalizing)**, resistance **$383.41 (+0.3% — right at trigger)**. **Armed PRIMARY** — the confirmed leader; a clean break >$383.41 on ≥1.2x vol is the deployment signal.
+- **PLTR** — px **$175.89**, trend UP (>EMA20 $162.96 >EMA50 $149.25), RSI 65, vol **0.6x light**, resistance **$182.42 (+3.7%)**. Armed secondary; further away and light vol.
+- **JPM** — px **$356.42**, **reclaimed EMA20** ($355.42) >EMA50 $344.35, RSI 54, vol 0.7x light, resistance **$366.30 (+2.8%)**. Re-armed (back above EMA20); needs a clean >$366.30 ≥1.2x-vol break.
+
+### Trade Ideas (catalyst leads; TA refines) — trigger-gated; deploy the first clean break
+1. **V — armed PRIMARY (the deployment path).** Catalyst: fresh 52-wk high, payments relative strength independent of the chip print. Trigger: break **>$383.41 on ≥1.2x vol**; entry ~$384, stop ~$351 (~10% trail, ~-8.5% / just below EMA50), target $410+ → R:R ~2.5:1. Half-to-full size ~$10-15k. RSI 70 = enter on the break, not a chase.
+2. **PLTR — armed secondary.** >$182.42 on ≥1.2x vol; +3.7% away, vol light — wait for the volume.
+3. **JPM — armed tertiary.** Reclaimed EMA20; >$366.30 on ≥1.2x vol to confirm.
+4. **MSFT — HOLD, do NOT add.** Healthy, +2.9% above its ~$473 cut; let the trail work. Add signal = a reclaim of $513.72 on volume.
+
+**Rejected/avoided:** Chasing V *before* a clean ≥1.2x-vol break through $383.41 (RSI 70, price jammed right under resistance — buy the confirmed break, not the coil). Chasing energy on a *falling* oil tape despite XLE's weekly lead (catalyst is fading, not building). Buying tech/AI beta into the Wed NVDA print. Forcing a 2nd/3rd slot on light-volume names (PLTR/JPM) just to hit the deployment number.
+
+### Thesis Depth (for educational alerts)
+- WHY DEPLOY-ON-BREAK, not HOLD-and-wait: after the NVDA cut we're at ~9% deployed with a full 0/3 weekly allotment — the escalation ladder says widen the search and take the FIRST confirmed market-wide leader, and the broad screen produced one: **Visa, at a fresh 52-week high**. Payments strength is the right relative-strength theme *this* week precisely because it's insulated from the two things clouding the tape — the Wed NVDA chip print and the falling-oil energy fade. Why NOT just buy V now to fix deployment faster? It's RSI 70 and sitting a hair (+0.3%) under resistance — the textbook "jammed under resistance" spot the rules say to skip; the edge is in the *break*, buying strength that confirms on volume, not front-running it into event week. Why NOT energy, the week's best sector? XLE's +2% is a sanctions/oil-spike echo, and oil is now *falling* (-2.5%) as the sanctions news is digested — chasing a catalyst that's already reversing. So: arm V for a clean break, keep PLTR/JPM as backups, and let the tape confirm.
+- Concept of the day — **A breakout only counts on volume.** A "breakout" is price pushing above a resistance level (a ceiling it's failed to clear before). But price alone lies: a stock can poke above resistance on thin, disinterested trading and immediately fall back — a "false breakout" that traps buyers. Volume is the tell. When price clears resistance on *above-average* volume (our ≥1.2x rule), it means real money — funds, not just a few retail orders — is committing at the new price, which is what sustains the move. V is the live example: it's *at* $383.41 on ~1.1x volume — close, but not yet the ≥1.2x conviction that separates a real breakout from a fake one. That's why we arm the trigger and wait for the tape to prove itself, rather than guessing. Patience isn't inactivity here; it's demanding proof before risking capital.
+
+### Risk Factors
+- **NVDA earnings Wed (after close).** The week's binary — a big up/down gap will move the whole tape (esp. tech/AI). We hold no NVDA, but a risk-off reaction could stall a fresh V entry; size accordingly and lean on the trail.
+- **Consumer/housing data today (10am Consumer Confidence + New Home Sales).** A weak consumer print could hit financials/payments (V) — the exact name we're arming; let the break confirm *after* the data.
+- **Deployment drag (~9%).** The chronic structural risk — sitting ~90% cash while the S&P grinds higher is an implicit short-the-market bet. Fix it on a confirmed leader (V), never by forcing a bad fill.
+- **Narrow leadership.** Few names at new highs (health care + a handful); a narrow tape can reverse fast. Confirmation-gated entries only.
+- **Iran-sanctions headline risk.** Oil is easing now, but a fresh escalation could whip energy and risk sentiment intraday.
+
+### Decision
+**HOLD pre-market; ARM V for a clean break as the primary deployment path.** No name has yet cleared a ≥1.2x-vol break, so no pre-open order — but the escalation ladder is satisfied (broad market-wide screen run; V is the confirmed leader at a fresh 52-wk high). **Market-open routine: execute the FIRST clean ≥1.2x-vol break — V >$383.41 (primary, +0.3%), PLTR >$182.42 (secondary), JPM >$366.30 (tertiary)** — half-to-full size, 10% GTC trail on fill. **Hold MSFT** (healthy, +2.9% above its ~$473 cut; do NOT add). No position at risk today. Trades this week: **0/3**. Positions **1/6**. Deployment ~9.4% — the priority to fix, but only on a confirmed break; do not chase V into resistance or buy AI beta into the Wed NVDA print.
