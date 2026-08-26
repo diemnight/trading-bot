@@ -1408,3 +1408,49 @@ HOLD on this run (patience > activity; pre-market is research). QUEUE for market
 
 ### Decision
 **HOLD pre-market; ARM V for a clean break as the primary deployment path.** No name has yet cleared a ≥1.2x-vol break, so no pre-open order — but the escalation ladder is satisfied (broad market-wide screen run; V is the confirmed leader at a fresh 52-wk high). **Market-open routine: execute the FIRST clean ≥1.2x-vol break — V >$383.41 (primary, +0.3%), PLTR >$182.42 (secondary), JPM >$366.30 (tertiary)** — half-to-full size, 10% GTC trail on fill. **Hold MSFT** (healthy, +2.9% above its ~$473 cut; do NOT add). No position at risk today. Trades this week: **0/3**. Positions **1/6**. Deployment ~9.4% — the priority to fix, but only on a confirmed break; do not chase V into resistance or buy AI beta into the Wed NVDA print.
+
+## 2026-08-26 — Pre-market Research (Day 51, Wednesday — V breakout CONFIRMED on 1.4x vol; deploy-a-starter day into a stacked-binary tape: PCE AM / NVDA PM / Jackson Hole Fri)
+> Perplexity key absent — used native WebSearch (noted). Live account pulled pre-open; TA deterministic from scripts/ta.py (reflects 8/25 close). Book **1/6 (MSFT only, ~9.4% deployed)**; new-week cap **0/3 used**. Escalation ladder LIVE and now actionable — V has cleared its ≥1.2x-vol break; the ladder's "take a starter into the best confirmed leader" condition is met.
+
+### Account (live, pre-open)
+- Equity: **$98,842.08** | Cash: $89,563.62 (90.6%) | Buying power: $384,234.17 (4x) | Daytrade count: 0 | PDT: false
+- Positions: **MSFT 19 @ $508.53**, px $488.34, unrealized **-$383.58 (-3.97%)** — trend UP (px $491.55 > EMA20 $473.58 > EMA50 $443.73), RSI 66, vol 0.4x light, resistance $513.72 (+4.5%). Comfortably above the ~$473 -7% cut (+3.1%) and ~5.6% above the $462.357 trail; healthy, do NOT add.
+- Open orders: **1 live GTC 10% trailing stop** — MSFT trigger **$462.357** (HWM $513.73). Live/correct; never move down.
+- Deployment: **~9.4%** ($9,278.46 mkt val / $98,842.08) vs. 75-85% target — the chronic structural drag. 51 sessions running well under floor; ladder demands action on the first confirmed leader, and one has arrived.
+
+### Market Context — flat futures, calm VIX ~15.7; a 3-binary stack (PCE now, NVDA tonight, Warsh Fri)
+- **S&P 500 futures ~flat** — holding steady ahead of the PCE inflation read and NVDA earnings; positioning light early ([Yahoo Finance](https://finance.yahoo.com/markets/live/stock-market-today-wednesday-august-26-dow-sp-500-nasdaq-081834782.html)).
+- **VIX ~15.68** (+1.5%) — low/calm; no fear priced despite the event stack ([Investing.com](https://www.investing.com/indices/us-spx-vix-futures)).
+- **Oil easing:** WTI **~$80.78 (-1.9%)**, Brent ~$89.44 — Iran sanctions came in *less* aggressive than feared (no secondary sanctions), relieving the supply-squeeze bid ([CNBC](https://www.cnbc.com/2026/08/24/oil-price-today-wti-brent-us-sanctions-iran.html)).
+- **Today's data (heavy): Core PCE** (Fed's preferred inflation gauge) + Personal Income/Spending + **Durable Goods** + **Q2 GDP** — the morning's macro binary ([Kiplinger](https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar)).
+- **Tonight: NVDA fiscal-Q2 after close** — EPS est **$2.09**, rev **$92.2B (+97% YoY)**, guide ~$2.35; 10 beats in 11 quarters but the bar is enormous and hyperscaler-capex nerves are the swing risk. We hold NO NVDA — it's a tape risk, not a position risk ([Kiplinger](https://www.kiplinger.com/investing/live/nvidia-earnings-live-updates-and-commentary-august-2026)).
+- **Jackson Hole Aug 27-29** — new Fed Chair **Kevin Warsh's inaugural keynote Aug 28**; theme **"Financial Innovation: Implications for Payments and Policy."** Note the theme is a mild *tailwind* narrative for payments names (V/MA), not a headwind ([CFI](https://cfi.trade/en/blog/economic/global-markets-this-week-us-inflation-jackson-hole-and-key-global-economic-data)).
+
+### Candidate TA (from ta.py, 8/25 close)
+- **V — px $384.06, AT its 52-wk high; break CONFIRMED.** Trend UP (>EMA20 $366.87 >EMA50 $355.79), RSI **71 (high, not hot)**, vol **1.4x (confirmed)**, resistance $384.06 (== price, i.e. new-high/blue-sky). Closed **>$383.41 armed trigger on 1.4x vol** — the exact gate the 8/25 plan set. **PRIMARY deployment path, now triggered.**
+- **MSFT (held)** — px $491.55, trend UP, RSI 66, vol 0.4x light, resistance $513.72 (+4.5%). Healthy; do NOT add.
+- **PLTR** — px $172.71, trend UP (>EMA20 $163.89 >EMA50 $150.17), RSI 62, vol **0.7x light**, resistance $182.42 (+5.6%). Armed secondary; further away, vol light — not confirmed.
+- **JPM** — px $356.67, just above EMA20 $355.54 >EMA50 $344.83, RSI 54, vol **0.6x light**, resistance $366.30 (+2.7%). Armed tertiary; needs a clean >$366.30 ≥1.2x-vol break.
+
+### Trade Ideas (catalyst leads; TA refines) — deploy V as a confirmation-gated STARTER
+1. **V — the trade. Take a HALF-SIZE starter (~10% / ~25 sh, ~$9.6k) at market-open**, gated on: (a) the 8:30 PCE print not sparking broad risk-off, and (b) V holding **>$383.41 on ≥1.2x vol** in the opening range. Catalyst: fresh 52-wk-high payments strength, chip-independent, with a Jackson Hole "payments & policy" thematic tailwind. Entry ~$384-386; **stop = 10% GTC trail (~$346 initial)** per rule; real risk line = support **$357.79 (~-6.8%)** / the -7% cut. Near-term target ~$412 (+7%), but this is a breakout-to-new-highs trade — the ratcheting trail defines the exit, not a fixed target. **Half size** respects RSI 71 + the NVDA-tonight tape risk; the ladder explicitly permits a starter.
+2. **PLTR — armed secondary.** >$182.42 on ≥1.2x vol; +5.6% away, vol light — wait for volume.
+3. **JPM — armed tertiary.** >$366.30 on ≥1.2x vol to confirm.
+4. **MSFT — HOLD, do NOT add.** Healthy, +3.1% above its ~$473 cut; let the trail work. Add signal = reclaim of $513.72 on volume.
+
+**Rejected/avoided:** (1) Sitting FULL cash a 4th+ week "because binaries" — the ladder killed the re-quoted "wait for NVDA/Jackson Hole" excuse; V confirmed, so we deploy a starter, not zero. (2) FULL-size V into a 3-binary day — half size is the disciplined middle. (3) Chasing NVDA/AI-chips into its own print through a bar this high — no edge, pure coin-flip. (4) Energy — oil is *falling* on softer-than-feared sanctions; no catalyst.
+
+### Thesis Depth (for educational alerts)
+- **WHY V, WHY NOW, WHY NOT KEEP WAITING:** For 50 sessions the book sat ~90% cash while the S&P grinded to highs — an implicit short-the-market bet that has been the single biggest drag on relative performance. The escalation ladder exists precisely to end the habit of re-quoting "a binary is coming" as a fresh excuse each day. Today the excuse is spent: V cleared the *exact* volume-confirmed break the plan pre-defined (>$383.41 on 1.4x vol) at a fresh 52-wk high, and its driver — payments relative strength — is independent of tonight's chip print. **Why NOT full size:** three binaries stack this week (PCE this morning, NVDA tonight, Warsh Friday), so a starter that gets us deployed on a live trail beats an all-in bet into event risk — deploy the conviction, cap the event exposure.
+- **Why NOT NVDA/AI-chips as the deployment path:** the obvious alternative is to ride the week's marquee catalyst. But you have no edge on a binary where the bar is a near-double in EPS and the market is already nervous about hyperscaler capex — "beat and still fall" is a live outcome (NVDA's fallen post-print in several recent quarters). Owning a coin-flip is not the same as owning relative strength.
+- **Concept of the day — position sizing IS risk management, not just entries.** Most beginners think risk control = the stop. But *how much* you buy sets your risk before any stop fires. Facing a genuine setup (V confirmed) into genuine event risk (3 binaries), the pro answer isn't yes/no — it's *how big*. A half-size starter lets you be right about the leader and still survive being wrong about the tape: same thesis, half the overnight gap exposure. Size is the dial between conviction and humility.
+
+### Risk Factors
+- **Core PCE at 8:30 ET.** A hot inflation print could spark broad risk-off and stall the V entry — the reason V is gated on a post-PCE hold of $383.41, not a pre-open order.
+- **NVDA after close tonight.** A big miss/soft-guide gap could drag the whole tape (esp. tech) into Thursday; half-size V + live trail is the buffer. MSFT (mega-cap tech) rides its own trail, +3.1% above its cut.
+- **Jackson Hole / Warsh keynote Fri (Aug 28).** New Fed Chair's first framing = elevated rate-path volatility into the weekend; keep the second slot's powder dry until the keynote lands.
+- **Deployment drag (~9%).** Still the chronic structural risk — a V starter cuts it, don't let it freeze the book again.
+- **V is extended (RSI 71, at new highs).** Buying a fresh breakout means the first pullback can sting — half size + the 10% trail (real line $357.79) contains it; never chase above the opening range.
+
+### Decision
+**DEPLOY a half-size V starter at market-open — confirmation-gated (PCE not risk-off + V holds >$383.41 on ≥1.2x vol).** The escalation ladder's condition is met: a confirmed, chip-independent leader has arrived after 50 sessions of under-deployment, so the answer is a disciplined starter, not another cash day. HOLD MSFT (healthy, do not add); PLTR/JPM armed but unconfirmed. If PCE shocks or V loses its break in the opening range, stand down and re-arm — the trade is the *confirmed* break, never the chase.
