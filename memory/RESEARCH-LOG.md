@@ -1454,3 +1454,37 @@ HOLD on this run (patience > activity; pre-market is research). QUEUE for market
 
 ### Decision
 **DEPLOY a half-size V starter at market-open — confirmation-gated (PCE not risk-off + V holds >$383.41 on ≥1.2x vol).** The escalation ladder's condition is met: a confirmed, chip-independent leader has arrived after 50 sessions of under-deployment, so the answer is a disciplined starter, not another cash day. HOLD MSFT (healthy, do not add); PLTR/JPM armed but unconfirmed. If PCE shocks or V loses its break in the opening range, stand down and re-arm — the trade is the *confirmed* break, never the chase.
+
+## 2026-08-27 — Pre-market Research (Day 52, Thursday — NVDA BLOWOUT reaffirms AI momentum, Nasdaq futures +1%; PCE 8:30 AM + Jackson Hole opens; ~19% deployed, build day)
+> Perplexity key absent — used native WebSearch (noted). Live account pulled pre-open; TA deterministic from scripts/ta.py (reflects 8/26 close). Book **2/6 (MSFT + V, ~19.1% deployed)** after yesterday's V starter fill; new-week cap **1/3 used** (V). Escalation ladder still LIVE — one starter on isn't the 50% floor; a risk-on post-NVDA tape is the day to add a 2nd confirmed leader, not to sit.
+
+### Account snapshot
+- Equity **$98,791.42** (last_equity $98,958.93 → intraday **-$167.51 / -0.17%**). Cash **$79,930.40**. Buying power $372,532.46 (RegT $178,721.82).
+- Positions **2/6**, position value **$18,861.02 → ~19.1% deployed** (still well under the 50% floor).
+  - **MSFT** 19 sh @ $508.53 → $492.69, unrealized **-$301.02 (-3.12%)**. Trend UP (px $496.36 > EMA20 $475.75 > EMA50 $445.75), RSI 68, vol light 0.4x, resistance $513.72 (+3.5%). ~+4.2% above the ~$473 -7% cut. 10% GTC trail $462.36 (HWM $513.73). Healthy — benefits from the AI read-through; do NOT add (near resistance, light vol).
+  - **V** 25 sh @ $385.33 → $380.00, unrealized **-$133.21 (-1.38%)**. Trend UP (px $383.80 > EMA20 $368.48 > EMA50 $356.86), RSI **70 (high)**, vol 0.7x, resistance **$385.54 (+0.5% — jammed)**. ~+6% above the ~$358 cut. 10% GTC trail $347.01 (HWM $385.57). Fresh starter, healthy; do NOT add (RSI 70, jammed under resistance).
+
+### Market context
+- **NVDA blowout (reported 8/26 PM):** EPS $2.22 (>2x YoY), revenue **$96.2B, +106% YoY**, bullish FY28 guide from CFO Kress → **Nasdaq futures ~+1%** premarket; eases AI-capex-fatigue fears. AI momentum reaffirmed.
+- **Data today:** **PCE (Fed's inflation gauge) 8:30 AM ET** — the day's dated binary; resolves at the open. **Jackson Hole** opens (Aug 27-29), Chair Warsh speaks. Soft Aug CPI/PPI already had markets pricing **~83% odds of a Sept 25bp cut**.
+- **VIX ~17** (calm). **Oil falling** — WTI off ~5% as Iran/Oman near a deal to reopen the strait; energy catalyst is fading, not building.
+- **Sector rotation:** Healthcare YTD leader (+22%), plus Financials/Industrials/Staples/Energy leading on relative strength; mega-cap Tech lagged on a relative basis but NVDA's print re-arms the AI complex.
+
+### Trade Ideas (catalyst leads; TA refines) — build a 2nd leader, break/reclaim-gated
+1. **PLTR — armed PRIMARY (chip-independent AI relative strength).** Catalyst: AI-software momentum reaffirmed by NVDA, PLTR riding its own uptrend to a fresh-high test. TA: trend UP (px $177.49 > EMA20 $165.18 > EMA50 $151.24), RSI 65 (room), vol light 0.5x, resistance **$182.42 (+2.8%)**. Trigger: **break >$182.42 on ≥1.2x vol**; entry ~$183, stop ~$164 (10% trail / just under EMA20), target ~$205+ → R:R ~2:1+. Half-to-full ~$10-15k. This is the clean, chip-independent AI play — the V-style leader, not a chip coin-flip.
+2. **NVDA — re-entry watch (gap-and-reclaim only).** Catalyst: fresh blowout + guide. TA on 8/26 close: below EMA20 $214.16 / EMA50 $210.14, trend MIXED, RSI 46, resistance $227.90. Gate: only if it **gaps and HOLDS above ~$214 (both EMAs) on ≥1.2x vol** in the opening range. Honest flag: this is a **re-buy of the name we cut 8/24 at -7%** — the catalyst is genuinely new, but chase-risk is real; take it only on the volume-confirmed reclaim, never on a fade. Half size.
+3. **LLY — backup (healthcare-leader pullback).** Catalyst: healthcare YTD sector leadership + defensive rotation. TA: px $1189.35 > EMA50 $1174.76 (trend UP) but below EMA20 $1211.16 (pullback), RSI 48, vol **1.7x (confirmed)**, support $1110 (-6.7%), resistance $1292 (+8.7%). R:R ~1.3:1 = **marginal** — smaller/backup only, buy only if it reclaims EMA20 on volume.
+
+### Thesis depth (for the educational alerts)
+- **WHY AI-adjacent relative strength (PLTR), WHY NOT re-buy NVDA as the primary:** NVDA's print reaffirmed the *theme*, and the disciplined way to own a theme is the strongest chart with its own driver, not the marquee name you just stopped out of three days ago at a higher price. PLTR is in a clean uptrend above both EMAs with its own AI-software catalyst — buying its confirmed break is owning relative strength; re-buying NVDA at +5% over our cut is buying the headline. NVDA stays a *watch*, gated hard on a volume-confirmed EMA reclaim, because "beat and fade" is a live post-print outcome.
+- **WHY NOT sit full-cash on "PCE + Jackson Hole":** the ladder killed the re-quoted-binary excuse. PCE resolves at 8:30 *before* the open, so it can't license a whole idle session; we're 19% deployed with one healthy starter on and a risk-on tape — the answer is a gated 2nd add, not another cash day.
+- **WHY NOT energy:** week's oil pop is reversing (WTI -5% on the Iran/Oman deal) — a fading catalyst, not a building one.
+- **Concept of the day — "sell the news" vs. a real regime change.** A blowout number doesn't guarantee the stock rises: price already embeds expectations, so a beat that merely meets a sky-high bar can still fade ("sell the news"). What tells you a beat is a *regime* signal rather than a fade is confirmation — does the whole complex hold its gains on volume the next session? That's why we gate the AI adds on a *volume-confirmed hold*, not on the headline itself: the tape confirming the beat is the edge, not the beat.
+
+### Risk factors today
+- **PCE 8:30 AM** — a hot print flips the Sept-cut narrative and risk-off can hit fast; all adds are gated on the open not going risk-off.
+- **"Beat and fade" on NVDA/AI** — a high bar already met; the complex could give back the gap. Hence volume-confirmed gates, no chasing.
+- **Deployment drag (~19%)** — still the chronic structural risk; a confirmed add cuts it, but never force a bad fill to hit the number.
+
+### Decision
+**Build one confirmed leader today; do not sit.** Not a pure HOLD — the escalation ladder + a risk-on post-NVDA tape make this an add day, but strictly break/reclaim-gated. **Market-open routine: execute the FIRST clean signal — PLTR >$182.42 on ≥1.2x vol (primary), NVDA gap-and-hold >~$214 on ≥1.2x vol (secondary, re-buy — strict gate), LLY reclaim >EMA20 on vol (backup)** — half-to-full size, 10% GTC trail on fill. **Hold MSFT + V** (both healthy, both near resistance — do NOT add). No position at risk today (MSFT +4.2%, V +6% above their cut lines). If PCE sparks broad risk-off or nothing clears its gate, **stand down and re-arm** — the trade is the confirmed signal, never the chase. Trades this week **1/3**; deployment ~19.1% — the priority to fix, on confirmation only.
