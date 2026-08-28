@@ -39,6 +39,57 @@ Template for each entry:
 
 ### Overall Grade: X
 
+## Week ending 2026-08-28
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $98,941.50 (Mon 8/24 AM ≈ Fri 8/21 EOD; prior review cited $98,953.17, mark-timing) |
+| Ending portfolio | $99,215.65 (live pull; logged Aug 28 EOD $99,204.30) |
+| Week return | +$274.15 (+0.28%) |
+| S&P 500 week | ~+0.48% (winning week; NVDA-fueled renewed AI rally carried the tape though most sectors fell; Fri -0.25% on Warsh Jackson Hole) |
+| Bot vs S&P | -0.20% |
+| Trades | 2 (W:0 / L:1 / open:2); 2 positions held (2/6); 1/3 weekly slots used (NVDA sell = a close, not counted) |
+| Win rate | 0% (1 closed, 0 winners) |
+| Best trade | MSFT +0.90% (open, unrealized — flipped green, fresh phase high) |
+| Worst trade | NVDA -7.46% (closed, realized) |
+| Profit factor | 0.00 (0 winners / one -$745.36 loser) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| NVDA | $226.97 | $210.03 | -$745.36 (-7.46%) | Cut Mon 8/24 (midday) — HARD -7% rule + decisive EMA20/50 breakdown; first realized loss of the challenge |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+| MSFT | $508.53 | $513.10 | +$86.86 (+0.90%) | $466.00 (10% GTC trail, HWM $517.78 — first ratchet up this cycle) |
+| V | $385.33 | $381.00 | -$108.21 (-1.12%) | $347.01 (10% GTC trail, HWM $385.57) |
+
+### What Worked
+- The -7% rule did its ONE job: NVDA lost EMA20/EMA50 and hit -7.46%, and it was cut Monday without discretion — first realized loss of the challenge, kept SMALL (-$745 / -0.75% of equity). No hoping, no averaging down, GTC trail cancelled cleanly before a market-close exit. This is exactly the machinery that keeps a losing challenge losable-but-recoverable.
+- Actually rotated, didn't just sit: exited the FAILED AI-capex theme (NVDA) and re-deployed Wed into V — a chip-independent payments leader on a confirmed 52-wk-high, ≥1.2x-volume breakout with a Jackson Hole "Payments & Policy" tailwind. First time in weeks the bench widened beyond the MSFT/NVDA pair; V cleared its exact pre-armed trigger while PLTR/JPM stayed coiled (real gate discipline, not a forced fill).
+- MSFT finally paid off the patience: it broke to a fresh phase high Friday, flipped GREEN for the first time since entry (+0.90%), printed a new HWM $517.78 and ratcheted its trail UP for the first time this cycle ($462.36 → $466.00). Held above its ~$473 -7% line every single session of the drawdown — the hold was validated, not lucky.
+- Zero rule violations, every stop live and correct, no stop moved down, drawdown narrowed to its shallowest since the cut (-0.80% phase). Disciplined week on process.
+
+### What Didn't Work
+- We cut the exact name that then led the market. NVDA reported two days after our Monday exit, rebounded ~+3.6% off our $210.03 cut (now $217.54, EMAs reclaimed, 1.4x vol), and that print "fueled the renewed AI rally" that drove the S&P's whole +0.48% winning week. Our -0.20% relative miss is almost entirely that: we were flat/absent in the one theme that moved the tape. The cut was correct on Monday's information (broken trend + -7%), but firing a -7% cut into a name's own imminent earnings binary means any rebound is uncapturable — and this one rebounded.
+- Deployment sat at ~19% (2 names) for a 3rd straight week — the 6th consecutive week under the 75-85% target. This week we CHURNED (cut one, added one) and netted right back to 2 names / ~19%. The chronic structural flaw isn't just intact, it's now self-camouflaging: activity (a cut + a buy) masks the fact that exposure never moved.
+- The escalation ladder produced exactly ONE add and then went quiet — its recurring failure mode. It forces a starter, but nothing forces a SECOND leg or a minimum position count, so we coast at 2 names indefinitely. The "one more week to prove it forces action on a rising tape" test from last week ran (tape was +0.48%) and the verdict is in: it forces SOME action, not ENOUGH.
+- Still one-name-carries-the-book: MSFT is the entire green; V is red, and there is no third leg. A gap-down in MSFT erases the week.
+
+### Key Lessons
+- A -7% cut and an earnings binary are on a collision course whenever a broken name reports within a few days. The rule must still fire (you cannot hold a -7% loser hoping for a print you have no edge on) — but the disciplined path back is a CONFIRMED post-earnings re-entry on a clean break, not holding through the cut. We took the loss correctly; we just have to accept the rebound was never ours to catch, and judge the decision on Monday's facts, not Friday's chart.
+- "Churn" is not "deployment." Cutting one name and adding one keeps activity high and exposure flat. The deployment gap only closes when adds NET POSITIVE against exits — a floor has to be on the number of positions/exposure, not on the number of trades.
+- Guardrails without teeth get ignored: the 7/3 floor failed, the 8/7 ladder forces one starter and stops. A guardrail that repeats the same shortfall for 3 weeks isn't "patience needing time," it's under-specified — so it gets strengthened, not re-quoted.
+
+### Adjustments for Next Week
+- STRATEGY CHANGE (see TRADING-STRATEGY.md, added 2026-08-28): the 8/7 ladder is no longer discharged by a single starter. Added (1) a POSITION-COUNT FLOOR — minimum 3 confirmed positions by the end of a phase's 2nd full week, broad screen mandatory every session below it; (2) a SECOND-LEG requirement — after the first weekly starter, keep screening and add a 2nd confirmed leader within 2 sessions or log a concrete market-wide reason none qualifies; (3) a -7% cut that drops below the floor RE-ARMS the ladder immediately. This targets the observed "one add, then coast at 2 names" failure directly.
+- Get to a 3rd leg: with a fresh 0/3 allotment and ~81% cash, screen a BROAD universe Monday for the first clean confirmed leader (real catalyst + close >50 EMA on ≥1.2x vol + relative strength) — do not chase, buy clean, but the floor now makes the search mandatory, not optional.
+- Manage the book: MSFT — a clean CLOSE above $513.72 on volume is the add-on-strength signal (intraday already tagged $517.78); a loss of EMA20 ~$482 or a close under the ~$473 -7% line flips it to manage/exit. V — winner only if it reclaims and holds the $383-385 shelf (+1.0% away); a decisive close below EMA20 ~$371 is the first warning (RSI 66, light-vol pullback is constructive).
+- Do NOT re-chase NVDA just because it bounced — a re-entry requires a fresh confirmed break above its lost $227.90 breakout on volume, not a reflex buy-back of a name we just cut.
+
+### Overall Grade: C
+*Clean process, self-inflicted outcome. The discipline was real — the first -7% cut of the challenge fired without hesitation and kept the loss small, we rotated out of a failed theme into a gate-compliant new leader (V), MSFT broke out green, and no rule was bent. But the result lagged the S&P for the 5th time in six weeks (-0.20%), and this week the miss was specific and self-inflicted: we cut the exact name (NVDA) whose earnings then led the index's entire winning week. Underneath it, the chronic flaw is untouched — a 6th straight week ~19% deployed, now camouflaged by churn (cut one, add one, net flat at 2 names). Correct on every individual decision, still losing the war on deployment. Rule strengthened this week to force a second leg and a position floor — the third attempt to fix the one flaw that keeps deciding these weeks.*
+
 ## Week ending 2026-08-21
 
 ### Stats

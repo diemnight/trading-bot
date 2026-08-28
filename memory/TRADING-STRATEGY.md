@@ -59,6 +59,24 @@ excuse now has to escalate, and the search has to widen, on a hard clock:
 - Still inviolable: every entry must clear the checklist + trend/volume gate. This ladder
   forces a WIDER search and a faster clock, never a worse fill. Pace, don't force.
 
+## Deployment Second-Leg + Position Floor (added 2026-08-28, after the 8/7 ladder gave adds but not deployment)
+The 8/7 escalation ladder has now run 3 weeks: wk1 (8/14) forced 2 buys, wk2 (8/21) zero
+in a falling tape (defensible), wk3 (8/28) one buy (V) after the NVDA -7% cut. Net effect:
+deployment has sat ~19% at 2 names for 3 straight weeks — the 6th straight week under the
+75-85% target. The ladder reliably forces ONE starter, then goes quiet; the repeated failure
+mode is "one add, then coast at 2 names." The ladder is no longer discharged by a single starter:
+- POSITION-COUNT FLOOR: carry a MINIMUM of 3 confirmed positions by the end of any phase's
+  SECOND full week (staged, gate-compliant). While below that floor, the broad-universe
+  deployment screen is MANDATORY every session — no "leaders haven't confirmed" default.
+- SECOND-LEG REQUIREMENT: after the first starter fires in a week, the ladder is NOT satisfied.
+  Absent a dated, resolving binary, the pre-market must keep screening a broad universe and
+  EITHER add a SECOND confirmed leader within 2 sessions OR log a concrete, market-wide reason
+  no second leader qualifies (not a re-quote of the same coiling names).
+- A -7% cut that drops the book below the position floor RE-ARMS the ladder immediately: the
+  freed capital is re-screened for a confirmed leader, never parked as a fresh "wait" default.
+- Still inviolable: every add must clear the checklist + trend/volume gate. This forces MORE
+  breadth and a faster second leg, never a worse fill. Pace, don't force.
+
 ## Entry Checklist
 - Specific catalyst?
 - Sector in momentum?
