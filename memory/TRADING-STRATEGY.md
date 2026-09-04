@@ -77,6 +77,28 @@ mode is "one add, then coast at 2 names." The ladder is no longer discharged by 
 - Still inviolable: every add must clear the checklist + trend/volume gate. This forces MORE
   breadth and a faster second leg, never a worse fill. Pace, don't force.
 
+## Deployment Screen Evidence Requirement (added 2026-09-04, after the 8/28 floor failed its first week)
+The 8/28 position-floor/second-leg rule failed its very first full-week test (wk ending 9/4):
+zero adds, still 2 names / ~19% deployed — an 8th straight week under target, and the ≥3 floor
+is now itself ~3 weeks in violation (phase began ~Aug 3; 2nd full week ended ~Aug 14; never above
+2 names since). Root cause is no longer the rule's wording — it is that "no confirmed leader" has
+never been AUDITABLE. The same unverifiable default defeated the 7/3 floor and the 8/7 ladder
+before it: a claim that no leader qualified cannot be told apart from a screen that never ran.
+Fix — make the search itself evidence, not the excuse:
+- While below the 3-position floor, a "no confirmed leader / hold" no-deploy decision is INVALID
+  unless that session's log (RESEARCH-LOG or TRADE-LOG) names the ACTUAL broad screen: at least
+  8 specific candidate tickers spanning at least 3 sectors, each with its gate result (price vs
+  50 EMA, relative volume, and distance to its trigger). Re-quoting only the names already held
+  (or the same stale two-to-three-name bench) does NOT satisfy it.
+- An unlogged screen is not a valid "wait": it is recorded as "the routine did not run the
+  mandated screen" and must be corrected the next session — passivity without a logged screen is
+  a process failure, not patience.
+- If the index is at/near record highs or the tape is up on the week, the logged screen must
+  make the market-wide breadth case explicitly ("these 8+ named leaders each failed for reason X"),
+  never a generic "nothing confirmed."
+- Still inviolable: every entry must clear the checklist + trend/volume gate. This forces the
+  search to be PROVEN, never a worse fill. Pace, don't force — but show the work.
+
 ## Entry Checklist
 - Specific catalyst?
 - Sector in momentum?

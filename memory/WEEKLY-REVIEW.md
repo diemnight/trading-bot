@@ -39,6 +39,55 @@ Template for each entry:
 
 ### Overall Grade: X
 
+## Week ending 2026-09-04
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $99,204.30 (Mon 8/31 AM ≈ Fri 8/28 EOD; Alpaca last_equity 8/31 $99,227.47, mark-timing) |
+| Ending portfolio | $98,830.88 (logged Sep 4 EOD; live pull $98,798.74, mark-timing) |
+| Week return | -$373.42 (-0.38%) |
+| S&P 500 week | ~+0.5% (up week; +162k Aug jobs vs 55k est revived Sept-hike fears → S&P -0.4% Fri; snapped nothing but faded into the print) |
+| Bot vs S&P | -0.88% |
+| Trades | 0 (W:0 / L:0 / open:2); 2 positions held (2/6); 0/3 weekly slots used |
+| Win rate | n/a (0 closed) |
+| Best trade | MSFT -1.76% (open, unrealized) |
+| Worst trade | V -2.33% (open, unrealized) |
+| Profit factor | n/a (0 closed) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| — | — | — | — | No closed trades this week |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+| MSFT | $508.53 | $499.57 | -$170.29 (-1.76%) | $466.00 (10% GTC trail, HWM $517.78 — verified live, order 9eebcba6) |
+| V | $385.33 | $376.35 | -$224.49 (-2.33%) | $347.01 (10% GTC trail, HWM $385.57 — verified live, order 9d0cb15c) |
+
+### What Worked
+- Individual-name discipline stayed clean: both 10% GTC trails verified live and correct (MSFT $466.00, V $347.01), no stop moved down, no rule bent, and no risk forced into Friday's strong-jobs risk-off tape (S&P -0.4% on the print). Drawdown held shallow and orderly (-1.17% phase) — nothing broke.
+- V passed its recurring first-warning test all week: it sat right on EMA20 (~$373) every session, tagged the edge Tue (-3.29% low), and RECLAIMED and held above it Wed-Fri rather than breaking down — the manage/exit line the log flagged daily never triggered. Correct to hold, not to cut a name still on its trend line.
+- Correct restraint into the jobs binary: with +162k blowing out the 55k estimate and Sept-hike odds jumping to ~58%, both leaders faded Friday — declining to add fresh risk into that print was the right call for that ONE session.
+
+### What Didn't Work
+- ZERO adds for the full week — stayed at 2 names / ~19% deployed for the 4th straight week and the 8th consecutive week under the 75-85% target. On a +0.5% up week that under-deployment cost us again: we finished -0.38%, a -0.88% relative miss, entirely because 81% of the book sat in cash while the index rose and our two small holdings drifted down.
+- THE headline: the 8/28 rule (position-count floor of ≥3 + mandatory broad screen every session below it + second-leg requirement) FAILED its very first full-week test. It produced zero adds and we coasted at 2 names — the exact "one add then coast" failure it was written to abolish. Worse, the floor is now in outright VIOLATION: the current phase began ~Aug 3, its 2nd full week ended ~Aug 14, and we've carried only 2 positions every session since — the ≥3 floor is ~3 weeks overdue and unmet.
+- No logged evidence the mandated broad-universe screen actually ran. The daily notes re-quote "no fresh leader cleared its gate" every session but name only the two positions we already hold (MSFT/V) plus, occasionally, the same stale bench — there is no logged screen of a wide, market-wide candidate set. "No leader confirmed" is now indistinguishable from "we didn't look," which is the precise hole that defeated the 7/3 floor and the 8/7 ladder before it.
+- Couldn't even add to our own winner: MSFT's add-trigger (a clean close >$517.75 on volume) teased twice — poked $517.78 intraday Fri 8/28, got within +1.5% Thu 9/3 — but never closed above the line, so even the add-on-strength path produced nothing. Both names ended red; the book generated no positive alpha and has no third leg carrying it.
+
+### Key Lessons
+- Fourth rule iteration, same flaw — the problem is no longer the rule's WORDING, it's EXECUTION and EVIDENCE. The 7/3 floor, the 8/7 ladder, and now the 8/28 second-leg/floor have each failed the same way: an unverifiable "leaders haven't confirmed" default that can't be distinguished from a screen that never ran. A guardrail whose trigger can't be audited is functionally no guardrail. The fix has to make the SEARCH auditable, not add another clause to the search rule.
+- Cash is a market-direction bet, proven yet again with the sign flipped from two weeks ago: the same ~19% deployment that SAVED +0.2% relative in the 8/21 selloff COST -0.88% in this +0.5% up week. Five of the last six up-tape weeks have gone against us for exactly this reason. This is not a strategy — it's a coin we keep flipping by default.
+- A hold is only "patience" if a wider option was genuinely examined and passed up. With no logged broad screen, this week's hold cannot be shown to be patience rather than paralysis — and after 8 weeks the burden of proof is on us to show the search happened, not to assume it did.
+
+### Adjustments for Next Week
+- STRATEGY CHANGE (see TRADING-STRATEGY.md, added 2026-09-04): added a DEPLOYMENT SCREEN EVIDENCE REQUIREMENT with teeth. While below the 3-position floor, a "no confirmed leader" no-deploy decision is INVALID unless that session's log names the actual broad screen — ≥8 specific candidate tickers spanning ≥3 sectors, each with its gate result (px vs 50 EMA, RVOL, distance to trigger). Re-quoting only the names already held does NOT satisfy it; an unlogged screen is treated as "the routine did not run the screen," to be corrected next session, not as a valid reason to wait. This attacks the one thread common to all four failed iterations: the unauditable search.
+- Get to the 3rd leg, now overdue: with a fresh 0/3 allotment and ~81% cash, the mandatory logged screen runs Monday — buy the FIRST clean confirmed leader (real catalyst + close >50 EMA on ≥1.2x vol + relative strength). The floor is in violation; the search is no longer optional and must be shown in the log.
+- Manage the book: MSFT — a clean CLOSE above $517.75 on volume is the add-on-strength signal (+3.6% away, cooled out of striking range Fri); a loss of EMA20 ~$490 or a close under the ~$473 -7% line flips it to manage/exit. V — winner only if it reclaims and holds the $383-385 shelf (+2.8% away); a decisive close below EMA20 ~$373 is the first warning (held by a whisker all week — coiling ever tighter, the name to watch).
+
+### Overall Grade: C-
+*Clean individual discipline, hollow result. Every stop was live and correct, no rule was bent, V's daily first-warning line held, and no risk was forced into the jobs-print fade — but the week produced zero deployment for a 4th straight week and an 8th straight week ~19% invested, and it lagged the S&P by -0.88% on an up tape with BOTH names red. The defining failure: the freshly-minted 8/28 position-floor/second-leg rule failed its first full-week test outright (still 2 names, floor now ~3 weeks in violation) and there is no logged evidence the mandated broad screen ever ran. That drops this below the prior C weeks — 8/28 at least cut a loser and added a name; this week took no action at all while the guardrail written the week before was quietly ignored. This is now the FOURTH rule iteration against the same chronic flaw, so the change this week targets the actual common thread — an unauditable search — rather than re-quoting the deployment target a ninth time.*
+
 ## Week ending 2026-08-28
 
 ### Stats
