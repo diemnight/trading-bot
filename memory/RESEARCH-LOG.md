@@ -1806,3 +1806,50 @@ HOLD on this run (patience > activity; pre-market is research). QUEUE for market
 
 ### Decision
 **HOLD — market closed for Labor Day; no action possible today, a valid single-session dated binary.** Ran the full 10-name / 6-sector broad screen anyway (evidence rule satisfied): no name cleared the complete gate — 4 fail the 50-EMA trend gate, 2 are jammed under resistance, and the 2 clean uptrends (PLTR/NEM) are light-volume with no fresh catalyst. **Tuesday 9/8 re-open re-arms the ladder with no holiday cover:** re-screen broad and arm a gated starter — **MSFT** on a reclaim >$517.75 on ≥1.2x vol (HALF size), or a fresh **PLTR** (>$188.32) / **NEM** (>$135.27) break on ≥1.2x vol WITH a catalyst. CPI Friday resolves Friday and does NOT license a Tue-Thu pause. **Hold MSFT + V** (both healthy, above cut lines, trails live). Trades this week **0/3**; deployment ~19.1% — the priority to fix on confirmation at the re-open.
+
+## 2026-09-08 — Pre-market Research
+
+> Tue 9/8 — first session of a short week (Mon 9/7 = Labor Day, closed). Perplexity key absent (exit 3) — used native WebSearch; noted per rule.
+
+### Account
+- Equity: $98,658.18 (last_equity $98,801.45 → overnight −$143.27 / −0.14%)
+- Cash: $79,930.40 | Buying power: $372,159 (4x margin)
+- Daytrade count: 0 | PDT: false
+- Positions: 2 (MSFT, V) | Deployed $18,727.78 = **19.0%** — still below the 75–85% target and below the ≥3-position floor (8th+ straight week). Open GTC trailing stops on both, neither threatened.
+
+### Market Context
+- WTI / Brent: crude **down >3%** today — eases inflation expectations, pulls 10y T-note yield −4bp to ~4.66%. Tailwind for rate-sensitives/financials.
+- S&P 500 futures: ES +0.35% premarket (mild risk-on).
+- VIX: ~16.3 — calm, no stress bid.
+- Today's catalysts: NFIB Small Business Optimism (Aug) 6:00 ET; 3y note auction 1:00 ET. Light day.
+- Earnings before open: none material to book.
+- Economic calendar (wk 9/8): **Wed PPI + ECB decision; Fri CPI (Aug)** — nowcast headline +3.38% y/y, +0.36% m/m; core +2.38% y/y (slightly warm). Fed **quiet period** into the 9/15–16 FOMC. Fri CPI is the week's binary.
+- Sector momentum: falling oil+yields favor financials & megacap tech; energy soft (crude fading); staples/discretionary retail (COST) and healthcare (LLY) both below their 50 EMAs.
+
+### Broad Screen (mandatory below 3-position floor — 12 names, ≥6 sectors; gate = px vs 50 EMA / rel-vol / dist-to-trigger via ta.py)
+- **JPM** (financials) — trend UP (px 358.48 > EMA20 356.53 > EMA50 348.31), RSI55, vol 0.9x, res 366.30 (+2.2%), sup 350.43. **Best fresh confirmed leader; not jammed.**
+- MSFT (held, tech) — UP, RSI59, vol 0.9x, res 517.75 (+3.6%).
+- V (held, financials) — UP, RSI55, vol 0.8x light, res 385.54 (+2.8%).
+- NVDA (semis) — UP, RSI60, vol 0.9x, res 234.75 (+2.0%) → **jammed <2% under res, skip fresh chase.**
+- ORCL (tech) — MIXED (EMA20<EMA50), RSI61, vol **1.4x confirmed**, res 159.70 (+0.6%) → post-earnings, jammed <2% under res, skip chase.
+- META (tech) — MIXED, res 619.38 (+0.4%) → jammed, skip.
+- NFLX (comm svcs) — MIXED (below both EMAs), vol 1.4x → fails trend gate.
+- AVGO (semis) — DOWN (below 50 EMA) → fails.
+- GOOGL (comm svcs) — DOWN → fails.
+- LLY (healthcare) — MIXED/below 50 EMA → fails.
+- COST (staples/retail) — DOWN (px 915.68 < EMA50 949.74) → fails.
+- CAT (industrials) — DOWN → fails.
+Screen result: of 12, only JPM is a trend-UP fresh name NOT jammed under resistance. The megacap/semis breakout candidates (NVDA/ORCL/META) are all pinned <2% under resistance — chasing them violates the resistance rule; wait for the break, don't pre-buy.
+
+### Trade Ideas
+1. **JPM — starter (half-size ~$4–5k)** on confirmation. Catalyst: falling oil→falling yields bid + record-high tape; clean uptrend. Entry: only on a **volume-confirmed break/hold above 366.30 (≥1.2x vol)** OR an intraday higher-low reclaim of 360; stop = 10% GTC trail (~$329 off a ~$366 fill; structure stop at 350 is <3% away → violates the never-within-3% rule, so use the 10% trail). Target ~$390 (+6.5% from breakout) → ~1.4:1 on the trail — honest read: financials' low beta caps R:R; size half.
+2. NVDA — WATCH the 234.75 break only; do not pre-buy jammed. If it clears on ≥1.2x vol, best-beta continuation candidate for the next session.
+3. Hold both MSFT & V — theses intact (V near records on double-digit rev growth/cross-border; MSFT no adverse catalyst), just normal pullbacks well above their cut lines.
+
+### Risk Factors
+- Fri CPI (Aug) warm-ish nowcast — a hot print into Fed quiet period could jolt rate-sensitives; keep new size to a starter, not full.
+- Breakout names all pinned under resistance — high chase risk; require the volume confirm.
+- Short week + light Tue data = thin tape, whippy fills.
+
+### Decision
+**PLAN a half-size JPM starter at open — CONFIRMATION-GATED (break/hold 366 on ≥1.2x vol, or 360 reclaim); else HOLD.** Rationale: 8th+ week below the 3-position floor obliges the widened screen (logged above) and a starter into the single best confirmed leader — but CPI is Friday and JPM is mid-range, so the entry is gated on a real volume break, not forced today. Pace, don't force. Trades this week: 0/3.
