@@ -1853,3 +1853,60 @@ Screen result: of 12, only JPM is a trend-UP fresh name NOT jammed under resista
 
 ### Decision
 **PLAN a half-size JPM starter at open — CONFIRMATION-GATED (break/hold 366 on ≥1.2x vol, or 360 reclaim); else HOLD.** Rationale: 8th+ week below the 3-position floor obliges the widened screen (logged above) and a starter into the single best confirmed leader — but CPI is Friday and JPM is mid-range, so the entry is gated on a real volume break, not forced today. Pace, don't force. Trades this week: 0/3.
+
+## 2026-09-09 — Pre-market Research
+
+> Wed 9/9. Perplexity key absent (exit 3) — used native WebSearch; noted per rule.
+
+### Account
+- Equity: $98,503.27 (last_equity $98,531.45 → overnight −$28.18 / −0.03%)
+- Cash: $79,930.40 | Buying power: $371,725 (4x margin)
+- Daytrade count: 0 | PDT: false
+- Positions: 2 (MSFT, V) | Deployed $18,572.87 = **18.9%** — still below the 75–85% target and the ≥3-position floor (~11th straight week). Both GTC 10% trails live; neither threatened.
+
+### Market Context
+- **WTI ~$94.9 (+2.0%) / Brent >$100 (+2.6%)** — Brent tops $100 first time since July on US–Iran escalation (US struck 5 Iranian oil tankers, Hormuz risk). A geopolitical/war spike, not a demand-led move.
+- S&P 500 futures: ES **−0.2%** premarket (risk-off).
+- VIX: **~16.5 (+5%)** — creeping up, not stressed.
+- **10y Treasury yield ~4.82% — highest close since 2023; traders now price a possible Fed HIKE in Sept.** This is the dominant tape driver: a rate shock, risk-off.
+- Today's catalysts: rising yields + oil war spike ahead of inflation data; Fed quiet period live (9/5–17).
+- Earnings before open: none material to book (ORCL reports **Thu 9/10**, ADBE Thu; nothing pre-open today for held names).
+- Economic calendar: **PPI (Aug) Thu 9/10, CPI (Aug) Fri 9/11 before open** — the week's binaries; **FOMC 9/15–16**. An upside CPI surprise into surging yields = risk-off.
+- Sector momentum (YTD): **Energy #1 (XLE +42%)**, Financials mixed-positive (steeper curve/NII), **Tech NEGATIVE YTD (XLK −2.4%)** — rate-sensitive laggard, pressured by the yield spike.
+
+### Broad Screen (mandatory below 3-position floor — 10 names / 6 sectors; gate = catalyst + px>50 EMA + ≥1.2x vol + not jammed; via ta.py)
+| Ticker | Sector | Trend (vs 50/20 EMA) | RSI | Vol | Dist to res | Gate result |
+|---|---|---|---|---|---|---|
+| MSFT (held) | Tech | UP (>20>50) | 56 | 0.8x light | +4.8% ($517.75) | in-book hold; add path far + light vol → no add |
+| V (held) | Financials | UP (>50 but **<EMA20**) | 48 | 1.1x | +4.5% ($385.54) | weakening hold, below EMA20; no add |
+| NVDA | Semis | UP | 56 | 0.8x light | +4.0% ($234.75) | clean uptrend but light vol, no fresh catalyst → no |
+| JPM | Financials | UP (>50 but **<EMA20**) | 48 | 1.1x | +3.6% ($366.30) | slipped below EMA20, no vol break → no |
+| XOM | Energy | UP | 53 | 0.9x | +4.9% ($168.64) | uptrend but light vol; chasing a war-driven oil spike = bad entry → no |
+| CVX | Energy | UP | 66 | 1.0x | **+1.6%** ($213.25) | **JAMMED <2% under res** + oil-spike chase → no |
+| NEM | Gold | UP | 59 | 0.9x | +6.5% ($135.27) | clean uptrend but light vol, no fresh dated catalyst → no |
+| PLTR | Software | **MIXED (<EMA20)** | 51 | **0.6x** dead | +10.6% | slipped below EMA20 on dead vol → no |
+| ORCL | Software | **MIXED** | 63 | **1.7x** confirmed | +5.0% | vol confirms but **earnings TMR 9/10** (binary, no edge) + trend mixed → no |
+| LLY | Healthcare | **DOWN (<both EMAs)** | 37 | 0.7x | +15% | fails trend gate → no |
+
+**Screen verdict (auditable):** across 6 sectors, NO name clears the full gate. Trend-gate fails: LLY (below both), PLTR & ORCL (below/mixed EMA20). Jammed under resistance: CVX (+1.6%). Clean uptrends but no volume confirm + no fresh catalyst: NVDA / XOM / NEM (all 0.8–0.9x). The one volume-confirmed name (ORCL 1.7x) reports earnings tomorrow — a binary with no edge. This is a proven, market-wide "no confirmed leader today," not a re-quote of the two holds.
+
+### Trade Ideas (catalyst leads; TA refines) — HOLD today; armed watchlist
+1. **JPM — financials starter, gated.** Catalyst: steeper-curve/NII bid. Gate: volume-confirmed break/hold **>$366.30 on ≥1.2x vol**; today it slipped BELOW its EMA20 ($356.24) with no break → not armed today. Entry ~$367, stop = 10% GTC trail (~$330), target ~$390 → ~1.5:1 (low-beta caps R:R; half size only).
+2. **NEM — gold diversifier, gated.** Non-tech/non-energy hedge if rates/geopolitics stay hot. Gate: break **>$135.27 on ≥1.2x vol**; light vol (0.9x) today → watch. Entry ~$135.5, stop ~$124 (−8.5%), target ~$150 → ~2:1.
+3. **MSFT — in-book add path (re-armed).** Reclaim **>$517.75 on ≥1.2x vol** (now +4.8% away, slipped further on the yield spike). No add near.
+
+**Rejected/avoided today:** (1) **Chasing energy (XOM/CVX) into a war-driven Brent-$100 spike** — the sector leads YTD, but a geopolitical price shock is a headline, not a chart; XOM is light-vol and CVX is jammed <2% under resistance. Right neighborhood, wrong entry; a de-escalation unwinds it fast. (2) **ORCL** — only volume-confirmed name but reports earnings tomorrow; buying into a binary with no edge is against the book. (3) **Rate-sensitive tech chases (NVDA)** — light vol, and the yield spike is a direct headwind. (4) **Forcing a 3rd name to hit the floor** — nothing cleared the gate; the disciplined move is the logged screen + HOLD, never a worse fill into a rate shock the day before PPI.
+
+### Thesis depth (for the educational alerts)
+- **WHY not chase the runaway leader (energy) today, even at Brent $100:** Energy is the clear YTD momentum sector (+42%), so the sector-momentum rule points there. But WHY the barrel jumped matters: today's move is a US–Iran war spike (tankers struck), not steady demand growth. A price driven by a one-off geopolitical event is the most fragile kind — it round-trips the moment tensions de-escalate. Combined with the single-name gates (XOM light volume, CVX jammed against resistance), there is no clean, high-probability entry. The alternative — buy anyway because "energy leads" — confuses WHERE to look (sector momentum) with WHETHER to buy (the individual gate). We wait for an energy chart that breaks out on real volume without a war headline doing the lifting.
+- **WHY tech (our MSFT) is on the back foot:** the 10y yield at ~4.82% — its highest since 2023 — is the tape's real story. Higher long rates lower the present value of far-off tech earnings (a discount-rate hit) and let cash/bonds compete with growth stocks. That's why XLK is negative YTD while energy runs. We hold MSFT (trend still up, above both EMAs, thesis intact) but we don't add into the yield headwind, and we watch V, which just slipped below its 20-EMA.
+- **Concept of the day — "why bond yields move stocks (the discount rate)."** A stock is worth the sum of its future cash flows, but a dollar earned years from now is worth less today — you "discount" it back, and the discount rate rises and falls with bond yields. When the 10-year jumps to a multi-year high, every future dollar is discounted harder, so the stocks whose value sits furthest in the future (high-growth tech) fall the most, while companies earning cash NOW (energy, banks) hold up better. That single mechanism explains today's whole tape: yields up → growth down, real-economy up. It's also why "good news" (a hot economy) can be "bad news" for stocks — it pushes yields, and the discount rate, higher.
+
+### Risk Factors
+- **Rate shock:** 10y at ~4.82% (highest since 2023), market now flirting with Sept-HIKE odds — a direct headwind to both holds (rate-sensitive megacaps) and to any new tech/financials add.
+- **PPI Thu 9/10 + CPI Fri 9/11 into a warm nowcast** — back-to-back inflation binaries; a hot print amplifies the yield/risk-off move. Real reason to keep new size gated, not forced.
+- **Oil war premium two-sided** — Brent >$100 on US–Iran; escalation lifts energy/inflation, de-escalation unwinds it fast. Not a clean trade either way today.
+- **V weakening** — worst holder (−4.63%, current ~$368.86), now below its EMA20; its −7% cut line (~$358.4) sits right at support ($358.32). Watch: a break there is BOTH the manual cut and a structure break. MSFT healthier (−2.86%, above both EMAs).
+
+### Decision
+**HOLD — no add. Full 10-name / 6-sector broad screen run and logged (evidence rule satisfied): no name clears the complete gate.** The tape is a genuine rate-shock risk-off (10y highest since 2023, oil war spike) the day before PPI and two before CPI; energy leads but is spiking on a war headline (bad entry), and every non-energy candidate is light-vol, jammed, or below its EMA — a concrete, market-wide "no confirmed leader," not a re-quote. Deployment stays the standing problem (~18.9%, 2 names); the fix is a gated starter the moment a name confirms — **JPM >$366.30**, **NEM >$135.27**, or **MSFT reclaim >$517.75**, each on ≥1.2x vol — most likely a post-CPI read once the yield shock resolves direction. **Hold MSFT + V** (both above −7% cut lines, trails live); watch V into its $358 cut/support confluence. Trades this week: **0/3**.
