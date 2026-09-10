@@ -1910,3 +1910,62 @@ Screen result: of 12, only JPM is a trend-UP fresh name NOT jammed under resista
 
 ### Decision
 **HOLD — no add. Full 10-name / 6-sector broad screen run and logged (evidence rule satisfied): no name clears the complete gate.** The tape is a genuine rate-shock risk-off (10y highest since 2023, oil war spike) the day before PPI and two before CPI; energy leads but is spiking on a war headline (bad entry), and every non-energy candidate is light-vol, jammed, or below its EMA — a concrete, market-wide "no confirmed leader," not a re-quote. Deployment stays the standing problem (~18.9%, 2 names); the fix is a gated starter the moment a name confirms — **JPM >$366.30**, **NEM >$135.27**, or **MSFT reclaim >$517.75**, each on ≥1.2x vol — most likely a post-CPI read once the yield shock resolves direction. **Hold MSFT + V** (both above −7% cut lines, trails live); watch V into its $358 cut/support confluence. Trades this week: **0/3**.
+
+## 2026-09-10 — Pre-market Research (Day 62, Thursday — PPI DAY: Aug PPI prints 8:30 ET (~80 min after this run) → do NOT buy pre-print; CPI tomorrow 9/11. Fed futures now 59% for a 25bp HIKE at 9/15-16 (cut→hike flip on inflation fear). NEW vs 9/9: the two closest leaders XOM + NEM have FLIPPED to volume-confirmed (1.4x / 1.3x) uptrends — but both mid-range, so a mid-range fill fails the 2:1 R:R hard rule → ARM the breakout, don't chase; HOLD both names)
+
+> Perplexity key absent → native WebSearch per rule. WebSearch partial outage: realtime futures/VIX/oil queries returned "unavailable"; recovered 9/9 recap + Fed-odds + PPI timing from CNBC/Yahoo. Live oil/VIX carried from 9/9 with that caveat flagged below.
+
+### Account
+- Equity: $98,511.38 (last_equity $98,456.50 → overnight +$54.88 / +0.06%)
+- Cash: $79,930.40 | Buying power: $371,748 (4x margin; RegT $178,442; non-marginable $89,221)
+- Daytrade count: 0 | PDT: false (equity >$25k, non-binding)
+- Positions: 2 (MSFT, V) | Deployed $18,580.98 = **18.9%** — still below the 75–85% target and the ≥3-position floor (~12th straight week). Both GTC 10% trails live; neither threatened.
+
+### Market Context
+- **9/9 close (risk-off):** S&P 500 **7,636.36 −0.48%** | Dow 52,380.66 −0.77% | Nasdaq 26,253.34 −0.64%. Rising Treasury yields + oil the stated drivers.
+- **Fed:** fed-funds futures now price a **59% chance of a 25bp HIKE** at the 9/15-16 FOMC — a cut→hike flip on inflation concern. Quiet period live.
+- **Rates/oil (carried from 9/9, search outage — treat as ~1-day stale):** 10y ~4.8%+ (multi-yr high); Brent >$100 / WTI ~$95 on US–Iran + an "energy supply crunch" theme now framed as structural, not just a one-day war headline.
+- **Data/events:** **Aug PPI TODAY 8:30 ET; Aug CPI Fri 9/11 8:30 ET** — back-to-back inflation binaries. **ORCL earnings today** (binary). VIX not refreshed (outage) — ~16-17 area on 9/9.
+
+### Broad Screen (auditable — 12 names / 7 sectors; ta.py closes)
+| Ticker | Sector | Trend (vs EMAs) | RSI | Vol | Res / dist | Gate result |
+| MSFT | Software | UP (>both) | 55 | 0.6x light | $517.75 +5.3% | HOLD in-book; add only >$517.75 ≥1.2x |
+| V | Payments | UP (>50, **<EMA20**) | 47 | 0.7x light | $385.54 +4.9% | HOLD; weakest, watch $358 |
+| NVDA | Semis | UP (>both) | 54 | 0.6x light | $234.75 +4.9% | no — dead vol, no fresh catalyst |
+| JPM | Financials | UP (>50, **<EMA20**) | 50 | **1.6x** | $366.30 +3.3% | no — below EMA20, no break; armed >$366.30 |
+| XOM | Energy | UP (>both) | 59 | **1.4x** | $168.64 **+2.7%** | **ARMED** — break >$168.64 ≥1.2x (mid-range fails R:R) |
+| CVX | Energy | UP (>both) | 70 | 1.2x | $215.24 **+0.7%** | no — **JAMMED** <2% under res |
+| NEM | Gold | UP (>both) | 61 | **1.3x** | $135.27 +5.1% | **ARMED** — break >$135.27 ≥1.2x |
+| PLTR | Software | UP (>50, **<EMA20**) | 51 | 0.5x dead | $188.32 +11.1% | no — below EMA20, dead vol |
+| ORCL | Software | UP (>both) | 62 | 0.9x | $170.59 +5.6% | no — **earnings today** (binary, no edge) |
+| LLY | Healthcare | **MIXED (<both)** | 37 | 0.8x | $1292.51 +15% | no — fails trend gate |
+| AVGO | Semis | **DOWN (<both)** | 43 | 1.1x | $426.50 +17% | no — fails trend gate |
+| COST | Retail | **DOWN (<both)** | 34 | 0.9x | $977.98 +8.4% | no — fails trend gate |
+
+**Screen verdict (auditable):** Trend-gate fails — LLY/AVGO/COST (below both), JPM/PLTR (below EMA20). Jammed — CVX (+0.7% under res). Light/dead vol, no catalyst — NVDA/MSFT/V/PLTR. Binary today — ORCL. Only **XOM (1.4x)** and **NEM (1.3x)** clear trend + volume + not-jammed — a genuine change from 9/9 (both were light-vol then). BUT both sit mid-range: XOM's res is only +2.7% away, so a mid-range fill needs a stop within ~1.4% to make 2:1 — that violates the 3%-from-price rule. The rule-compliant entry is the confirmed **BREAK**, not the middle. Both armed; neither triggered pre-print.
+
+### Trade Ideas (catalyst leads; TA refines) — HOLD today; two armed on breakout
+1. **XOM — energy starter, ARMED (primary).** Catalyst: YTD leader (+~44%) + structural supply-crunch theme; energy is the sector that HOLDS in a rate-hike/inflation tape. Trigger: **break >$168.64 on ≥1.2x vol** (+2.7%). Entry ~$169.5, stop = 10% GTC trail (~$152.5), target measured-move ~$185 → ~2:1. Trend UP (>both EMAs), RSI 59, vol 1.4x confirmed. **Half-size** starter.
+2. **NEM — gold diversifier, ARMED.** Catalyst: rate/inflation + geopolitics hedge, non-tech/non-energy. Trigger: **break >$135.27 on ≥1.2x vol** (+5.1%). Entry ~$136, stop 10% trail (~$122.5), target ~$150 → ~2:1. Trend UP, RSI 61, vol 1.3x confirmed.
+3. **MSFT — in-book add path.** Reclaim **>$517.75 on ≥1.2x vol** (+5.3% away — far). No add near.
+
+### Rejected/avoided today
+- **CVX** — only +0.7% under resistance = jammed; a break there is a coin-flip fill, not an edge.
+- **Chasing XOM/NEM mid-range** — buying the middle fails the 2:1 R:R hard rule and would front-run two inflation prints in 48h; a hot PPI/CPI can either confirm the energy breakout or offer a cleaner pullback fill. Arm, don't chase.
+- **ORCL** — reports today; buying into a binary with no edge is against the book.
+- **NVDA / rate-sensitive growth** — dead 0.6x vol into a rising-yield, 59%-hike-odds tape (discount-rate headwind).
+- **JPM / PLTR** — both slipped below EMA20 (JPM despite 1.6x vol, no break); wait for reclaim + break.
+
+### Thesis depth (for the educational alerts)
+- **WHY energy/hard-assets over growth right now:** the tape's driver is a yield spike + a flip to 59% odds of a Fed HIKE. Higher long rates discount far-off tech earnings harder (money rotates out of growth) while real-economy cash generators — energy, gold — hold or lead. Sector-momentum (energy +~44% YTD) and money-flow both point the same way. The obvious alternative — buy the dip in megacap tech (NVDA/MSFT-add) — fights the discount-rate tide AND shows dead 0.6x volume: no demand, wrong side of the flow.
+- **WHY not just buy XOM/NEM now** (they cleared trend+volume): because clearing the trend/volume gate is necessary, not sufficient — the R:R gate still has to pass, and mid-range XOM (res +2.7%) can't give a 2:1 without an illegally-tight stop. The disciplined move is to buy the *break*, where the next target opens up and R:R turns favorable.
+- **Concept of the day — reward-to-risk (R:R) and why you buy the breakout, not the middle.** Every entry is a bet: how much you can make (entry→target) vs. how much you'll lose if wrong (entry→stop). The book demands at least 2:1. Buy a stock stuck just under resistance and your upside to that ceiling is tiny while your stop is a full 10% below — a losing bet even if the stock is a great company. Wait for it to *break* the ceiling: now the old resistance becomes support (your stop tightens against it) and clear-air upside opens above — the same stock, a far better bet. Patience isn't inactivity; it's waiting for the odds to turn in your favor.
+
+### Risk Factors
+- **Two inflation binaries in 48h:** Aug PPI today 8:30, Aug CPI tomorrow 8:30. A hot print amplifies the yield/risk-off move (and hike odds) — though it's a two-sided tailwind for energy specifically.
+- **Fed hike scare:** 59% odds of a 25bp HIKE at 9/15-16 — a direct headwind to both rate-sensitive holds and any tech/financials add.
+- **Oil two-sided:** supply-crunch/geopolitics can spike or unwind fast; energy entry is gated on a *volume break*, not the headline.
+- **V weakening:** worst holder (−4.0%, ~$369.76), below its EMA20; −7% cut (~$358.4) sits right at support ($358.32) — a break there is both the manual cut and a structure break. MSFT healthier (−3.4%, above both EMAs).
+
+### Decision
+**HOLD today — no mid-range entry (fails the 2:1 R:R hard rule), but TWO leaders ARMED on breakout: XOM >$168.64 and NEM >$135.27, each on ≥1.2x vol.** This is NOT a re-quote of 9/9: XOM+NEM flipped to volume-confirmed today (1.4x/1.3x) — the volume the book demanded has arrived; they're just still mid-range, so the rule-compliant entry is the confirmed break, not a forced chase into PPI (8:30 today) + CPI (8:30 tomorrow). PPI is the dated binary that licenses no pre-print chase; **it expires at 8:30 → the market-open run executes a HALF-size starter if a trigger fires** (energy/gold lead in a rate-hike tape — the right sectors). Deployment stays the standing problem (~18.9%, 2 names, ~12th week); the fix is the armed break, taken the moment it prints. **Hold MSFT** (healthy, above both EMAs, −3.4%) **+ V** (weakest −4.0%; watch the $358 cut/support confluence). Trades this week: **0/3**.
