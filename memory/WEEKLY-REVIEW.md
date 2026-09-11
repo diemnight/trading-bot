@@ -39,6 +39,57 @@ Template for each entry:
 
 ### Overall Grade: X
 
+## Week ending 2026-09-11
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $98,801.45 (Mon 9/7 static holiday mark ≈ Fri 9/4 EOD; prior review logged $98,830.88, mark-timing) |
+| Ending portfolio | $98,606.30 (logged Sep 11 EOD; live pull $98,598.14, mark-timing) |
+| Week return | -$195.15 (-0.20%) |
+| S&P 500 week | ~-0.8% (DOWN week; 4-day losing streak — Dow's worst week since March on sticky-CPI Fed-hike fears; Fri +0.86% relief bounce to 7,656.98 as Aug CPI +0.4%/3.4% landed in line, core +0.3% hot; Sept-hike odds jumped to ~87%) |
+| Bot vs S&P | +0.60% |
+| Trades | 0 (W:0 / L:0 / open:2); 2 positions held (2/6); 0/3 weekly slots used (Mon 9/7 was Labor Day — market closed) |
+| Win rate | n/a (0 closed) |
+| Best trade | MSFT -2.56% (open, unrealized) |
+| Worst trade | V -3.86% (open, unrealized) |
+| Profit factor | n/a (0 closed) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| — | — | — | — | No closed trades this week |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+| MSFT | $508.53 | $495.51 | -$247.39 (-2.56%) | $466.00 (10% GTC trail, HWM $517.78 — verified live, order 9eebcba6) |
+| V | $385.33 | $370.45 | -$371.96 (-3.86%) | $347.01 (10% GTC trail, HWM $385.57 — verified live, order 9d0cb15c) |
+
+### What Worked
+- Cash was a SHIELD for only the 2nd time in the challenge (the 8/21 mirror): the S&P fell ~-0.8% into a Fed-hike scare and we finished -0.20%, +0.60% AHEAD of the index — the same ~19% deployment that bled us on the four up-weeks cut the loss on this down tape. Larger relative beat than 8/21's +0.2%.
+- THE process fix from 9/4 actually LANDED: the mandated broad screen ran AND was logged auditably both required sessions (10 names / 6 sectors on 9/7, 11 names / 7 sectors on 9/11), each name with its gate result. For the first time the "no confirmed leader" default is DISTINGUISHABLE from "we didn't look" — the exact hole that defeated the 7/3 floor, the 8/7 ladder and the 8/28 floor is closed. The hold is now demonstrably patience, not paralysis.
+- V's defense was managed correctly every session: its EMA20 first-warning FIRED Tue (closed decisively below on 1.1x vol) and stayed fired 4 days, and the ~$358 support/-7% line (the two coincide) was tracked to the tick — V approached to +2.5% Thu but the break drew only light/normal vol (no distribution follow-through), so no premature cut; the CPI bounce Fri then widened the gap back to +3.4%. Disciplined defense on the name on the clock, no panic cut, no rule bent.
+- Correct restraint OVER the CPI binary: held dry powder through Friday's 8:30 print rather than chasing into it — a genuine dated binary, correctly waited out; both names bounced green on the benign-enough read. Every trail live and correct, no stop moved down, drawdown stayed shallow (-1.39% phase) and orderly.
+
+### What Didn't Work
+- ZERO adds for a 5th straight week — 2 names / ~19% deployed, now the 12th consecutive week under the 75-85% target. This week is DEFENSIBLE (down tape, V on defense, CPI Friday), but defensible-because-of-regime is the same coin we keep flipping: the +0.60% beat came from what we DIDN'T own, not positive selection alpha. Both names we DO own are still red (MSFT -2.56%, V -3.86%); the book generated no alpha, it just had little exposure to a falling market.
+- The ≥3 position-count floor is now ~4 WEEKS in outright violation (phase began ~Aug 3; 2nd full week ended ~Aug 14; never above 2 names since). The floor is the one guardrail this week's regime luck cannot excuse — a down tape justifies not FORCING a bad add, but it does not justify a book that has been structurally stuck at 2 names for a full month.
+- Only one holding is even nominally healthy: MSFT keeps holding its EMA20 first-warning line, but V spent the whole week below its EMA20 and both are underwater from entry on light-volume entries made weeks ago. A gap-down in MSFT still erases the week — no third leg to carry the book.
+- No add-on-strength path fired either: MSFT's add line ($517.75 on volume) sat +4.5-5.3% overhead all week and never came into range; PLTR/NEM (the armed 3rd-slot candidates) never broke with a catalyst. The bench is wider and logged now, but nothing on it confirmed.
+
+### Key Lessons
+- The 9/4 evidence requirement is the FIRST of five deployment-rule iterations to visibly do its job: this week the screen was auditable, ran on the required sessions, and genuinely produced no gate-clearing leader in a falling, pre-CPI tape. The chronic flaw is no longer "we can't tell if the search ran" — it's now honestly "the search ran and, in THIS regime, correctly found nothing to force." That is real, if narrow, progress; the rule earned another week.
+- Cash remains a two-sided regime bet, and the symmetry held again: identical ~19% deployment SAVED +0.60% here on a -0.8% tape after COSTING -0.88% on the +0.5% tape two weeks ago. A disciplined book should earn alpha from selection, not from accidentally being flat in the right week — which is exactly why the position floor (not the screen) is the unfinished business.
+- Defending a named risk line beats reacting to it: V's ~$358 cut line and EMA20 warning were pre-armed and tracked daily, so when it approached +2.5% there was a plan (light-vol break = watch, not cut) rather than a scramble. This is the machinery working as designed — the same discipline that took NVDA cleanly at -7% now holding fire correctly when the break lacks conviction.
+
+### Adjustments for Next Week
+- NO rule change this week. The 9/4 evidence requirement is only 1 week old and WORKED (auditable screens logged, hold shown to be genuine) — but it has NOT had a clean rising-tape test: this week's down/pre-CPI tape lets discipline and passivity look identical again, exactly as the 8/21 week did to the ladder. Hold the rule one more week before judging (STEP 5 "proven 2+ wks OR failed badly" is met neither way — it did not fail, and one down-tape week is not proof). The honest read: the SCREEN is fixed; the POSITION FLOOR is the still-open wound, ~4 weeks in violation, and the next up-tape week is its real exam.
+- Get to a 3rd leg on the first genuine confirmation: fresh 3/3 allotment resets Mon 9/15 with ~81% cash. Run the mandated broad screen daily (floor still unmet) and buy the FIRST clean confirmed leader (real catalyst + close >50 EMA on ≥1.2x vol + relative strength). Do NOT chase into FOMC 9/15-16 — but the moment a leader confirms post-decision, the floor makes the add mandatory, not optional.
+- Manage the book: V — a decisive RECLAIM of EMA20 ~$372 flips it back constructive (px is right at it, -0.3% below after Fri's bounce); a close below ~$358 (support = -7% line, +3.4% away) is a MANUAL CUT, no waiting for the trail (same rule that took NVDA). MSFT — keeps HOLDING EMA20 ~$491 (its first-warning line, right at the tape); a decisive close below flips to first-warning, a close under ~$473 (-7%) flips to manage/exit; a clean CLOSE above $517.75 on volume (+4.5% away) is the add-on-strength signal.
+- Next binary: FOMC 9/15-16 (rate decision + dot plot, ~87% priced for a 25bp hike). It is a dated, resolving binary — a valid one-session no-force reason for the decision day only; it does NOT license a week-long pause. Screen daily regardless.
+
+### Overall Grade: C+
+*A "cash saved us again" week, one notch better than 8/21's C for a real reason: not only did the relative result go our way for the 2nd time (+0.60% vs a -0.8% index) with no capital destroyed and every stop live and correct, but the 9/4 evidence requirement — the fifth attempt at the chronic deployment flaw — visibly WORKED for the first time (auditable broad screens actually logged on both required sessions, so the hold is demonstrably patience, not the unverifiable paralysis that defeated four prior rules), and V's EMA20/-7% defense was pre-armed and managed to the tick without a premature cut. That process repair is genuine and lifts this above the purely-lucky 8/21 week. But the ceiling stays a C+, not higher, because there is still no positive selection alpha — the beat came entirely from low exposure to a falling market, both holdings are red, and the ≥3 position floor is now ~4 weeks in outright violation. The screen is fixed; the floor is not. The next rising-tape week — likely off FOMC — is the exam that decides whether this framework finally deploys or just keeps flipping the cash coin.*
+
 ## Week ending 2026-09-04
 
 ### Stats
