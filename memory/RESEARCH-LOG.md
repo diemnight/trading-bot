@@ -2027,3 +2027,62 @@ Screen result: of 12, only JPM is a trend-UP fresh name NOT jammed under resista
 
 ### Decision
 **HOLD today — no pre-print entry (CPI 8:30 is the dated, resolving binary that licenses holding dry powder for this single session), and no name clears the full gate anyway: the two leaders armed yesterday (XOM/NEM) both COOLED overnight, and CVX — the lone confirmed-volume uptrend — is jammed +1.9% under resistance.** The evidence rule is satisfied: an auditable 11-name / 7-sector screen ran (logged above) and shows a genuine market-wide "no confirmed leader," not a re-quote. Deployment stays the standing problem (~18.9%, 2 names, ~13th week) — the fix is a volume-confirmed break taken on the post-CPI read, most likely **XOM >$168.64** / **NEM >$135.27** / **MSFT reclaim >$517.75**, each on ≥1.2x vol. The market-open run executes a HALF-size starter the moment a trigger fires post-print. **Hold MSFT** (healthy, above both EMAs, −2.77%) **+ V** (weakest −4.11%, below EMA20 4th day; watch the $358 cut/support confluence, only +2.5% away — a close below ~$358 is a manual cut). Trades this week: **0/3**.
+
+## 2026-09-14 — Pre-market Research (Day 64, Monday — FOMC WEEK: the 9/15-16 meeting starts TOMORROW, decision Wed 9/16 2pm ET. A 25bp HIKE is now ~79-83% priced (was ~59% Fri) after hot Aug core CPI + strong NFP — Warsh-hawkish. Risk-OFF open: an AI-slowdown warning (OpenAI/Altman weighing pacing frontier dev) is hitting the AI/tech trade while a Hormuz/US-Iran oil spike lifts energy. Energy is surging PAST tech. This is the dated binary that licenses holding dry powder into Wed.)
+
+> Perplexity key absent (exit 3) → native WebSearch per rule. WebSearch returned futures, oil, VIX, Fed odds, catalysts, and sector data cleanly.
+
+### Account
+- Equity: $98,696.09 (last_equity $98,608.62 → overnight +$87.47 / +0.09%)
+- Cash: $79,930.40 | Buying power: $372,265.53 (4x margin; RegT $178,626; non-marginable $89,313)
+- Daytrade count: 0 | PDT non-binding (equity >$25k)
+- Positions: 2 (MSFT, V) | Deployed $18,765.69 = **19.0%** — still below the 75–85% target and the ≥3-position floor (~14th straight week). Both GTC 10% trails live (MSFT $466.00 / V $347.01); neither threatened.
+
+### Market Context
+- **Futures (RISK-OFF):** S&P 500 futures **−0.6%**, Nasdaq 100 **−1.0%+** — an AI-slowdown warning (OpenAI/Altman weighing pacing frontier AI development) is knocking the AI/tech trade that led the year; oil + Mideast tensions compound it.
+- **FOMC 9/15-16 (the dominant binary):** meeting STARTS Tue, decision **Wed 9/16 2pm ET**. A **25bp HIKE ~79-83% priced** (surged from ~59% Fri) after hot Aug core CPI + strong NFP; next-most-likely = hold (~19%). Warsh hawkish, quiet period live.
+- **Oil (spiking on Hormuz):** WTI **~$102.5** (+2.5%), Brent **~$107.5** (+2.9%) on Strait-of-Hormuz / US-Iran escalation. Energy is the sector holding/leading in the inflation-hike tape.
+- **VIX ~19** — elevated (up from ~16-17 area last week), pricing event risk into the Fed.
+- **Sector momentum YTD:** Energy **+44%** (XOM +40%, CVX +44%) vs Info Tech **+23%** — energy "surging past tech," recast as the era's inflation hedge. This is the confirmed relative-strength lane.
+
+### Broad Screen (auditable — 11 names / 7 sectors; ta.py closes)
+| Ticker | Sector | Trend (vs EMAs) | RSI | Vol | Res / dist | Gate result |
+| MSFT | Software | UP (>both) | 57 | 0.7x light | $517.75 +4.5% | HOLD in-book; add only >$517.75 ≥1.2x (far) |
+| V | Payments | UP (>50, **<EMA20**) | 51 | 0.6x light | $385.54 +4.1% | HOLD; weakest, watch $358 cut/support |
+| XOM | Energy | UP (>both) | 62 | 0.9x | $168.64 **+1.6%** | **JAMMED** <2% under res — no 2:1 room |
+| CVX | Energy | UP (>both) | 69 | 0.9x | $216.77 **+1.3%** | **JAMMED** <2% under res — no 2:1 room |
+| NEM | Gold | UP (>both) | 58 | 0.8x light | $135.27 +6.6% | ARMED >$135.27 — but break far, light vol |
+| JPM | Financials | UP (>EMA20 barely) | 52 | **1.2x** | $365.82 +2.6% | no — mid-range, no clean break, rate-hike two-sided |
+| NVDA | Semis | UP (>50, **<EMA20**) | 50 | 0.5x dead | $234.75 +7.6% | no — below EMA20, dead vol (AI-slowdown hit) |
+| PLTR | Software | UP (>50, **<EMA20**) | 49 | 0.5x dead | $188.32 +12.6% | no — below EMA20, dead vol, res far |
+| AVGO | Semis | **DOWN (<both)** | 42 | 0.6x | $412.22 +13.9% | no — fails trend gate (AI-slowdown hit) |
+| COST | Retail | **DOWN (<both)** | 36 | 0.9x | $977.98 +8.1% | no — fails trend gate |
+| GLD | Gold ETF | **MIXED (<both)** | 47 | 1.1x | $429.41 +7.7% | no — fails trend gate |
+
+**Screen verdict (auditable):** No name clears the complete gate. The RIGHT sector (energy: XOM/CVX, uptrend >both EMAs, normal 0.9x vol) is **jammed <2% under resistance** — upside to the ceiling is too small for a 2:1 while the 10% stop sits far below; a break there is a coin-flip fill (skip per the <2%-under-res rule). NEM (gold) is +6.6% from its break on light vol — far. JPM is the lone 1.2x-confirmed name but +2.6% under res (mid-range, no clean break) and financials are two-sided into a hike. Growth/AI (NVDA/PLTR/AVGO) fails the trend gate on dead 0.5-0.6x vol — the AI-slowdown warning is actively hitting it. A genuine, market-wide "no confirmed leader" on a **risk-off** day (not a re-quote): the tape is down, so the buyers aren't there yet — and the Fed prints Wed.
+
+### Trade Ideas (catalyst leads; TA refines) — HOLD today; arm the energy break on the post-FOMC read
+1. **XOM — energy leader, ARMED but jammed.** Catalyst: +40% YTD, Hormuz supply-crunch, era's inflation hedge; energy surging past tech. Trigger: **clean break >$168.64 with room on ≥1.2x vol** (now +1.6% = jammed, no 2:1 yet). Entry ~$170, stop = 10% GTC trail (~$153), target ~$185 → ~2:1. Trend UP, RSI 62, vol 0.9x. Half-size.
+2. **CVX — energy co-leader, ARMED but jammed.** Catalyst: +44% YTD, "crushing the S&P, momentum accelerating," consecutive earnings beats. Trigger: **break >$216.77 with room on ≥1.2x vol** (now +1.3% = jammed). Entry ~$218, stop 10% trail (~$196), target ~$237 → ~2:1. Trend UP, RSI 69 (warm — prefer a break-and-hold, half size). 
+3. **MSFT — in-book add path (no add near).** Reclaim **>$517.75 on ≥1.2x vol** (+4.5% far) — and the live AI-cap-ex/slowdown narrative is a near-term headwind. Hold, don't add.
+
+### Rejected/avoided today
+- **Buying XOM/CVX now** — the right sector, but both jammed <2% under resistance = no room for a 2:1 R:R; a break there is a coin-flip fill. Skip per the <2%-under-res rule; buy the *break with room*, not the middle, and not the day before the Fed.
+- **NVDA / PLTR / AVGO** — the AI-slowdown warning is hitting them directly (below EMA20 / below both, dead 0.5-0.6x vol). Wrong side of the day's flow; wait for reclaim + break.
+- **JPM** — only 1.2x-confirmed uptrend, but +2.6% under res (no clean break) and a hike is two-sided for banks (NIM tailwind vs. loan-demand/credit headwind). No edge mid-range into the Fed.
+- **NEM / GLD** — gold as a hedge, but NEM +6.6% from its break on light vol and GLD fails the trend gate (below both EMAs). Not confirmed.
+- **Pre-positioning into FOMC** — a ~80%-priced hike + a hawkish-Warsh Fed resolves Wed; buying the day before is betting the reaction, not the setup.
+
+### Thesis depth (for the educational alerts)
+- **WHY energy over tech right now (relative strength + money flow + macro all agree):** today's twin drivers point the *same* way. (1) An AI-slowdown warning — OpenAI's Altman weighing pacing frontier development — puts the first real doubt into the AI cap-ex-return story that led the year, and the tape shows it: NVDA/PLTR/AVGO all below their EMA20/50 on *dead* 0.5-0.6x volume (no demand). (2) A Hormuz/US-Iran oil spike (WTI +2.5%) plus a ~80% FOMC hike reward real-economy cash generators — energy is +44% YTD vs tech +23% and literally "surging past tech." Sector momentum, money flow, and the macro catalyst align on energy; the growth trade is fighting all three at once.
+- **WHY not buy energy NOW (sector is necessary, not sufficient):** XOM/CVX cleared trend but are jammed <2% under resistance — the upside to the ceiling can't cover a 2:1 against a 10% stop, so the *entry* fails even though the *thesis* is right. And with the Fed printing Wed, buying the day before is a bet on the number. The disciplined move: arm the volume-confirmed break with room, taken on the post-FOMC reaction.
+- **Concept of the day — the discount rate, and why rate hikes hit growth hardest.** A stock is worth its future cash flows discounted back to today. Raise the discount rate and cash that arrives far in the future (a growth stock's whole story) shrinks *more* than cash that arrives now (an energy major's dividends and buybacks paid this quarter). So a hike is a bigger hit to long-duration growth than to short-duration value — and when you stack a *second* doubt on top (the AI-return question), the growth trade takes a double blow while hard-asset cash generators become the relative haven. That single mechanism explains today's whole rotation.
+
+### Risk Factors
+- **FOMC 9/15-16 is the dominant binary (resolves Wed 2pm):** a 25bp hike is ~80% priced, so the surprise risk is *tone* — hawkish dots / Warsh presser deepen the risk-off; an unexpected hold sparks a relief rally. Direction unknown until Wed — no pre-print entry.
+- **AI-slowdown narrative is a LIVE headwind to our tech hold (MSFT):** cap-ex-return doubt + the slowdown warning keep MSFT under $500. Watch support $477 and the −7% cut line ~$473 (MSFT −2.27%, trail $466 far below — not threatened, but on watch).
+- **Oil two-sided:** the Hormuz spike can unwind fast on any de-escalation, taking energy with it — entry stays gated on a volume break, not the headline.
+- **V on the clock:** worst holder (−3.23%, ~$372.90), below its EMA20; the −7% manual-cut line (~$358.4) sits at support ($358.39), ~+3.4% below current. A close below ~$358 is a MANUAL CUT (same rule that took NVDA), no waiting for the trail.
+
+### Decision
+**HOLD today — no pre-FOMC entry.** Two independent, rule-compliant reasons: (1) the 9/15-16 FOMC (decision Wed) is a dated, resolving binary — a ~80%-priced hike into an already risk-off, AI-warning tape — that licenses holding dry powder for these sessions; (2) the auditable 11-name / 7-sector screen (logged above) shows a genuine market-wide "no confirmed leader" on a *down* day: the right sector (XOM/CVX energy) is jammed <2% under resistance (no 2:1), gold is far/untrended, and growth/AI fails the trend gate on dead volume. The evidence rule is satisfied — this is not a re-quote. Deployment stays the standing problem (~19.0%, 2 names, ~14th week); the fix is a volume-confirmed energy break **with room**, most likely on the post-FOMC read — **XOM >$168.64** / **CVX >$216.77**, each on ≥1.2x vol, half-size. **Hold MSFT** (−2.27%, above both EMAs but AI-narrative headwind, trail $466 far below) **+ V** (−3.23%, below EMA20; watch the $358 cut/support confluence, +3.4% above the cut). Trades this week: **0/3** (fresh Mon allotment).
