@@ -2086,3 +2086,49 @@ Screen result: of 12, only JPM is a trend-UP fresh name NOT jammed under resista
 
 ### Decision
 **HOLD today — no pre-FOMC entry.** Two independent, rule-compliant reasons: (1) the 9/15-16 FOMC (decision Wed) is a dated, resolving binary — a ~80%-priced hike into an already risk-off, AI-warning tape — that licenses holding dry powder for these sessions; (2) the auditable 11-name / 7-sector screen (logged above) shows a genuine market-wide "no confirmed leader" on a *down* day: the right sector (XOM/CVX energy) is jammed <2% under resistance (no 2:1), gold is far/untrended, and growth/AI fails the trend gate on dead volume. The evidence rule is satisfied — this is not a re-quote. Deployment stays the standing problem (~19.0%, 2 names, ~14th week); the fix is a volume-confirmed energy break **with room**, most likely on the post-FOMC read — **XOM >$168.64** / **CVX >$216.77**, each on ≥1.2x vol, half-size. **Hold MSFT** (−2.27%, above both EMAs but AI-narrative headwind, trail $466 far below) **+ V** (−3.23%, below EMA20; watch the $358 cut/support confluence, +3.4% above the cut). Trades this week: **0/3** (fresh Mon allotment).
+
+## 2026-09-15 — Pre-market Research
+
+> Perplexity key absent (WARNING: fall back to WebSearch). Live TA via scripts/ta.py (source of truth for all indicators/prices).
+
+### Account
+- Equity: $98,772.80 (last_equity $98,915.19 → intraday -$142.39 / -0.14%)
+- Cash: $79,930.40 | Buying power: $372,480.32 (4x); reg-T $178,703.20; non-marginable $89,351.60
+- Daytrade count: n/a (equity > $25k, PDT does not apply) | PDT: false
+- Positions: MSFT 19 @ $508.53 (-1.76%), V 25 @ $385.33 (-2.94%) | Open orders: 2 GTC trails live (MSFT $466.00 HWM $517.78; V $347.01 HWM $385.57)
+- Deployment: long MV $18,842.40 = ~19.1% of equity vs. 75-85% target — 2 names, still BELOW the 3-position floor.
+
+### Market Context
+- WTI / Brent: WTI down ~3% today (crude weak into EIA inventories 10:30 ET).
+- S&P 500 futures: RED — ES ~-0.46%, NQ ~-0.98% (Nasdaq the drag). SPX -0.44% / NDX -0.96% early.
+- VIX: ~19 (18.8 open / 19.1 fut) — moderate, ticking up into the Fed.
+- Today's catalysts: **FOMC MEETING BEGINS (Sep 15-16); decision Wed 9/16 2:00pm ET + SEP/dot-plot + Warsh presser 2:30pm.** Consensus leans toward the FIRST RATE HIKE since 2023 (energy-driven inflation, steady labor). This is a DATED, RESOLVING BINARY — no edge, resolves tomorrow.
+- Earnings before open: none material to the book.
+- Economic calendar: MBA mortgage apps 7:00; housing starts/permits 10:00; EIA petroleum 10:30; **FOMC Wed**.
+- Sector momentum: AI/semis leadership intact (AMD, MSFT); megacap tech soft premarket on the rate scare; energy bid fading with crude; financials mixed (a hike helps NIM but charts soft).
+
+### Broad Deployment Screen (MANDATED while below 3-position floor — 15 tickers / 6 sectors, gate = px vs 50 EMA / rel-vol / dist-to-trigger)
+- Semis: **AMD UP, 1.7x, +6.8% to R $526.67 — PASS (leader)** | NVDA MIXED (below both EMAs), 0.7x — FAIL | AVGO DOWN, 0.9x — FAIL | PLTR UP but 1.1x (<1.2x), +8.7% to R — soft, WATCH
+- Megacap tech: MSFT UP, 1.5x, +2.4% to R $517.75 (held; ADD trigger) | GOOGL MIXED, 1.7x, +0.6% to R — jammed <2% under R, SKIP | META UP, 1.1x, RSI 71, +0.4% to R — jammed + overbought, SKIP | AMZN MIXED (below both EMAs), 1.1x — FAIL | NFLX UP, 1.2x, +4.0% to R $83.58 — WATCH (break-above)
+- Financials: V UP, 1.0x (held) | JPM px<EMA20 (mixed), 1.6x, at support — WATCH | GS DOWN, 1.5x — FAIL
+- Industrials: CAT DOWN, 1.0x — FAIL
+- Healthcare: LLY MIXED (below both EMAs), 1.1x — FAIL
+- Energy: XOM UP, 1.2x, +2.7% to R $169.44 — thin R:R, WATCH (crude weak)
+- Result: exactly ONE gate-clean confirmed leader market-wide today = AMD. Breadth is thin into the Fed; most charts sit under resistance or below their 50 EMA.
+
+### Trade Ideas
+1. **AMD — PRIMED LEADER (deploy leg 1 once FOMC resolves).** Catalyst: MI400/MI450 (Helios) AI-accelerator ramp into 2H26, CFO lifted AI TAM to $3T (9/9), fresh $600 analyst PT (9/13), Q3 guide +41% YoY. TA: price $493.36 > EMA20 $487.68 > EMA50 $482.84 (trend UP), RSI 52 (room), vol 1.7x (confirmed), support $440.62, resistance $526.67 (+6.8%). Entry: confirm above EMA20 (~$488) post-FOMC, ~$495 starter (18-20 sh ≈ $9k / ~10% equity, half-size). Stop: 10% GTC trail (~$445, just above support). Target: $591-600 (analyst PT, +20-22%) → R:R ~2.1:1; near-term watch break of $526.67.
+2. **MSFT add — WATCH.** Existing winner; add only on a close above resistance $517.75 (+2.4%) on ≥1.2x vol. Trend UP, RSI 62, vol 1.5x. Not there yet.
+3. **NFLX — WATCH.** Trend UP, vol 1.2x, RSI 56; needs a clean break above $83.58 to trigger (resistance only +4% now = tight near-term R:R). Re-screen post-Fed.
+
+### Risk Factors
+- FOMC Wed 9/16: a first hike since 2023 (or hawkish dots) could gap risk assets lower — do NOT add fresh size the day before a binary with no edge.
+- Nasdaq-led weakness + rising VIX = rate-sensitive megacap/semi names most exposed near-term (MSFT/AMD both).
+- Crude down 3% into EIA — energy bid fading; XOM R:R thin.
+
+### Thesis Depth (for educational alerts)
+- WHY AI/semis over the obvious alternative (energy): AMD carries a real, dated demand catalyst (MI400 ramp + $3T TAM upgrade + $600 PT) and clean relative strength (up-trend on 1.7x volume) — money is flowing IN. Energy (XOM) has only a fading geopolitical bid with crude down 3% and price jammed +2.7% under resistance; its momentum is leaving, not arriving. Relative strength = buy where money is moving toward, not where it's draining.
+- Concept of the day — **"Don't initiate into a binary you can't handicap."** The Fed decision is a coin-flip event (hike vs hold) with an outsized, unpredictable price reaction. Deploying fresh risk the session before means betting on the outcome, not the setup. The disciplined move is to line up the confirmed leader (AMD) NOW and pull the trigger AFTER the event confirms the tape's direction — you sacrifice one day of exposure to remove a bet you have no edge on.
+
+### Decision
+**HOLD today (Tue 9/15) — rule-compliant, not passive.** Justified by BOTH (1) the mandated broad screen is logged above (15 tickers / 6 sectors, gate results) and yields exactly one confirmed leader, AND (2) a DATED, RESOLVING BINARY — the FOMC decision Wed 9/16, a possible first hike since 2023, which I have no edge on. Per the escalation ladder this no-deploy pass is valid for ONE session only and EXPIRES Wed post-FOMC — it cannot be re-quoted Thursday. **AMD is primed as redeployment leg 1**: deploy the starter Thu 9/17 if it holds > EMA20 on a risk-on reaction, driving the book toward the 3-position floor. No stop moves today (both trails live, never threatened); no -7% breach; MSFT/V held.
