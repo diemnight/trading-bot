@@ -2132,3 +2132,48 @@ Screen result: of 12, only JPM is a trend-UP fresh name NOT jammed under resista
 
 ### Decision
 **HOLD today (Tue 9/15) — rule-compliant, not passive.** Justified by BOTH (1) the mandated broad screen is logged above (15 tickers / 6 sectors, gate results) and yields exactly one confirmed leader, AND (2) a DATED, RESOLVING BINARY — the FOMC decision Wed 9/16, a possible first hike since 2023, which I have no edge on. Per the escalation ladder this no-deploy pass is valid for ONE session only and EXPIRES Wed post-FOMC — it cannot be re-quoted Thursday. **AMD is primed as redeployment leg 1**: deploy the starter Thu 9/17 if it holds > EMA20 on a risk-on reaction, driving the book toward the 3-position floor. No stop moves today (both trails live, never threatened); no -7% breach; MSFT/V held.
+
+## 2026-09-16 — Pre-market Research (FOMC decision day)
+
+> Perplexity key absent (WARNING: fall back to WebSearch). Live TA via scripts/ta.py (source of truth for all indicators/prices).
+
+### Account
+- Equity: $98,741.45 (last_equity $98,766.18 → intraday -$24.73 / -0.03%)
+- Cash: $79,930.40 | Buying power: $372,392.54 (4x); reg-T $178,671.85; non-marginable $89,335.92
+- Daytrade count: n/a (equity > $25k, PDT does not apply) | PDT: false
+- Positions: MSFT 19 @ $508.53 (-2.47%), V 25 @ $385.33 (-2.55%) | Open orders: 2 GTC trails live (MSFT $466.00 HWM $517.78; V $347.01 HWM $385.57)
+- Deployment: long MV $18,811.05 = ~19.0% of equity vs. 75-85% target — 2 names, still BELOW the 3-position floor (~15th week under target).
+
+### Market Context
+- WTI ~$104.68 (-1.1%), Brent ~$107.77 (-0.9%) — crude eases but stays ELEVATED on Mideast supply disruption (Saudi drone strikes); the inflation driver behind today's hike.
+- S&P 500 futures: GREEN but thin — ES ~+0.1-0.16%, quiet into the print. Constructive, not conviction.
+- VIX: ~17 (-1.4%) — calm/easing into the Fed (the market is not braced for a shock).
+- **TODAY'S DOMINANT EVENT — FOMC decision 2:00pm ET + SEP/dots + presser: 93% priced for a 25bp HIKE to 3.75-4.00%, the FIRST hike since July 2023.** Dated, resolving binary — resolves at 2pm today; the surprise risk is TONE (hawkish dots vs. dovish framing), not the 25bp itself.
+- Sector momentum: **Energy leads (2nd straight month)**, Utilities strong; Financials & Health Care lag. Rotation OUT of AI/tech into energy/industrials/defensives. AI-slowdown narrative live (3 AI chiefs urged slowing frontier models) — NVDA fell; MSFT/META/GOOGL held up as the defensive tech.
+- Holdings news: MSFT raised its dividend +8% (9/15), "Strong Buy," PT $572.92; V +1.3% resilient on a down tape, EPS growth intact.
+
+### Broad Deployment Screen (MANDATED while below 3-position floor — 12 tickers / 6 sectors; gate = px vs 50 EMA / rel-vol / dist-to-trigger [resistance])
+- **Energy (leading sector):** XOM UP (px 169.27 > EMA20 162.5 > EMA50 158), RSI 65, vol 0.7x LIGHT, R $169.63 = **+0.2% JAMMED at ceiling → SKIP** | CVX UP (px 217.71, >both EMAs), RSI 71 WARM, vol 1.5x confirmed, R $217.74 = **+0.0% JAMMED at ceiling → SKIP** | NEM UP (px 124.20 > EMA20 124.15 > EMA50 116.42), RSI 53, vol 0.7x light, R $135.27 +8.9% → WATCH (light vol, no catalyst break)
+- **Semis/AI:** AMD UP (px 504.25 > EMA20 489 > EMA50 484), RSI 54, vol **0.9x LIGHT**, R $526.67 +4.4% → WATCH (trend-clean but no volume-confirmed break) | NVDA MIXED (below both EMAs), 0.6x → FAIL | AVGO DOWN (below both), 1.0x → FAIL | PLTR UP (px 172.6 > both), 0.9x, R +9.1% → WATCH (light vol)
+- **Megacap tech:** MSFT UP, held; add only >$517.75 (+4.2%, far) | GOOGL DOWN (px 344.98 < EMA50 345.55), 0.8x, R +1.9% jammed → FAIL
+- **Financials:** V UP, held (reclaimed EMA20) | JPM trend UP marginal (px 352.88 < EMA20 355.12 but > EMA50 349.52), RSI 48, vol **2.3x heavy**, R $363.55 +3.0% → WATCH (huge vol but below EMA20, mid-range — no clean break)
+- **Comm/Media:** NFLX MIXED (below both EMAs), 1.0x → FAIL
+- **Result (auditable):** ZERO gate-clean confirmed leaders TODAY (catalyst + >50 EMA + ≥1.2x vol + room for 2:1). The strongest sector's leaders (XOM/CVX) are pinned EXACTLY at resistance (0-0.2% to go) → no room for a 2:1 vs a 10% stop; XOM light vol, CVX vol-confirmed but RSI 71 warm at the ceiling. The semi leader (AMD) is trend-clean but on 0.9x LIGHT volume = no confirmed break. JPM has 2.3x volume but sits below EMA20 mid-range. This is a genuine market-wide "no leader with room," not a re-quote.
+
+### Trade Ideas (armed for post-FOMC, NOT pre-print)
+1. **CVX — energy co-leader, ARMED break-with-room.** Catalyst: energy sector leadership + elevated crude (Mideast supply). Trigger: **clean break >$217.74 WITH ROOM on ≥1.2x vol** (now +0.0% = jammed; vol 1.5x already confirmed, RSI 71 warm → prefer break-and-hold, half size). Entry ~$220, stop 10% GTC trail (~$198, just above support $197.86), target ~$240 → ~2:1. Trend UP.
+2. **XOM — energy leader, ARMED break-with-room.** Trigger: **break >$169.63 with room on ≥1.2x vol** (now +0.2% jammed, vol 0.7x LIGHT — needs volume to confirm). Entry ~$171, stop 10% trail (~$154), target ~$185 → ~2:1. Trend UP, RSI 65.
+3. **AMD — primed leg-1 (redeploy path).** Trigger: hold >EMA20 (~$489) on a risk-on FOMC reaction, ideally break $526.67 on ≥1.2x vol. Entry ~$505 starter (18-20 sh ≈ $9k / ~10% equity, half-size). Stop: 10% GTC trail (~$454, above support $440.62). Target: $591-600 (analyst PT) → ~2:1. Trend UP, RSI 54 — the one thing missing is volume.
+
+### Risk Factors
+- **FOMC tone is the day's whole risk:** the 25bp hike is 93% priced, so a hawkish dot-plot / presser (more hikes signaled) gaps risk assets lower; a dovish "one-and-done" framing sparks relief. VIX ~17 = market NOT braced → an asymmetric downside if the tone surprises hawkish.
+- **AI-slowdown narrative is a live headwind to MSFT** (frontier-model doubt) — but MSFT held up as defensive tech and just raised its dividend; trail $466 far below, not threatened.
+- **Oil is two-sided:** a Mideast de-escalation unwinds the crude bid and takes energy (XOM/CVX) with it — entries stay gated on a volume break with room, never the headline.
+- **V watch line resolved POSITIVE:** V reclaimed EMA20 ($375.43 > EMA20 $372.29 > EMA50 $363.87) — the two-week "below EMA20" warning has REVERSED; -7%/support cut confluence (~$358) now +4.8% below, off the clock.
+
+### Thesis Depth (for educational alerts)
+- **WHY hold dry powder into THIS print (and why energy is the target after):** two independent, rule-compliant reasons align. (1) The FOMC is a dated binary resolving at 2pm — the outcome (25bp) is 93% known but the TONE is not, and buying pre-print is betting the reaction, not the setup. (2) The auditable 12-name screen shows the strongest sector (energy, leading 2 months on the crude/inflation story) has its leaders pinned exactly at resistance with no room for a 2:1 — the *sector* is right but the *entry* fails the <2%-under-resistance rule today. Money flow, macro, and momentum all favor energy over the fading AI trade; the discipline is to buy the volume-confirmed BREAK WITH ROOM on the post-FOMC read, not the ceiling the day of.
+- **Concept of the day — "priced in" vs. the reaction function.** When an outcome is 93% priced (this hike), the price barely moves ON the outcome — it moves on the *surprise around it*: the dot-plot path and the tone. That's why a "hike as expected" can still rally (dovish framing) or sell off (hawkish dots). Trading the known number is trading noise; the edge is in positioning AFTER the reaction function is revealed. It's the same reason we arm the energy break for post-2pm rather than guessing the tape before it.
+
+### Decision
+**HOLD today (Wed 9/16) — pre-FOMC, rule-compliant on BOTH tests.** (1) The mandated broad screen is logged above (12 tickers / 6 sectors, gate results) and yields ZERO gate-clean leaders with room — the strongest sector's leaders (XOM/CVX) are jammed at resistance, the semi leader (AMD) lacks volume; this is auditable breadth, not a re-quote. (2) The FOMC decision is a DATED, RESOLVING BINARY that resolves at 2pm TODAY — no edge on the tone, no pre-print entry. **This pass EXPIRES at 2pm** and cannot be re-quoted Thursday: the plan is to deploy leg-1 post-FOMC into the confirmed leader once the tape shows direction — **CVX >$217.74 / XOM >$169.63 (each with room on ≥1.2x vol), or AMD holding >EMA20 on a risk-on reaction**, half-size, driving the book toward the 3-position floor. **Hold MSFT** (-2.47%, above both EMAs, div raised, trail $466 far below) **+ V** (-2.55%, RECLAIMED EMA20 — warning reversed, trail $347 far below). No stop moves (both trails live; never move down); no -7% breach. Trades this week: **0/3**.
