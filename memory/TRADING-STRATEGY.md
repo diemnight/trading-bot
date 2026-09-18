@@ -99,6 +99,27 @@ Fix — make the search itself evidence, not the excuse:
 - Still inviolable: every entry must clear the checklist + trend/volume gate. This forces the
   search to be PROVEN, never a worse fill. Pace, don't force — but show the work.
 
+## Deployment Execution Evidence (added 2026-09-18, after a gate-MET starter went unfilled)
+The 9/4 search-evidence requirement has now worked 2 straight weeks: the mandated broad screen
+runs and is logged auditably, and wk ending 9/18 it even surfaced a NAMED confirmed leader with a
+concrete trigger — AMD on Thu 9/17 (catalyst + px>EMA20>EMA50 + 1.2x vol confirmed + room under
+resistance). The search is fixed. But the flaw migrated one layer down: the 9/17 pre-market armed a
+gated half-size AMD starter ("BUY IF AMD holds >EMA20 at the open"), AMD held EMA20 all day and ran
+to $544 — the gate was MET — and yet no buy filled and no stand-down reason was logged. For the first
+time in ~16 weeks the search cleared its bar and execution still produced nothing. "The market-open
+run stood down" became the new unverifiable default, exactly as "no leader confirmed" was before 9/4.
+Fix — make EXECUTION auditable the same way the search was:
+- When a session's plan ARMS a gated starter with a concrete, named trigger, the executing run
+  (market-open / midday) MUST either (a) FILL it when the gate condition is met that session, or
+  (b) log the SPECIFIC gate-fail / entry-veto reason it stood down (e.g., "gapped below EMA20",
+  "jammed <2% under resistance", "volume witching-contaminated / not clean conviction").
+- An unlogged non-fill of a gate-MET starter is recorded as an EXECUTION MISS — a process failure
+  to correct the next session, not a silent "wait." "The run didn't fire" is not a valid reason; the
+  log must name why the gate was NOT actually met.
+- Still inviolable: the "never a worse fill / pace, don't force" clause governs — a genuine entry
+  veto (jammed under resistance, expiration-corrupted volume) is a VALID logged (b), not a miss. This
+  forces execution to be PROVEN, never a worse fill.
+
 ## Entry Checklist
 - Specific catalyst?
 - Sector in momentum?

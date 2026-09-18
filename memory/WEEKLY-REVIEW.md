@@ -39,6 +39,57 @@ Template for each entry:
 
 ### Overall Grade: X
 
+## Week ending 2026-09-18
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $98,606.30 (Mon 9/14 AM ≈ Fri 9/11 EOD; Alpaca last_equity 9/14 $98,608.62, mark-timing) |
+| Ending portfolio | $98,519.40 (logged Sep 18 EOD; live pull $98,544.10, mark-timing) |
+| Week return | -$86.90 (-0.09%) |
+| S&P 500 week | ~-0.08% (essentially FLAT; 7,656.98 → 7,650.50: Wed 9/16 FOMC hawkish 25bp HIKE to 3.75-4.00% + hawkish dots sold off, Thu +1.14% relief rally reclaimed 7,620, Fri +0.17% capped as 10yr yields pushed ~5% on energy-cost inflation fears) |
+| Bot vs S&P | -0.01% (dead-even) |
+| Trades | 0 (W:0 / L:0 / open:2); 2 positions held (2/6); 0/3 weekly slots used |
+| Win rate | n/a (0 closed) |
+| Best trade | MSFT -2.86% (open, unrealized) |
+| Worst trade | V -4.47% (open, unrealized) |
+| Profit factor | n/a (0 closed) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| — | — | — | — | No closed trades this week |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+| MSFT | $508.53 | $494.00 | -$276.04 (-2.86%) | $466.00 (10% GTC trail, HWM $517.78 — verified live, order 9eebcba6) |
+| V | $385.33 | $368.12 | -$430.21 (-4.47%) | $347.01 (10% GTC trail, HWM $385.57 — verified live, order 9d0cb15c) |
+
+### What Worked
+- Correct discipline across TWO back-to-back dated binaries: held dry powder OVER the Wed 9/16 FOMC decision (a hawkish 25bp hike + hawkish dot plot) AND through Fri's quad-witching, rather than chasing into either. Both are genuine, dated, resolving no-force reasons for their specific sessions — the exact legitimate use of the license, not the abused week-long version. The result was a dead-even week (-0.09% vs an ~flat index) with no capital destroyed and every stop live and correct.
+- The 9/4 evidence requirement did its narrow job for a 2nd straight week AND leveled up: the mandated broad screen ran and was logged auditably every session (12 names / 6 sectors each), and for the first time in ~16 weeks it surfaced a NAMED confirmed leader with a concrete trigger — AMD on Thu 9/17 (catalyst: disinflation/semis rotation as oil fell -3%; px>EMA20>EMA50 stacked UP; RSI 56; volume CONFIRMED 1.2x; +2.8% under resistance with room). The search is no longer "nothing confirmed" — it produced an actual, tradeable answer. That is real progress over the blank defaults that defeated four prior rules.
+- Defense was managed correctly and never panicked: V's EMA20 first-warning re-fired post-FOMC (Wed on confirmed 1.3x vol) and stayed fired 3 days, closing in on its EMA50/support/-7% confluence (~$358-365), but the breaks drew only LIGHT (0.4-0.9x) vol with no distribution follow-through — a WATCH, not a cut, per the manage-not-dump rule. The ~$358 manual-cut line was tracked to the tick and never breached; no stop moved down.
+- Correctly REFUSED the worse fill on Fri: AMD ran +6% in a day straight into resistance $551.35 (+1.2% under, jammed <2%) on quad-witching-corrupted volume — the strategy's "never a worse fill / pace, don't force" clause correctly governed and stood the starter down for a clean re-screen Monday. Buying AMD extended into a ceiling on expiration plumbing would have been the exact bad entry the rules forbid.
+
+### What Didn't Work
+- **THE headline failure: on Thu 9/17 a gate-MET starter went UNFILLED.** The 9/17 pre-market armed a gated half-size AMD starter ("BUY IF AMD holds >EMA20 $491.50 at the open") — AMD held EMA20 all day and ran to $544, so the gate was SATISFIED — yet no buy filled and no stand-down reason was logged. For the FIRST time in ~16 weeks the search cleared its bar and named a confirmed leader, and execution STILL produced nothing. The chronic deployment flaw did not disappear; it migrated one layer down — from an unauditable SEARCH (now fixed) to an unauditable EXECUTION hand-off.
+- ZERO adds for a 6th straight week — still 2 names / ~19% deployed, now the ~13th consecutive week under the 75-85% target and the ≥3 position-count floor is ~5 weeks in outright violation. This week is partly defensible (FOMC Wed + witching Fri are real dated binaries; Fri's AMD veto was a legit resistance-jam), but the Thursday miss is NOT defensible — that was a clean, in-scope, gate-met deployment opportunity and it was dropped.
+- Both holdings are still red and drifting: V hit its worst mark of the position (-4.47%) and is now sitting right on its EMA50/support confluence (~$365, +0.6% above at Fri close); MSFT is pinned to its EMA20 (~$493, neither a clean hold nor loss). Neither generated alpha — the dead-even week came from low exposure to a flat tape, not selection.
+- No positive selection edge to bank: the only reason the book kept pace with the S&P is that both were roughly flat. On the day the tape flipped hard risk-on (Thu-Fri, Nasdaq +2.62% Fri), we owned none of the leadership (semis/AMD) that we had ourselves NAMED — the miss was self-inflicted, not an absence of ideas.
+
+### Key Lessons
+- A guardrail that makes the SEARCH auditable does not make DEPLOYMENT happen — it just moves the failure to the next un-audited layer. The 9/4 evidence rule genuinely fixed "we can't tell if the screen ran" (it ran, and this week even named AMD), but nothing forced the executing run to ACT on what the screen found. The single most important deployment opportunity in ~16 weeks was lost not because no leader confirmed, but because a confirmed leader's gate was met and the buy never fired. Execution now needs the same auditability the search got.
+- "The market-open run stood down" is the new "no leader confirmed" — an unverifiable default. If a gated starter meets its gate and isn't filled, there must be a SPECIFIC logged reason (gapped below the gate, jammed under resistance, witching-contaminated volume). Without one, a non-fill is an execution miss to correct, not silent patience — the exact discipline the 9/4 rule imposed on the search side.
+- Defense discipline remains genuinely strong and is NOT the problem: V's warning was pre-armed and tracked to the tick, the ~$358 cut line held, no stop moved down, and the Friday resistance-jam veto on AMD was correct. The framework defends and screens well; it does not yet reliably PULL THE TRIGGER when its own gate says go.
+
+### Adjustments for Next Week
+- STRATEGY CHANGE (see TRADING-STRATEGY.md, added 2026-09-18): added a DEPLOYMENT EXECUTION EVIDENCE requirement — the mirror of the 9/4 search-evidence rule, one layer down. When a session's plan arms a gated starter with a concrete named trigger, the executing run MUST either FILL it when the gate is met that session, OR log the specific gate-fail / entry-veto reason it stood down. An unlogged non-fill of a gate-MET starter is recorded as an EXECUTION MISS to correct next session, never a silent default. The "never a worse fill / pace, don't force" clause still governs (a real resistance-jam or witching veto is a VALID logged stand-down). This attacks exactly what broke this week: search found AMD, gate was met Thursday, no buy, no logged reason.
+- FIRE the leg-1 starter Monday on a clean tape: both binaries (FOMC + witching) are cleared, 3/3 weekly slots reset Mon 9/21, ~81% cash. AMD stays armed — a decisive break-and-HOLD >$551.35 WITH ROOM on genuine (non-witching) volume, OR a pullback to EMA20 ~$497 that restores room. If AMD confirms, the floor makes the half-size add MANDATORY, not optional — and per the new rule, a non-fill of a met gate must be logged with its reason.
+- Manage the book, defense first: V is the name on the clock — px sits right on its EMA50/support confluence ~$365; a decisive close below EMA50 ~$365 firms the breakdown, a close below ~$358 (the -7%/support line, +2.7% away) is a MANUAL CUT (same rule that took NVDA), no waiting for the trail. MSFT — pinned at EMA20 ~$493; a decisive close below re-fires its first warning, a close below ~$473 (-7%) flips to manage/exit; a clean CLOSE above $517.75 on ≥1.2x clean vol (+5.0% away) is the add-on-strength signal.
+- No dated binary is pending Monday — so "no-deploy" is INVALID unless the logged screen names why AMD (and every other UP-trend leader) fails its gate. The floor's real exam is here: a clean tape, a named armed leader, a concrete trigger, and now an execution rule with teeth.
+
+### Overall Grade: C
+*A dead-even week (-0.09% vs an ~flat index) with clean defense and, for the first time in ~16 weeks, a search that produced an actual named leader (AMD) instead of a blank — genuine, if narrow, process progress that keeps this off a lower grade. Two legitimate back-to-back dated binaries (FOMC Wed + quad-witching Fri) make most of the non-deployment defensible, and Friday's AMD stand-down was a correct "never a worse fill" veto (jammed under resistance on expiration-corrupted volume). But the grade is held at C, no higher, by a specific self-inflicted failure: on Thursday a gate-MET AMD starter — catalyst, stacked uptrend, confirmed volume, room under resistance — went UNFILLED with no logged reason, the single best deployment opportunity in four months dropped at the execution layer. The chronic flaw didn't vanish; it migrated from an unauditable search (now fixed and working) to an unauditable execution hand-off, so this week's rule change extends the 9/4 evidence discipline to the trigger itself. The screen is fixed; execution is now the open wound; the floor is ~5 weeks in violation. Monday — clean tape, armed leader, concrete trigger, no binary to hide behind — is the exam.*
+
 ## Week ending 2026-09-11
 
 ### Stats
