@@ -39,6 +39,57 @@ Template for each entry:
 
 ### Overall Grade: X
 
+## Week ending 2026-09-25
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $98,519.40 (Mon 9/21 AM ≈ Fri 9/18 EOD; Alpaca last_equity 9/21 $98,519.47, mark-timing) |
+| Ending portfolio | $98,628.20 (logged Sep 25 EOD; live pull $98,647.91, mark-timing) |
+| Week return | +$108.80 (+0.11%) |
+| S&P 500 week | ~+1.2% (UP week; 7,650.50 → 7,743.41, led by technology + comm-services; oil fell on Hormuz diplomacy, halting the bond selloff — 10yr had spiked ~5.11% mid-week on the Saudi/Yanbu supply shock, then eased; Fri +0.51% capped the advance) |
+| Bot vs S&P | -1.09% |
+| Trades | 2 (W:0 / L:1 / open:1); 1/3 BUY slots used (XOM; the V cut does not consume the buy cap); 2 positions held (2/6) |
+| Win rate | 0% (1 closed, 0 winners) |
+| Best trade | MSFT +1.55% (open, unrealized) |
+| Worst trade | V -5.92% (closed, realized) |
+| Profit factor | 0.00 (0 winners / one -$570.46 loser) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| V | $385.33 | $362.51 | -$570.46 (-5.92%) | Cut Wed 9/23 (midday) — STEP-5 discretionary breakdown: EMA50 loss CONFIRMED on 1.9x vol Tue 9/22 close, then FAILED its one survival condition (no decisive EMA50 ~$365 reclaim), below both EMAs a 5th+ session. Managed the chart, not the (still-fine) payments story. Trail 9d0cb15c canceled first. 2nd realized loss of the challenge. |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+| MSFT | $508.53 | $516.40 | +$149.56 (+1.55%) | $467.46 (10% GTC trail, HWM $519.40 — ratcheted up Fri, order 9eebcba6 live) |
+| XOM | $163.80 | $160.59 | -$176.55 (-1.96%) | $148.42 (10% GTC trail, HWM $164.91 — order 45aa43ab live) |
+
+### What Worked
+- **The execution machinery finally fired in BOTH directions after ~7 weeks of pure passivity — the most process movement in months.** (1) Defense EXECUTED: V's EMA50 breakdown confirmed on 1.9x volume Tue close, failed its Wed reclaim condition, and was CUT at market without hesitation (-$570.46 / -5.92%, above the -7% line — a STEP-5 discretionary breakdown cut, a cluster not one soft signal), trail canceled cleanly first. Managed the chart of a fundamentally-fine name exactly as the rulebook demands. (2) Deployment EXECUTED: for the first time since ~mid-Aug, a real starter went ON — XOM Thu 9/24 on a genuine regime flip (Saudi/Yanbu suspension = crude supply shock, energy re-leads, 10yr to ~5.11%), a HALF-size gate-compliant add on a decisive EMA20 reclaim with room. The book rotated 1→2 names on a live catalyst, not a forced fill.
+- **The 9/18 execution-evidence rule WORKED its very first week — both a fill AND a stand-down were auditable.** XOM was a gate-MET starter FILLED per plan (armed "buy on decisive >EMA20 reclaim + hold," gate met at the open, filled — with a logged re-check that the junk-wide opening spread had tightened, so no worse fill). Then Fri CVX was an armed second-leg starter whose gate was NOT met (px ~1.1% BELOW EMA20 $206.97, no ≥1.2x volume, junk-wide spread) → a VALID logged (b) stand-down, not an unlogged non-fill. This is the exact machinery the 9/17 AMD miss exposed as broken, now demonstrably functioning both ways.
+- MSFT — the engine held all week and paid off patience: ran +3.71% Fri on 2.3x confirmed volume, flipped green (+1.55%), printed a fresh HWM $519.40 and ratcheted its trail UP to $467.46. Held above its EMA20 first-warning line every single session; the add line $519.39 is now only +0.6% overhead (closest live long gate in weeks — correctly NOT bought Fri, jammed <2% under resistance).
+- Clean individual discipline throughout: every trail live and correct, no stop moved down, no rule bent, XOM's below-EMA20 test on Fri correctly read as ONE soft signal (no EMA50 loss, no distribution) = a WATCH, not a panic dump inside its trail.
+
+### What Didn't Work
+- **Lagged the S&P by -1.09% on a +1.2% UP week — the chronic under-deployment flaw bit again, for the ~19th straight week under target.** We finished +0.11% while the index rose +1.2%, and the entire miss traces to sitting ~81% cash: the ~19% deployed book simply had too little exposure to a rising tape. Same coin, same wrong side — a repeat of every up-week failure since June.
+- **Still 2 names / ~18.9% deployed at week end — BELOW the 3-position floor, and the floor is now ~7 weeks in outright violation.** The V cut dropped us to 1 name / ~9.6% mid-week (the deepest deployment gap of the phase), and even after the XOM add we're back to only 2 names. The framework cut and re-added but never got to a genuine THIRD leg — the "one add, then coast" pattern the 8/28 rule was written to abolish is still visible, just at a higher activity level.
+- The one closed trade was a LOSS (V -5.92%) — win rate 0%, profit factor 0.00. The cut was correct on the confirmed breakdown, but it means the only realized P&L of the week was negative, and the book still has no banked winner in the challenge.
+- No positive selection alpha: MSFT (+1.55%) is the only green name and it's a carryover, not a this-week idea; XOM is red (-1.96%) as crude trimmed off its peak on Hormuz diplomacy — the regime-flip thesis is intact but unproven, riding a two-sided-oil catalyst. The week's small absolute gain came almost entirely from MSFT's Friday pop, not from breadth.
+
+### Key Lessons
+- **The trigger is no longer the problem — five rule iterations (7/3, 8/7, 8/28, 9/4, 9/18) have now built a machine that AUDITABLY screens, defends, deploys, and stands down.** This week proved every layer fires: the search named leaders, defense cut V on a confirmed breakdown, deployment added XOM on a real catalyst with the gate met, and the CVX gate-fail was logged not skipped. The remaining flaw is PACE and BREADTH, not a broken trigger: the book gets to 2 names and stops. The next guardrail (if any) has to force the THIRD leg and faster capital deployment, not re-audit a search/execution that now works.
+- Cutting a fundamentally-strong name on a broken chart is the discipline, and it is correct — but the V cut plus a single half-size XOM add nets right back to 2 names and ~19% deployed. "Churn is not deployment" (the 8/28 lesson) held true again: activity was high (a cut + an add), exposure barely moved. The deployment gap only closes when adds NET POSITIVE against the position count, not when they replace an exit.
+- On an up tape, being 81% cash IS a market-direction bet, and this week it lost -1.1% relative — the same structural short-the-tape default that has cost us on every up-week of the challenge. The framework now deploys correctly WHEN it deploys; it just doesn't deploy ENOUGH, fast enough, to stop bleeding relative performance on rising tapes.
+
+### Adjustments for Next Week
+- **NO rule change this week.** The 9/18 execution-evidence rule is only 1 week old and WORKED cleanly its first test (XOM gate-met fill logged; CVX gate-not-met stand-down logged) — per STEP 5 the "proven out 2+ weeks OR failed badly" threshold is met NEITHER way (it did not fail, and one week is not proof). Hold it one more week. The honest read: the search is fixed (9/4), execution is fixed (9/18, worked wk1), defense is fixed (V cut clean) — the ONLY open wound left is the position-count floor / deployment pace, ~7 weeks in violation, and it is an EXECUTION-PACE problem now, not a trigger problem.
+- **Get to the THIRD leg — the floor is the last unfinished business.** Fresh 3/3 buy allotment resets Mon 9/28, ~81% cash, a slot open below the 3-position floor. CVX stays the ARMED second-energy-theme starter on a decisive >EMA20 $207 reclaim + hold on ≥1.2x vol (the on-theme follow if the crude/yields regime holds); if the energy re-lead fades on Hormuz diplomacy, rotate back to the broad leader screen for the first clean confirmed name. Buy clean, not chased — but a 3rd confirmed leader is now the explicit weekly target, not optional.
+- Manage the book, defense-aware: XOM is the name to watch — px sits ~0.8% below its EMA20 ~$162 (the entry-day reclaim being tested by the crude trim) but still > EMA50 $158.85, far above its -7% cut (~$152) and trail ($148.42); a decisive close below EMA20 on ELEVATED volume flips it to manage/watch (a two-sided-oil starter), a reclaim re-confirms the re-lead. MSFT — a clean CLOSE above $519.39 on ≥1.2x vol re-opens the add (+0.6% away, the closest live long gate); a fresh loss of EMA20 ~$497 re-fires its first warning, a close below the -7% line ~$473 flips it to manage/exit (same rule that took V and NVDA).
+- No dated binary is pending Monday — so a no-deploy day is INVALID unless the logged broad screen names why CVX (and every other UP-trend leader) fails its gate, per the 9/4 evidence rule. The machine works end-to-end now; Monday's job is simply to USE it to reach 3 names.
+
+### Overall Grade: C+
+*The best PROCESS week in months, capped by the same chronic RESULT. For the first time since mid-August the execution machinery fired in both directions and every layer proved auditable: V was cut cleanly on a confirmed 1.9x-volume EMA50 breakdown (managed the chart, not the still-strong story), XOM was deployed as a gate-MET half-size starter on a genuine energy regime flip (Saudi/Hormuz supply shock) — and, decisively, the week-old 9/18 execution-evidence rule WORKED its first test: the XOM fill was logged as gate-met, and Friday's CVX stand-down was logged as a valid gate-fail (below EMA20, no volume), the exact machinery the 9/17 AMD miss had exposed as broken. Search (9/4), execution (9/18), and defense are now all demonstrably functional. But the grade is held at C+, no higher, by the unchanged bottom line: we lagged the S&P by -1.09% on a +1.2% up week because the book still sat ~81% cash, the position-count floor is now ~7 weeks in violation (the V cut + one XOM add netted right back to 2 names / ~19%), and the only closed trade was a loss (win rate 0%, PF 0.00). The trigger is fixed at every layer; the last open wound is deployment PACE — the machine finally works end-to-end, it just isn't run hard enough to catch a rising tape. Monday, with a fresh allotment and a machine that works, the job is simply to reach the third leg.*
+
 ## Week ending 2026-09-18
 
 ### Stats
