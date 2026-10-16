@@ -39,6 +39,56 @@ Template for each entry:
 
 ### Overall Grade: X
 
+## Week ending 2026-10-16
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $99,126.89 (Mon 10/12 AM ≈ Fri 10/9 EOD; Alpaca last_equity $99,126.89, balance_asof 2026-10-09) |
+| Ending portfolio | $98,983.31 (logged Oct 16 EOD; live pull $98,965.15, mark-timing) |
+| Week return | -$143.58 (-0.14%) |
+| S&P 500 week | ~-2.0% (DOWN week — biggest weekly loss since June; oil-price spike + chipmaker selling; Fri -1.1% on Warsh rate-hold remarks; ~7,811.54 Oct 9 close → ~7,658 Oct 16) |
+| Bot vs S&P | +1.86% (cash + energy tilt shielded a falling, chip-led tape) |
+| Trades | 1 (W:0 / L:1 / open:0); 0/3 BUY slots used (NVDA cut = a close, not a buy); started at 3 names, ended 2 (2/6) |
+| Win rate | 0% (1 closed, 0 winners) |
+| Best trade | XOM +9.23% (open, unrealized — best mark this phase, confirmed-vol breakout) |
+| Worst trade | NVDA -9.38% (closed, realized) |
+| Profit factor | 0.00 (0 winners / one -$890.30 loser) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| NVDA | $237.16 | $214.90 | -$890.30 (-9.38%) | Cut Thu 10/15 at the open via its live 10% GTC trail (order 9973b6f9; 40 sh @ $214.9045, 09:36 ET) — THROUGH the -7% hard cut after an overnight gap with EMA50 lost on confirmed 1.2x vol. The MECHANICAL trail executed because the market-open workflow did not run — the designed exit-side redundancy working. Semis/AI = 1st failed trade this phase (rule #10: a 2nd starts the 2-strike sector-exit clock; no re-add without a confirmed break). |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+| MSFT | $508.53 | $528.90 | +$387.06 (+4.01%) | $496.035 (10% GTC trail, HWM $551.15 — order 9eebcba6 live) |
+| XOM | $163.80 | $178.92 | +$831.56 (+9.23%) | $161.244 (10% GTC trail, HWM $179.16 — order 45aa43ab live) |
+
+### What Worked
+- **Cash plus an energy tilt caught the exact regime of a -2% week — the biggest relative beat of the challenge (+1.86%).** XOM broke out to a fresh high Friday on CONFIRMED 1.3x volume (+9.23%, best mark this phase), the precise energy leadership of an oil-spike week — this beat owed something to what we OWN (genuine sector selection), not only to low exposure, for the first time on a down week.
+- **Mechanical exit discipline capped the one real loss without any discretion.** NVDA's 10% GTC trail fired automatically on the overnight gap and took the semis-selloff name out at -9.38% — no hoping, no averaging down — exactly when the market-open workflow failed to run. The exit-side redundancy did its one job.
+- Clean individual discipline on the holds: both trails live far below, no stop moved down, no rule bent. MSFT's -1.95% Friday read correctly as an in-trend pullback (above both EMAs, RSI 57, light vol, no distribution), not a breakdown — "TA is confirmation, not a hair-trigger."
+
+### What Didn't Work
+- **THE headline failure — market-open workflow NON-EXECUTION.** LLY CONFIRMED its armed breakout (1.9x volume, real catalyst, no near-term earnings) — the single best confirmed leader market-wide — and was armed PRIMARY half-size Thu AND Fri, yet went UNFILLED both sessions because the market-open run did not execute/commit (last commit on main was pre-market research). The freed ~$8.6k from the NVDA cut sat in cash because the one confirmed starter available could not fill.
+- **Cut the one name in the one sector being sold — correct mechanically, but the gap-through to -9.38% is a worse realized loss than a workflow-executed cut at the open would have been.** The mechanical trail is a backstop, not a substitute for a run that executes; a workflow cut on the -7% trigger at Thursday's open would likely have realized a smaller loss than the overnight gap did.
+- **Ended the week at 2 names / ~20% deployed — BELOW the 3-position floor for a 2nd straight session, now ~24th week under the 75-85% target.** The book had reached 3 names (floor MET Oct 2) and the NVDA cut knocked it back to 2 with no replacement filling — the "one add, then lose a leg, back below the floor" pattern, driven this week by non-execution rather than a bad screen.
+- First weekly review logged since 9/25 — a 3-week logging gap (weeks ending 10/2 and 10/9 unlogged; no trade-log entries Oct 5-9). The same non-execution theme, on the review side.
+
+### Key Lessons
+- **The chronic deployment flaw has migrated to its deepest layer yet: the executing run simply DIDN'T RUN.** Search was made auditable (9/4), execution-evidence was made auditable (9/18) — but auditability is worthless if the run never fires. A confirmed, gate-cleared starter (LLY) never got the chance to fill for two sessions. The next fix cannot be another logging rule on a run that isn't executing; it has to make entries MECHANICAL the way exits already are.
+- **The exit side already proved the answer this week.** NVDA's loss was capped by a RESTING broker order that needed no workflow. The entry side has no equivalent — an "armed" starter is just an instruction waiting for a run to notice it. The redundancy that saved the exit must mirror to entries: a confirmed starter should be a resting broker order, not a workflow dependency.
+- Cash is still a two-sided regime bet, but this week selection (the XOM energy tilt) finally pointed the SAME way as the regime — a cleaner beat than the pure-luck 8/21 / 9/11 cash weeks, because we actually owned the sector that led.
+
+### Adjustments for Next Week
+- **STRATEGY CHANGE (see TRADING-STRATEGY.md, added 2026-10-16): ENTRY EXECUTION REDUNDANCY.** When a pre-market arms a CONFIRMED breakout starter (gate already cleared on volume + real catalyst — LLY this week), it must be placed as a RESTING GTC buy-stop / stop-limit order at the broker, not left as a workflow-dependent "fill at the next open." This mirrors the 10% GTC trail that mechanically executed NVDA's exit when the workflow failed. An armed confirmed starter that goes unfilled because no run executed is an EXECUTION MISS, corrected by placing the resting order at the next run of ANY kind (pre-market / midday / EOD may place or adjust a resting entry even though they don't initiate discretionary fills). Still inviolable: the resting trigger = the same cleared gate (price + volume); never a chase, never a worse fill; half-size sizing unchanged. This is the entry-side mirror of the 9/18 execution-evidence rule, with teeth that don't depend on the run firing.
+- **Rebuild to the 3-position floor on a mechanical basis Monday.** LLY stays the PRIMARY confirmed starter (FILL on a hold above $1216.46 / px>EMA20) — place it as a resting order, not an instruction; AAPL >$348.11 and META >$779.80 (both ≥1.2x vol) stay armed as SECONDARY/ALT. ~80% cash and 4 open slots: hunt a 2nd clean confirmed name to close toward 75-85%. Buy clean, not chased.
+- Manage the book: XOM is the strongest name — confirmed breakout, ride it (a decisive reject back below the $179.15 breakout on volume is the first warning; trail $161.244 live ~9.9% below). MSFT — in-trend pullback, holding both EMAs; a decisive loss of EMA20 ~$522 re-fires a first warning, the $551.08 add gate (decisive CLOSE on ≥1.2x vol) is +4.2% overhead and backed off. No stop moves (never down; both trails live).
+- Fix the market-open non-execution itself — the armed GTC/resting-order discipline is the backstop, but a run that does not commit for 3 straight days is the actual root cause and needs an operational fix, not just a strategy workaround.
+
+### Overall Grade: B-
+*The best RESULT week in months, dragged down by the worst-yet form of the chronic process flaw. The bottom line was genuinely strong: -0.14% against a -2.0% index — the biggest relative beat of the challenge (+1.86%) — and, unlike the pure-luck "cash saved us" weeks (8/21, 9/11), this one carried a real selection win, XOM breaking out to a fresh high on confirmed 1.3x volume (+9.23%) as the exact energy leadership of an oil-spike tape, while the semis name being sold (NVDA) was cut mechanically and cleanly. Exit discipline was flawless — NVDA's resting trail executed the loss cap automatically when the workflow failed. But the grade stops at B-, not higher, because of a glaring and NEW process regression: the market-open workflow did not run/commit for multiple sessions, so a CONFIRMED gate-ready starter (LLY — 1.9x vol, real catalyst) went UNFILLED both Thursday and Friday, stranding the book at 2 names / ~20% deployed below the 3-position floor for a 2nd straight session and ~24 weeks under target. The deployment flaw didn't vanish; it migrated from an un-auditable search (fixed) to an un-auditable execution hand-off (fixed) to a run that simply doesn't execute. This week's rule change answers it the way the exit side already works — make confirmed entries resting broker orders, independent of the run — but the non-execution itself still needs an operational fix. A strong tape-relative week and a real selection win, held off an A/B by a mechanical gap that kept us from deploying the one confirmed leader we'd found.*
+
 ## Week ending 2026-09-25
 
 ### Stats

@@ -120,6 +120,32 @@ Fix — make EXECUTION auditable the same way the search was:
   veto (jammed under resistance, expiration-corrupted volume) is a VALID logged (b), not a miss. This
   forces execution to be PROVEN, never a worse fill.
 
+## Entry Execution Redundancy (added 2026-10-16, after the market-open workflow failed to run and a confirmed starter went unfilled)
+The 9/4 search-evidence and 9/18 execution-evidence rules made the SEARCH and the
+market-open STAND-DOWN auditable — but wk ending 10/16 exposed the next layer down: the
+market-open workflow simply DID NOT RUN/COMMIT for multiple sessions. LLY had CONFIRMED its
+armed breakout (1.9x volume + real catalyst + no near-term earnings) — the single best leader
+market-wide — and was armed PRIMARY half-size Thu AND Fri, yet went UNFILLED both days because
+no run executed (last commit on main was pre-market research). The freed ~$8.6k from the NVDA
+cut sat in cash; the book ended below the 3-position floor for a 2nd straight session. Meanwhile
+the EXIT side worked perfectly: NVDA's 10% GTC trail (a RESTING broker order) executed the cut
+automatically with no workflow at all. An "armed" starter that is only a workflow instruction is
+not protected the way an exit is. Fix — make confirmed ENTRIES mechanical, mirroring the trail:
+- When a pre-market arms a CONFIRMED breakout starter (the gate is ALREADY cleared on volume with
+  a real catalyst), it MUST be placed as a RESTING GTC buy-stop / stop-limit order at the broker,
+  not left as a workflow-dependent "fill at the next open." The resting order's trigger = the same
+  cleared gate (price level + the confirmation that cleared it).
+- An armed confirmed starter that goes UNFILLED for a session because no run executed is an
+  EXECUTION MISS (not a valid stand-down), corrected by placing/adjusting the resting order at the
+  next run of ANY kind — pre-market, midday, or EOD MAY place or adjust a resting entry order even
+  though they do not initiate discretionary fills.
+- This does NOT apply to a GATED starter whose gate is not yet met (that still fills at the open on
+  confirmation, or logs a 9/18 stand-down). It applies to a starter already CONFIRMED and waiting
+  only on execution.
+- Still inviolable: never a chase, never a worse fill; the resting order sits at the confirmed
+  gate, not through it; half-size sizing rules unchanged; no stop ever moves down. This is the
+  entry-side mirror of the exit-side GTC trail — redundancy that does not depend on a run firing.
+
 ## Entry Checklist
 - Specific catalyst?
 - Sector in momentum?
