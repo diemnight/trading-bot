@@ -39,6 +39,58 @@ Template for each entry:
 
 ### Overall Grade: X
 
+## Week ending 2026-10-23
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $98,983.31 (Mon 10/19 AM ≈ Fri 10/16 EOD logged; Alpaca last_equity Mon 10/19 ≈ $98,989.50, mark-timing) |
+| Ending portfolio | $99,088.75 (logged Oct 23 EOD; live pull $99,104.92, mark-timing) |
+| Week return | +$105.44 (+0.11%) |
+| S&P 500 week | ~-0.5% (DOWN week — 2nd straight weekly loss; 7,659.44 Oct 16 close → 7,623.68 Oct 23 close ≈ -0.47%; Fri Dow -600 / S&P -0.52% to cap a volatile week as oil rose) |
+| Bot vs S&P | +0.61% (cash + energy tilt again shielded a falling tape — 2nd straight down-week beat) |
+| Trades | 1 (W:0 / L:0 / open:1); 1/3 BUY slots used; book 2 → 3 names (3/6) — the 3-position floor MET for the 1st time since the NVDA cut |
+| Win rate | n/a (0 closed) |
+| Best trade | XOM +11.83% (open, unrealized — best mark of the challenge, fresh ATH) |
+| Worst trade | LLY -0.52% (open, unrealized — filled 10/20, quiet red into Oct-29 earnings) |
+| Profit factor | n/a (0 closed) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| — | — | — | — | No closed trades this week |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+| LLY | $1281.14 | $1274.53 | -$46.24 (-0.52%) | $1189.089 (10% GTC trail, HWM $1321.21 — order 7f603c93 live) |
+| MSFT | $508.53 | $524.55 | +$304.41 (+3.15%) | $496.035 (10% GTC trail, HWM $551.15 — order 9eebcba6 live) |
+| XOM | $163.80 | $183.18 | +$1,065.90 (+11.83%) | $165.375 (10% GTC trail, HWM $183.75 — order 45aa43ab live) |
+
+### What Worked
+- **THE headline — the 10/16 Entry-Execution-Redundancy rule WORKED its very first test, and it fixed last week's exact failure.** LLY — the single best confirmed leader market-wide — had gone UNFILLED for 3+ sessions last week because no run executed. This week it was placed as a RESTING GTC buy-stop-limit (order d62d2ec2, stop $1278 / limit $1291) and FILLED MECHANICALLY at the Tue 10/20 open on the decisive break of $1275.56 to new all-time highs (7 sh @ $1281.14) — no run required, exactly mirroring the exit-side GTC trail that took NVDA. The entry side now has the same redundancy the exit side has had all along, and it caught the confirmed starter the workflow kept dropping.
+- **Reached the 3-position floor for the 1st time since the NVDA cut (10/15) — on a CONFIRMED breakout, not a chase.** The book went 2 → 3 names (LLY + MSFT + XOM), partially repairing the chronic sub-floor under-deployment that has defined the phase; a 10% GTC trail was attached to LLY immediately (order 7f603c93), so all 3 positions carry live trails.
+- **XOM remains the real selection win and extended it — +11.83%, the best mark of the challenge.** It pressed and led the tape on a fresh ATH Friday (+2.78%, the day's winner) while the index fell; the energy tilt that shielded the 10/16 down week kept paying on a 2nd straight down week. This beat owes to what we OWN, not only to low exposure.
+- **Clean individual discipline all week — and auditable restraint.** All 3 trails live, no stop moved down. AAPL (the SECONDARY arm) was stood down every session on a VALID 9/18 gate-fail (jammed under resistance, px below the break trigger) — correctly refusing a worse fill into overhead rather than chasing. No rule bent.
+
+### What Didn't Work
+- **The floor is met, but DEPLOYMENT is still ~29% / ~71% cash — below the 75-85% target for the ~25th straight week.** One confirmed add got us to the floor and no further; 3 open slots and ~$70k cash remain. The chronic structural flaw didn't vanish — it moved up one notch, from "below the floor" to "at the floor but far under the deployment target." The +0.61% beat still came largely from low exposure to a falling tape, not from being fully invested in the right names.
+- **No 4th leg — the "one add, then coast" shape persists, just at the floor now.** AAPL never confirmed/filled all week (jammed under resistance every session); no second this-week starter fired. The book got its one legitimate add and stopped.
+- **Still zero banked winners in the challenge — no closed trades, win rate n/a, PF n/a.** Every gain remains unrealized (XOM +11.83%, MSFT +3.15%); the book has yet to ring a register, so the strong XOM mark is paper until the trail or a tighten locks it.
+- **A looming, edge-less binary is now 6 days out: LLY earnings Oct 29.** The confirmed leader we just added reports into next week; a gap either way is uncapturable (the same collision that made the NVDA cut's rebound un-ownable in August). It must be actively reassessed — a pre-print trim/tighten if extended — rather than drifted into.
+
+### Key Lessons
+- **The execution machine is now auditable AND mechanical at every layer — search (9/4), stand-down (9/18), and now the ENTRY itself (10/16).** For four months the chronic flaw kept migrating one layer down: unauditable search → unauditable stand-down → a run that didn't fire at all. This week the 10/16 fix closed the last of those: a confirmed starter no longer depends on a run firing, because it rests at the broker like the trail does. The LLY fill is the proof the entry-side redundancy works.
+- **With execution solved, the ONLY open wound left is deployment PACE/TARGET — not the trigger, not the floor, not execution.** The book reaches the floor and stops; it does not push on toward 75-85%. The next guardrail question (if any) is about forcing breadth past the floor and faster capital use, not about re-auditing a search/execution chain that now demonstrably works end-to-end.
+- **Cash is still a two-sided regime bet, and for the 4th time (8/21, 9/11, 10/16, now) it pointed the right way on a down tape — but twice now (10/16, this week) with a REAL selection win underneath (XOM), not pure luck.** The honest read: the energy tilt is genuine alpha; the ~71% cash is still the structural default that will cost us the moment the tape turns back up, exactly as it did on every up-week of the challenge.
+
+### Adjustments for Next Week
+- **NO rule change this week.** The 10/16 Entry-Execution-Redundancy rule is only 1 week old and WORKED cleanly its first test (LLY's resting order filled mechanically on the confirmed break) — per STEP 5 the "proven out 2+ weeks OR failed badly" threshold is met NEITHER way (it did not fail, and one week is not proof). Hold it one more week, exactly as the 9/18 rule was held after a clean wk1. The open wound is now explicitly deployment PACE toward 75-85%, not execution.
+- **Push PAST the floor toward the deployment target — the floor is met, the target is not.** Fresh 2/3 BUY allotment remains this week (1 used on LLY); fresh 3/3 resets Mon 10/26. ~71% cash, 3 open slots. The MANDATORY redeploy screen continues: hunt 1-2 more clean confirmed leaders toward 75-85%. AAPL stays armed — FILL on a confirmed break + hold >$351.68 on ≥1.2x vol (or a settled >$348.11 with ≥2% room + volume), half size; per the 10/16 rule, convert to a resting buy-stop if confirmed so it can't be stranded. Buy clean, not chased.
+- **Manage the book — defense and the earnings binary first.** LLY — the confirmed leader, now into its Oct-29 earnings (6 days out, no edge): reassess the hold as it nears; consider a pre-print trim/tighten if extended; trail $1189.089 live ~6.7% below. XOM — strongest P&L (+11.83%), RSI 76 OB but px at the highs = strength not divergence; it sits ~3.2% from the +15% tighten line — if it tags +15%, TIGHTEN the trail to 7% per rule #6; trail $165.375 live. MSFT — the engine hovering AT its EMA20 (still > EMA50 = trend intact); a decisive close back under EMA50 is the first real caution flag (not there yet); add gate $551.08 on ≥1.2x vol (+5.1% overhead, backed off). No stop moves (never down; all 3 trails live).
+- **Size any new entry mindful of FOMC Oct 27-28** — a dated, resolving binary; it is a valid one-session no-force reason for the decision day only, not a week-long pause. Screen daily regardless.
+
+### Overall Grade: B
+*The best PROCESS week in months — the week the execution machine finally worked end-to-end. The defining event is a genuine, long-awaited repair: the 10/16 Entry-Execution-Redundancy rule passed its very first test and fixed last week's exact failure — LLY, the single best confirmed leader market-wide that went UNFILLED for 3+ sessions because no run executed, was placed as a RESTING broker order and FILLED MECHANICALLY at the Tuesday open on its confirmed break to new ATHs, with a 10% trail attached immediately. That carried the book to the 3-position floor for the first time since the NVDA cut, on a confirmed breakout rather than a chase, and the result held up on a 2nd straight down week (+0.11% vs an ~-0.5% index, +0.61% ahead) with a real selection win underneath — XOM pressing a fresh ATH to +11.83%, the best mark of the challenge. Every layer of the deployment machine — search (9/4), stand-down (9/18), and now the entry itself (10/16) — is auditable and mechanical; AAPL's gate-fail stand-downs were clean, all trails live, no rule bent. The grade lands at B, not higher, because the chronic flaw is repaired but not resolved: it moved up one notch from "below the floor" to "at the floor but still ~29% deployed / ~71% cash," the ~25th straight week under the 75-85% target, with no 4th leg and still zero banked winners in the challenge. Execution is now solved; the last open wound is pure deployment PACE toward the target — and a looming LLY earnings binary (Oct 29) sits in next week's path. A real process milestone, held off an A by a cash drag that only a rising tape will finally punish.*
+
 ## Week ending 2026-10-16
 
 ### Stats
