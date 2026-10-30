@@ -39,6 +39,62 @@ Template for each entry:
 
 ### Overall Grade: X
 
+## Week ending 2026-10-30
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $99,088.75 (Mon 10/26 AM ≈ Fri 10/23 EOD logged; live last_equity ~$99,104, mark-timing) |
+| Ending portfolio | $100,235.28 (logged Oct 30 EOD; live pull $100,242.39, mark-timing) |
+| Week return | +$1,146.53 (+1.16%) — **best week ($ and %) of the challenge; crossed back ABOVE PAR ($100k) for the 1st time this phase** |
+| S&P 500 week | ~-0.57% (DOWN week — 7,623.68 Oct 23 → 7,580.07 Oct 30; a sharp Fri -1.82% tech rout (AMZN/INTC AI-capex & cash-burn fears, INTC -28.6%; GOOGL -12.6% worst-day-ever Thu) capped a week that had rallied midweek on the FOMC hawkish-hold relief + strong mega-cap beats; 3rd straight weekly loss) |
+| Bot vs S&P | +1.73% (**biggest beat of the challenge — and for the 1st time on a down week it was largely SELECTION, not just low exposure**: LLY/XOM/MSFT all gapped UP through their binaries while the capex-heavy tech we don't own cracked) |
+| Trades | 0 (W:0 / L:0 / open:3); 0/3 BUY slots used; 3 names held (3/6 — AT the 3-position floor) |
+| Win rate | n/a (0 closed) |
+| Best trade | XOM +14.2% (open, unrealized — best mark of the challenge, refining-windfall breakout) |
+| Worst trade | MSFT +2.67% (open, unrealized — the laggard, but still GREEN: all 3 names positive) |
+| Profit factor | n/a (0 closed) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| — | — | — | — | No closed trades this week |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+| LLY | $1281.14 | $1415.20 | +$938.45 (+10.46%) | $1304.712 (10% GTC trail, HWM $1449.68 — order 7f603c93 auto-tracked UP off the post-beat ATH) |
+| MSFT | $508.53 | $522.09 | +$257.76 (+2.67%) | $496.035 (10% GTC trail, HWM $551.15 — order 9eebcba6 live; EXPIRES Nov 6 → replace with a FIXED GTC stop ≥$496.035, NOT a fresh 10% trail) |
+| XOM | $163.80 | $187.10 | +$1,281.50 (+14.23%) | $169.65 (10% GTC trail, HWM $188.50 — order 45aa43ab auto-tracked UP) |
+
+### What Worked
+- **THE headline — the disciplined "hold a confirmed uptrend through a binary behind a resting trail" paid off BIG, three times in one week.** Three events we had ZERO edge on all resolved GREEN: the FOMC hawkish hold (Oct 28), MSFT's beat (Azure +48%, Oct 28 AMC → fresh high), and LLY's beat + raised FY guide (Oct 29 BMO → a +10.5% ATH run), plus XOM's Q3 refining windfall (Oct 30 BMO → breakout to +14.2%). We did not predict the prints — we SIZED them: held full behind 10% GTC trails sitting ~6-9% below, so a gap-down was capped and a gap-up kept the whole move. All four gapped the right way. Capped downside, open upside, decided in advance by a resting order — not a 9:30 scramble.
+- **The energy + post-beat-healthcare + profitable-mega-cap tilt was the RIGHT side of a leadership rotation — genuine selection alpha, not just low cash.** Mega-cap TECH (GOOGL -12.6%, AMZN -7%, INTC -28.6%) cracked on AI-capex/cash-flow fears while our 3 names — the two leadership areas insulated from the carnage — led green. For the first time on a down week the beat owes substantially to what we OWN, not only to sitting in cash.
+- **Best RESULT week of the challenge and a real milestone: back ABOVE PAR.** +$1,146.53 (+1.16%) on a DOWN tape (3rd straight down-week beat), lifting the phase from ~-1.0% to +0.24% — the best phase mark of this window.
+- **Clean execution discipline throughout.** V's armed Friday break gapped UP then FADED below its $414.57 trigger → a VALID 9/18 stand-down (never chased below the ceiling into a risk-off tape). AAPL correctly sidelined into its Monday earnings. LLY & XOM trails auto-tracked UP; MSFT's dip under EMA20 read correctly as ONE soft signal (50 EMA intact), not a breakdown; no stop moved down; no rule bent.
+
+### What Didn't Work
+- **Still 3 names / ~30% deployed / ~70% cash — AT the floor but far below the 75-85% target, the ~26th straight week under it.** 0 adds, 0/3 BUY slots used. The biggest up-week of the challenge arrived with a clean rotation INTO our exact sectors — and we captured it with 3 legs, not a 4th. Fully deployed in the rotation's winners, the beat would have been far larger; the +1.73% is what ~30% exposure caught, not what the setup offered.
+- **The one live deployment path (V) didn't fire, and no 4th leg materialized.** V gapped up and faded below its trigger (a correct stand-down); AAPL was blocked by Monday earnings. So net new exposure was ZERO despite an auditable screen naming V as the single confirmed-vol trend-up leader market-wide. The chronic "at the floor, no 4th leg" shape persists.
+- **Still ZERO banked winners in the challenge — win rate n/a, PF n/a.** XOM (+14.2%) and LLY (+10.5%) are now the two best marks of the challenge, but both are PAPER until a trail or tighten locks them. XOM sits a hair under the +15% tighten trigger — the first lock-in opportunity of the challenge is right here and has NOT yet triggered.
+- **A binary cluster + a housekeeping deadline sit in next week's path:** AAPL earnings Mon Nov 2, AMD Tue Nov 3, V's midterm swipe-fee vote Nov 3, and MSFT's GTC trail EXPIRES Nov 6. No new risk on the book, but event navigation + a trail replacement are due.
+
+### Key Lessons
+- **A resting trail under a confirmed uptrend is what makes an un-handicappable binary OWNABLE.** This week THREE such binaries resolved green and we kept every dollar — the disciplined alternative to either a 9:30 scramble or standing aside in cash and missing the move. Sizing beat predicting; the asymmetry (capped downside / open upside, decided in advance) is the entire edge of holding a winner through a print you can't call.
+- **For the first time on a down week, the beat was SELECTION, not luck.** The 8/21 and 9/11 cash-shield weeks were pure "low exposure saved us"; 10/16 added one real XOM win; THIS week the whole tilt (energy + post-beat healthcare + profitable mega-cap) WAS the rotation's leadership while the capex-heavy tech we avoid cracked. Owning relative strength on a red-tech day — not hoping for a dead-cat bounce in the fallen leaders — is why the book was green. That is genuine alpha.
+- **And yet the chronic flaw is unchanged and now almost ironic:** the single best macro setup for our book in months (a rotation straight into our sectors) produced the biggest beat of the challenge — with us only ~30% deployed for it. Execution is solved end-to-end; the last open wound is pure deployment PACE/BREADTH past the floor, ~26 weeks running. A down-tape rotation MASKS the cost; a rising tape (or a fuller deployment into this very rotation) would have punished the cash drag — or paid far more.
+
+### Adjustments for Next Week
+- **NO rule change this week.** The 10/16 Entry-Execution-Redundancy rule had NO live test this week (V was a GATED starter that faded = a 9/18 stand-down, not a confirmed resting-order case), so it is neither "proven out 2+ weeks" by two live passes nor did it fail badly — per STEP 5, hold it. More importantly, the open wound is deployment PACE, not rule wording: FIVE prior deployment rules (7/3, 8/7, 8/28, 9/4, 9/18, 10/16) show another rule does not move the number — EXECUTION does. Name the flaw honestly, don't re-paper it.
+- **PUSH PAST THE FLOOR toward 75-85%.** Fresh 3/3 BUY allotment resets Mon 11/2; ~70% cash, 3 open slots. MANDATORY broad screen continues. V stays the lead confirmed-vol candidate — ARM half-size on a BREAK + HOLD >$414.57 on ≥1.2x vol (half-size for the Nov 3 swipe-fee binary); per the 10/16 rule, convert to a resting buy-stop once the break+volume confirm. AAPL re-evaluate AFTER Monday's print (no buying into the binary). Hunt a NON-correlated 4th leg — not a 2nd energy name (COP/CVX just double the XOM crude bet). Buy clean, not chased.
+- **MANAGE THE BOOK — lock-in + housekeeping first:**
+  - **XOM +14.2%, a hair under +15%:** if it holds >+15%, TIGHTEN the trail to 7% per rule #6 — this would be the FIRST lock-in of the challenge; market-open/midday to action. Trail $169.65 live.
+  - **MSFT GTC trail EXPIRES Nov 6:** replace near expiry with a FIXED GTC stop NO LOWER than $496.035 — NOT a fresh 10% trail (a fresh trail off ~$522 resets the stop to ~$470 < $496.035 = moving the stop DOWN, inviolably barred). ~5 trading days left.
+  - **LLY +10.5% at a post-beat ATH:** let the auto-tracking trail ($1304.712) run; not yet +15% tighten-eligible; next earnings far off.
+  - No stop moves down; all 3 trails live.
+- **Navigate next week's binary cluster** (AAPL Mon, AMD Tue, V swipe-fee Nov 3) with half-size sizing on any new entry; screen DAILY regardless — a dated binary is a one-session no-force reason for that session only, not a week-long pause.
+
+### Overall Grade: A-
+*The best RESULT week of the challenge, and the cleanest SELECTION week yet. +1.16% (+$1,146.53) on a DOWN tape (3rd straight down-week beat), crossing back above par ($100k) for the first time this phase and posting the biggest relative beat of the challenge (+1.73% vs a -0.57% index). What lifts this above the prior "cash saved us" weeks: the beat was driven by what we OWN, not just low exposure. Three un-handicappable binaries — FOMC, MSFT, LLY — resolved green in one week and we kept every dollar behind resting trails (capped downside, open upside, sized in advance), while XOM's refining windfall broke it out to +14.2%; our energy/healthcare/profitable-mega-cap tilt was exactly the leadership rotation as the capex-heavy tech we avoid (GOOGL/AMZN/INTC) cracked hard. Execution was flawless — V's Friday break faded below its trigger and was correctly stood down (9/18), AAPL was correctly sidelined into Monday earnings, trails auto-tracked up, no stop moved down. The grade stops at A-, not a full A, because of the one eternal anchor, now almost ironic: the single best macro setup for our book in months came with the book only ~30% deployed, no 4th leg, still zero banked winners, ~26 weeks under the 75-85% target. There was no execution MISS this week — the under-deployment was a correct stand-down plus a binary block, not a dropped opportunity — so the flaw is purely the structural cash default. A genuinely excellent, disciplined week; the next step is simply to be deployed enough to let a setup this good pay what it's worth.*
+
 ## Week ending 2026-10-23
 
 ### Stats
