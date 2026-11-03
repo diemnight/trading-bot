@@ -3609,3 +3609,63 @@ _perplexity.sh key unset → native WebSearch fallback. Macro pages date-confuse
 - **V — considered, VETOED (no fill).** Opening tape: opened $415.50 (14:30), crossed the $416.98 trigger ~14:32, held above for ~8 min → $419.69 at re-check. The break *held*, BUT ta.py now reads **resistance $420.10** and px $419.69 = **+0.1% under it → JAMMED <2% under resistance** (hard "skip" rule). Room-to-target ≈0% → R:R far below the required 2:1. **Volume did NOT confirm the ≥1.2x hold** the plan required (ta rel-vol light this early; 1-min bars ordinary ~700-1300/min, no surge). Buying $419.69 into a $420.10 ceiling on unconfirmed volume = the forbidden chase ("never a worse fill"). → **Valid 9/18 (b) logged stand-down, NOT an execution miss.** Re-arm only on a clean break+HOLD >$420.10 on ≥1.2x vol with room (half-size still; Nov 3 swipe-fee binary). AAPL still WATCH (earnings tonight).
 - **HOLDS (live, hard-rules re-checked):** LLY 7 @ mark $1403, **+9.5%** (trail $1304.71 live, exp 1/15 — far below, no move); MSFT 19 @ $524.34, **+3.1%** (trail $496.035 live, **exp Nov 6 — replace this week w/ FIXED GTC ≥$496.035, never a fresh trail = down**); XOM 55 @ $183.25, **+11.9%** (pulled back from pre-mkt +13.2%; trail $169.65 live, exp 12/23). **None at/below -7% cut; none at the +15% tighten** (XOM top, +11.9%, ~3% shy → midday re-checks). All 3 trend UP; all GTC trails live; no stop moved.
 - **Net:** 0 trades. Book unchanged: 3 names / ~30% deployed / ~70% cash. Weekly BUYS 0/3. Under-deployment flaw stands — the lone clean path (V) jammed under its next ceiling on unconfirmed vol; next screen widens, no re-quote.
+
+## 2026-11-03 — Pre-market Research
+
+> Perplexity key absent (exit 3) — used native WebSearch for macro; live prices/TA from Alpaca + scripts/ta.py (source of truth). WebSearch returned thin/undated results for intraday Nov-3 futures/VIX/oil quotes; Nov-2 close is well-corroborated and used for context.
+
+### Account
+- Equity: $99,488.98
+- Cash: $70,125.69 (70.5%)
+- Buying power: $362,719.97 (4x); non-marginable $84,807.33
+- Daytrade count: 0 | PDT: false | trading_blocked: false
+- Positions: 3 (LLY, MSFT, XOM) = AT the 3-position floor | Long MV $29,363 (~29.5% deployed — still far under the 75-85% target)
+- Open orders: 3 protective GTC trails live (LLY 7f603c93 $1304.712; XOM 45aa43ab $169.65; MSFT 9eebcba6 $496.035 — EXPIRES Nov 6)
+
+### Market Context
+- WTI / Brent: oil TUMBLED ~-7% Mon Nov 2 (sharpest drop in ~3 months) on US-Iran diplomacy hopes → WTI ~$73-75 area (prediction-mkt odds cluster $73+). Direct HEADWIND to XOM.
+- S&P 500: closed ~7,541 Mon (-0.5%), 3rd straight down day, lowest since Jul 31, ~3.5% below the Oct 6 record. Futures roughly flat premarket (unconfirmed quote).
+- VIX: reported near a 6-week low ahead of FOMC (search, undated) — i.e. not stressed despite the tech fade; a risk-rotation, not a panic.
+- Nasdaq: ~25,164 (-1.07%) Mon — AI/tech valuation unwind the main drag; growth leaders broke trend.
+- Today's catalysts: Nov-3 interchange/"swipe-fee" vote = a dated REGULATORY binary for V (no edge → do NOT arm V into it). Rotation OUT of tech → INTO value/defensives (Dow +0.41% Mon, only green index).
+- Earnings before open: none driving the book; LLY/MSFT/XOM all past their prints (beats).
+- Economic calendar: FOMC in focus (VIX-low framing); no confirmed same-day US print surfaced.
+- Sector momentum (latest reliable YTD, mid-Aug): Energy +39%, Tech +32%, Industrials +21% lead. NOW rotating: AI/semis correcting hard, defensives/financials catching a bid.
+
+### Holdings TA (live)
+- LLY: px $1411.75 stacked >EMA20 $1280.64 >EMA50 $1225.01 (UP); RSI 77 overbought (post-beat momentum, px near ATH = confirming, no divergence); vol 1.9x; resistance $1447 (+2.5%); far above trail $1304.71 & -7% cut. HEALTHY HOLD. Not tighten-eligible (+9.2%, under +15%).
+- MSFT: px $507.00 — now BELOW EMA20 $524.71 AND BELOW EMA50 $509.64 → trend MIXED/weakening; RSI 40; vol 1.5x; sitting right ON support $505.00 (+0.4%). Still green-ish (~-0.5% from entry $508.53), above trail $496.035. WEAKEST name. **Trail EXPIRES Nov 6 (~3 sessions).**
+- XOM: px $179.77 >EMA20 $177.29 >EMA50 $169.82 (UP); RSI 57; vol 1.3x; resistance $188.47 (+4.8%); trail $169.65 live; +10.5%. Uptrend intact but oil's -7% day is a live headwind to watch. Not tighten-eligible (under +15%).
+
+### Broad-Universe Screen (10 names / 6 sectors — mandated evidence, show the work)
+- NVDA (semis): px $202 <EMA20 $217 <EMA50 $219 → trend DOWN, RSI 33, at support +0.6%. FAIL trend gate (falling knife).
+- AVGO (semis): $322 <EMA20 $340 <EMA50 $353 → DOWN, vol light. FAIL trend.
+- AMD (semis): $467 vs EMAs ~$548 → broken MIXED, -15% under EMAs. FAIL trend.
+- PLTR (software): $178 <EMA20 $193 <EMA50 $185 → MIXED/DOWN, RSI 38. FAIL trend.
+- GEV (power/industrials): $862 <EMA20 $902 <EMA50 $935 → DOWN. FAIL trend.
+- GE (industrials): $315.77 >EMA20 $305.60 but <EMA50 $315.85 → DOWN by 50EMA, jammed +1.7% under resistance $321. FAIL (trend + <2% under resistance).
+- JPM (financials): $340.69 ≈EMA20/EMA50 → MIXED, jammed +1.5% under resistance $345.70. FAIL (<2% under resistance).
+- CVX (energy): $227.84 >EMA20 $224 >EMA50 $214.60 → UP, RSI 59, resistance +3.8%. Trend OK BUT catalyst just broke (−7% oil) + would over-concentrate energy (already hold XOM). WATCH, no add into a down-oil day.
+- V (payments): $425.53 >EMA20 $400 >EMA50 $385 → UP, RSI 75 overbought, jammed +0.3% under resistance $426.72, AND a same-day swipe-fee regulatory binary. FAIL (<2% under resistance + unresolved dated binary) — reassess after the vote.
+- COST (staples): $1040.69 >EMA20 $985 >EMA50 $962 → UP, RSI 73 high, vol 1.7x confirmed, resistance $1042.49 (+0.2%). Defensive bid, cleanest leader — but coiled right under resistance → ARM a break+hold, don't chase.
+
+Screen verdict: in this risk-off tape the growth/AI leaders (NVDA/AVGO/AMD/PLTR/GEV) all fail the trend gate, and the genuine uptrends (COST/V, plus JPM/GE) are jammed <2% under resistance or carry a same-day binary (V) / broken catalyst (CVX). No CLEAN gate-clearing entry to chase today — a widened, auditable search, not a stale re-quote.
+
+### Trade Ideas
+1. COST — catalyst: defensive/staples rotation as AI/tech unwinds; cleanest uptrend in the screen. ARM gated starter: buy half-size ONLY on a confirmed break+hold >$1042.49 on ≥1.2x volume (vol already 1.7x). Entry ~$1043, stop 10% trail (~$939) / or below EMA20 $985, target blue-sky extension (R:R ≥2:1 on a clean break). Half size due to RSI 73. NOT confirmed yet (at resistance, not through it).
+2. CVX — WATCH ONLY. Uptrend intact but energy into a -7% oil crash = catalyst headwind + energy over-concentration vs XOM. No add until oil stabilizes and CVX clears $236.44.
+3. V — NO ARM today. Jammed +0.3% under resistance into an unresolved same-day swipe-fee regulatory vote (no edge on the binary). Reassess on a post-vote reclaim+hold >$426.72 on ≥1.2x vol.
+
+### Thesis depth (for the educational alerts)
+- WHY defensives/value over the obvious alternative (buy-the-dip in AI/semis): the tape is a valuation unwind, not a growth scare — money is ROTATING (Dow +0.4% while Nasdaq -1.1%), and relative strength has flipped to staples/financials/healthcare. Buying NVDA/AMD here = catching a falling knife below the 50 EMA (trend gate fails); the disciplined edge is to follow where money is FLOWING (COST/V coiling at highs), not where it's fleeing.
+- Why not add energy (CVX): oil just fell -7% — the sector's core catalyst turned hard negative overnight, and we already own XOM; stacking a second energy name into a down-oil day doubles the same bet against a broken catalyst.
+- Concept of the day — SECTOR ROTATION vs a market crash: a falling index can mean two very different things. A broad crash sinks everything (high correlation, VIX spikes). A rotation sinks one leadership group while money moves INTO another (Dow up, VIX near a 6-wk low). Today looks like rotation: the signal isn't "go to cash," it's "lead from the groups catching the bid." Reading breadth/leadership — not just the headline index — is what tells the two apart.
+
+### Risk Factors
+- Oil -7% headwind to XOM (watch EMA20 $177.29 / support $163.24; trail $169.65 live protects).
+- MSFT below its 50 EMA on support $505 — a break of $505 on elevated volume is a STEP-5 breakdown candidate for midday; **trail expires Nov 6** and MUST be replaced with a FIXED GTC stop ≥$496.035 (a fresh 10% trail would reset ~$456 = moving the stop DOWN = barred).
+- 3-day pullback / AI-valuation unwind could extend; FOMC overhang. VIX low = room to spike.
+- Under-deployment (~29.5%) persists — but forcing a buy into breaking-down leaders / jammed-at-resistance names violates the trend gate. Arm COST; don't chase.
+
+### Decision
+HOLD — no clean gate-clearing entry in a risk-off rotation tape; broad screen logged (10 names/6 sectors), all either fail the trend gate or are jammed <2% under resistance / carry a same-day binary. ARM one gated half-size COST starter on a confirmed break+hold >$1042.49 on ≥1.2x vol (market-open executes or logs a 9/18 stand-down). Top execution priority: at market-open/midday, REPLACE the MSFT trail (expires Nov 6) with a FIXED GTC stop ≥$496.035 — never a fresh trail (would move the stop down). Protect XOM into oil weakness. Trades this week: 0/3.
